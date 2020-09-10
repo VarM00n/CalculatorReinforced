@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CalculatorReinfored.dir/main.cpp.o CMakeFiles/CalculatorReinfored.dir/Addition/AdditionOperation.cpp.o CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o  -o CalculatorReinfored 

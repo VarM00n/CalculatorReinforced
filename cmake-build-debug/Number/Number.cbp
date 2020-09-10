@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Number"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Addition\;CMake Files\Number\;CMake Files\Google_Tests\;CMake Files\Google_Tests\lib\;CMake Files\Google_Tests\lib\googlemock\;CMake Files\Google_Tests\lib\googlemock\cmake\;CMake Files\Google_Tests\lib\googletest\;CMake Files\Google_Tests\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Number">
+				<Option output="/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/libNumber.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 Number"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Number/fast">
+				<Option output="/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/libNumber.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 Number/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Number/Number.cpp">
+			<Option target="Number"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Number/Number.h">
+			<Option target="Number"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Addition/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Addition\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Number/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Number\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_Tests\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

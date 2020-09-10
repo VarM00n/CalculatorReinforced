@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Projekty/CalculatorReinfored/Number/Number.cpp
+Number.h
+/mnt/d/Projekty/CalculatorReinfored/Number/Number.h
+
+/mnt/d/Projekty/CalculatorReinfored/Number/Number.h
+string
+-
+

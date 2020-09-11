@@ -10,6 +10,7 @@
 class AdditionOperation {
 public:
      static Number additionOperation(Number &firstComponent, Number &secondComponent);
+     static string removeTrailingZeros(string &number);
 };
 
 

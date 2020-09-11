@@ -11,16 +11,22 @@ Number AdditionOperation::additionOperation(Number &firstAddend, Number &secondA
     unsigned long sizeOfBiggerNumber = firstAddend.getBiggerNumber(secondAddend);
     long counterForFirstAddend = firstAddend.size() - 1;
     long counterForSecondAddend = secondAddend.size() - 1;
-    string result;
+    string sum;
     unsigned carry = 0;
     for (size_t i = 0; i < sizeOfBiggerNumber + 1; counterForFirstAddend--,
             counterForSecondAddend--, i++) {
-        unsigned n1_n = firstAddend.getDigitFromPosition(counterForFirstAddend);
-        unsigned n2_n = secondAddend.getDigitFromPosition(counterForSecondAddend);
-        result.insert(0, to_string(((n1_n + n2_n + carry) % 10)));
-        carry = (n1_n + n2_n + carry) / 10;
+        unsigned digitFromFirstAddend = firstAddend.getDigitFromPosition(counterForFirstAddend),
+            digitFromSecondAddend = secondAddend.getDigitFromPosition(counterForSecondAddend),
+            numberToPutIntoSum = digitFromFirstAddend + digitFromSecondAddend + carry;
+        carry = numberToPutIntoSum / 10;
+        sum.insert(0, to_string((numberToPutIntoSum % 10)));
     }
-    cout << result;
-    return Number(result);
+    return Number(removeTrailingZeros(sum));
 }
 
+string AdditionOperation::removeTrailingZeros(string &number) {
+    while(number[0] == '0'){
+        number.erase(0, 1);
+    }
+    return number;
+}

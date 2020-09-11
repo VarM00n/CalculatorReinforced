@@ -26,6 +26,8 @@ public:
 
     void setValue(const string &value);
 
+    const string &getValue() const;
+
 };
 
 

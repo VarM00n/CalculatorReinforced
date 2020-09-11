@@ -42,3 +42,8 @@ unsigned Number::getDigitFromPosition(long position) {
 void Number::setValue(const string &value) {
     Number::value = value;
 }
+
+
+const string &Number::getValue() const {
+    return value;
+}

@@ -15,11 +15,16 @@ private:
 public:
     Number(int value);
 
+    Number(string value);
+
     long size();
 
-    long getBiggerNumber(Number secondNumberToCompareWith);
-
+    unsigned getBiggerNumber(Number secondAddend);
     static long TEST_getBiggerNumber(Number firstAddend, Number secondAddend);
+
+    unsigned getDigitFromPosition(long position);
+
+    void setValue(const string &value);
 
 };
 

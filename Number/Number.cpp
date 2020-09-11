@@ -8,15 +8,19 @@ Number::Number(int value){
     this->value = std::to_string(value);
 }
 
+Number::Number(string value) {
+    this->value = value;
+}
+
 long Number::size() {
     return this->value.size();
 }
 
-long Number::getBiggerNumber(Number secondNumberToCompareWith) {
-    if(this->size() >= secondNumberToCompareWith.size()){
+unsigned Number::getBiggerNumber(Number secondAddend) {
+    if(this->size() >= secondAddend.size()){
         return this->size();
     } else {
-        return secondNumberToCompareWith.size();
+        return secondAddend.size();
     }
 }
 
@@ -26,4 +30,15 @@ long Number::TEST_getBiggerNumber(Number firstAddend, Number secondAddend){
     } else {
         return secondAddend.size();
     }
+}
+
+unsigned Number::getDigitFromPosition(long position) {
+    if (position < 0)
+        return 0;
+    auto digit = unsigned(this->value[position] - '0');
+    return digit;
+}
+
+void Number::setValue(const string &value) {
+    Number::value = value;
 }

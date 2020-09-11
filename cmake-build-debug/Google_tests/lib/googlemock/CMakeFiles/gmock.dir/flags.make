@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googlemock/include -I/mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googlemock -isystem /mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest/include -isystem /mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest 
+CXX_INCLUDES = -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/include -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock -isystem /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include -isystem /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest 
 

@@ -8,7 +8,7 @@
 #include "../Number/Number.h"
 
 class AdditionOperation {
-private:
+public:
      static Number additionOperation(Number &firstComponent, Number &secondComponent);
 };
 

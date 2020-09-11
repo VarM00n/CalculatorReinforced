@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored
+CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/CMakeFiles/progress.marks
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/CMakeFiles 0
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number/CMakeFiles/progress.marks
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/clean
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/preinstall
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/preinstall
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Number/CMakeFiles/Number.dir/rule:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/CMakeFiles/Number.dir/rule
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Number/CMakeFiles/Number.dir/rule
 .PHONY : Number/CMakeFiles/Number.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Number: Number/CMakeFiles/Number.dir/rule
 
 # fast build rule for target.
 Number/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/build
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/build
 .PHONY : Number/fast
 
 Number.o: Number.cpp.o
@@ -177,7 +177,7 @@ Number.o: Number.cpp.o
 
 # target to build an object file
 Number.cpp.o:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/Number.cpp.o
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/Number.cpp.o
 .PHONY : Number.cpp.o
 
 Number.i: Number.cpp.i
@@ -186,7 +186,7 @@ Number.i: Number.cpp.i
 
 # target to preprocess a source file
 Number.cpp.i:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/Number.cpp.i
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/Number.cpp.i
 .PHONY : Number.cpp.i
 
 Number.s: Number.cpp.s
@@ -195,7 +195,7 @@ Number.s: Number.cpp.s
 
 # target to generate assembly for a file
 Number.cpp.s:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/Number.cpp.s
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/Number.cpp.s
 .PHONY : Number.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

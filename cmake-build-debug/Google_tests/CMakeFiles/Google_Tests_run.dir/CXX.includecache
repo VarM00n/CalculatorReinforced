@@ -326,17 +326,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/d/Projekty/CalculatorReinfored/Google_Tests/Addition_Tests/AdditionOperationTests.cpp
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp
 gtest/gtest.h
-/mnt/d/Projekty/CalculatorReinfored/Google_Tests/Addition_Tests/gtest/gtest.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/gtest/gtest.h
 
-/mnt/d/Projekty/CalculatorReinfored/Google_Tests/Number_Tests/NumberOperationTests.cpp
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberOperationTests.cpp
 gtest/gtest.h
-/mnt/d/Projekty/CalculatorReinfored/Google_Tests/Number_Tests/gtest/gtest.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/gtest/gtest.h
 ../../Number/Number.h
-/mnt/d/Projekty/CalculatorReinfored/Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
-/mnt/d/Projekty/CalculatorReinfored/Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string
 -
 

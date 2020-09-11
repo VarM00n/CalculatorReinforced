@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Projekty/CalculatorReinfored/Number/Number.cpp
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp
 Number.h
-/mnt/d/Projekty/CalculatorReinfored/Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
-/mnt/d/Projekty/CalculatorReinfored/Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string
 -
 

@@ -1,1 +1,4 @@
-CMakeLists.txt not found in D:\Projekty\CalculatorReinfored Select CMakeLists.txt file...
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest/include -isystem /mnt/d/Projekty/CalculatorReinfored/Google_Tests/lib/googletest 
+CXX_INCLUDES = -isystem /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include -isystem /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest 
 

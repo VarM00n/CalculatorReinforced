@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored
+CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Google_Tests/CMakeFiles/progress.marks
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/CMakeFiles 0
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/CMakeFiles/progress.marks
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/clean
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/preinstall
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/preinstall
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Google_Tests/CMakeFiles/Google_Tests_run.dir/rule:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/CMakeFiles/Google_Tests_run.dir/rule
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_Tests/CMakeFiles/Google_Tests_run.dir/rule
 .PHONY : Google_Tests/CMakeFiles/Google_Tests_run.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/rule
 
 # fast build rule for target.
 Google_Tests_run/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/build
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/build
 .PHONY : Google_Tests_run/fast
 
 Addition_Tests/AdditionOperationTests.o: Addition_Tests/AdditionOperationTests.cpp.o
@@ -177,7 +177,7 @@ Addition_Tests/AdditionOperationTests.o: Addition_Tests/AdditionOperationTests.c
 
 # target to build an object file
 Addition_Tests/AdditionOperationTests.cpp.o:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o
 .PHONY : Addition_Tests/AdditionOperationTests.cpp.o
 
 Addition_Tests/AdditionOperationTests.i: Addition_Tests/AdditionOperationTests.cpp.i
@@ -186,7 +186,7 @@ Addition_Tests/AdditionOperationTests.i: Addition_Tests/AdditionOperationTests.c
 
 # target to preprocess a source file
 Addition_Tests/AdditionOperationTests.cpp.i:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.i
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.i
 .PHONY : Addition_Tests/AdditionOperationTests.cpp.i
 
 Addition_Tests/AdditionOperationTests.s: Addition_Tests/AdditionOperationTests.cpp.s
@@ -195,7 +195,7 @@ Addition_Tests/AdditionOperationTests.s: Addition_Tests/AdditionOperationTests.c
 
 # target to generate assembly for a file
 Addition_Tests/AdditionOperationTests.cpp.s:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.s
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.s
 .PHONY : Addition_Tests/AdditionOperationTests.cpp.s
 
 Number_Tests/NumberOperationTests.o: Number_Tests/NumberOperationTests.cpp.o
@@ -204,7 +204,7 @@ Number_Tests/NumberOperationTests.o: Number_Tests/NumberOperationTests.cpp.o
 
 # target to build an object file
 Number_Tests/NumberOperationTests.cpp.o:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o
 .PHONY : Number_Tests/NumberOperationTests.cpp.o
 
 Number_Tests/NumberOperationTests.i: Number_Tests/NumberOperationTests.cpp.i
@@ -213,7 +213,7 @@ Number_Tests/NumberOperationTests.i: Number_Tests/NumberOperationTests.cpp.i
 
 # target to preprocess a source file
 Number_Tests/NumberOperationTests.cpp.i:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.i
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.i
 .PHONY : Number_Tests/NumberOperationTests.cpp.i
 
 Number_Tests/NumberOperationTests.s: Number_Tests/NumberOperationTests.cpp.s
@@ -222,7 +222,7 @@ Number_Tests/NumberOperationTests.s: Number_Tests/NumberOperationTests.cpp.s
 
 # target to generate assembly for a file
 Number_Tests/NumberOperationTests.cpp.s:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.s
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.s
 .PHONY : Number_Tests/NumberOperationTests.cpp.s
 
 # Help Target
@@ -255,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Projekty/CalculatorReinfored/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

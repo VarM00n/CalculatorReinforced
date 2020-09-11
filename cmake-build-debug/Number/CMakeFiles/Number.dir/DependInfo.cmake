@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/Projekty/CalculatorReinfored/Number/Number.cpp" "/mnt/d/Projekty/CalculatorReinfored/cmake-build-debug/Number/CMakeFiles/Number.dir/Number.cpp.o"
+  "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number/CMakeFiles/Number.dir/Number.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

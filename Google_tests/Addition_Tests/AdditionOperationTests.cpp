@@ -3,10 +3,17 @@
 //
 
 #include "gtest/gtest.h"
+#include "../../Addition/Addition.h"
 
-TEST (SquareTest /*test suite name*/, PosZeroNeg /*test name*/) {
-    EXPECT_EQ (9.0, (3.0*2.0)); // fail, test continues
-    ASSERT_EQ (0.0, (0.0));     // success
-    ASSERT_EQ (9, (3)*(-3.0));  // fail, test interrupts
-    ASSERT_EQ (-9, (-3)*(-3.0));// not executed due to the previous assert
+TEST(RemoveTrailingZeros, All_Possibilities){
+    string number = "0000";
+    EXPECT_EQ(AdditionOperation::removeTrailingZeros(number), "0");
+    number = "0100";
+    EXPECT_EQ(AdditionOperation::removeTrailingZeros(number), "100");
+    number = "100";
+    EXPECT_EQ(AdditionOperation::removeTrailingZeros(number), "100");
+}
+
+TEST(AdditionOperation, All_Possibilities){
+
 }

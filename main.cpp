@@ -1,6 +1,7 @@
 #include <iostream>
 #include <Number.h>
-#include <AdditionOperation.h>
+#include <Addition.h>
+#include <Subtraction.h>
 
 using namespace std;
 
@@ -9,6 +10,10 @@ int main() {
     cin >> a >> b;
     Number numberA(a);
     Number numberB(b);
-    AdditionOperation::additionOperation(numberA, numberB);
+    Subtraction subtraction(numberA, numberB);
+//    subtraction.subtractionInt();
+    Addition addition(numberA, numberB);
+    addition.additionInt();
+
     return 0;
 }

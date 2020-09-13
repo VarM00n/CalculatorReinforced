@@ -5,6 +5,13 @@
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/list_install_components.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/install/local.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/install/strip.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/edit_cache.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/rebuild_cache.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/Substraction.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/list_install_components.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/install/local.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/install.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition/CMakeFiles/install/strip.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition/CMakeFiles/edit_cache.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition/CMakeFiles/Addition.dir
@@ -12,6 +19,13 @@
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition/CMakeFiles/list_install_components.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition/CMakeFiles/install/local.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition/CMakeFiles/install.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/install/strip.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/edit_cache.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/rebuild_cache.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/list_install_components.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/install/local.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/install.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number/CMakeFiles/install/strip.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number/CMakeFiles/edit_cache.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number/CMakeFiles/rebuild_cache.dir

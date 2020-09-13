@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../Addition/AdditionOperation.h
+../Addition/Addition.h
 ../Number/Number.h
 ../Number/Number.h
 
@@ -14,13 +14,19 @@
 string
 -
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.cpp
+../Substraction/Subtraction.h
+Number.h
+-
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
 iostream
 -
-AdditionOperation.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.h
+Addition.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
+Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Number.h
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
 ../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
@@ -32,11 +38,25 @@ Number.h
 string
 -
 
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.cpp
+iostream
+-
+Subtraction.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.h
+Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Number.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.h
+Number.h
+-
+
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/main.cpp
 iostream
 -
 Number.h
 -
-AdditionOperation.h
+Addition.h
+-
+Subtraction.h
 -
 

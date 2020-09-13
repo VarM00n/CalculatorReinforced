@@ -57,38 +57,38 @@ include Addition/CMakeFiles/Addition.dir/progress.make
 # Include the compile flags for this target's objects.
 include Addition/CMakeFiles/Addition.dir/flags.make
 
-Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o: Addition/CMakeFiles/Addition.dir/flags.make
-Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o: ../Addition/AdditionOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Addition.dir/AdditionOperation.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.cpp
+Addition/CMakeFiles/Addition.dir/Addition.cpp.o: Addition/CMakeFiles/Addition.dir/flags.make
+Addition/CMakeFiles/Addition.dir/Addition.cpp.o: ../Addition/Addition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Addition/CMakeFiles/Addition.dir/Addition.cpp.o"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Addition.dir/Addition.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
 
-Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Addition.dir/AdditionOperation.cpp.i"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.cpp > CMakeFiles/Addition.dir/AdditionOperation.cpp.i
+Addition/CMakeFiles/Addition.dir/Addition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Addition.dir/Addition.cpp.i"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp > CMakeFiles/Addition.dir/Addition.cpp.i
 
-Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Addition.dir/AdditionOperation.cpp.s"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.cpp -o CMakeFiles/Addition.dir/AdditionOperation.cpp.s
+Addition/CMakeFiles/Addition.dir/Addition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Addition.dir/Addition.cpp.s"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp -o CMakeFiles/Addition.dir/Addition.cpp.s
 
-Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.requires:
+Addition/CMakeFiles/Addition.dir/Addition.cpp.o.requires:
 
-.PHONY : Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.requires
+.PHONY : Addition/CMakeFiles/Addition.dir/Addition.cpp.o.requires
 
-Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.provides: Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.requires
-	$(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.provides.build
-.PHONY : Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.provides
+Addition/CMakeFiles/Addition.dir/Addition.cpp.o.provides: Addition/CMakeFiles/Addition.dir/Addition.cpp.o.requires
+	$(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/Addition.cpp.o.provides.build
+.PHONY : Addition/CMakeFiles/Addition.dir/Addition.cpp.o.provides
 
-Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.provides.build: Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o
+Addition/CMakeFiles/Addition.dir/Addition.cpp.o.provides.build: Addition/CMakeFiles/Addition.dir/Addition.cpp.o
 
 
 # Object files for target Addition
 Addition_OBJECTS = \
-"CMakeFiles/Addition.dir/AdditionOperation.cpp.o"
+"CMakeFiles/Addition.dir/Addition.cpp.o"
 
 # External object files for target Addition
 Addition_EXTERNAL_OBJECTS =
 
-Addition/libAddition.a: Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o
+Addition/libAddition.a: Addition/CMakeFiles/Addition.dir/Addition.cpp.o
 Addition/libAddition.a: Addition/CMakeFiles/Addition.dir/build.make
 Addition/libAddition.a: Addition/CMakeFiles/Addition.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libAddition.a"
@@ -100,7 +100,7 @@ Addition/CMakeFiles/Addition.dir/build: Addition/libAddition.a
 
 .PHONY : Addition/CMakeFiles/Addition.dir/build
 
-Addition/CMakeFiles/Addition.dir/requires: Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o.requires
+Addition/CMakeFiles/Addition.dir/requires: Addition/CMakeFiles/Addition.dir/Addition.cpp.o.requires
 
 .PHONY : Addition/CMakeFiles/Addition.dir/requires
 

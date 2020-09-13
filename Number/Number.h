@@ -13,9 +13,9 @@ private:
     string value;
 
 public:
-    Number(int value);
+    explicit Number(int value);
 
-    Number(string value);
+    explicit Number(string value);
 
     long size();
 
@@ -27,6 +27,12 @@ public:
     void setValue(const string &value);
 
     const string &getValue() const;
+
+    void setNumberInPosition(long position, char digit);
+
+    void setNumberInPosition(long position, unsigned digit);
+
+    static string removeTrailingZeros(string &number);
 
 };
 

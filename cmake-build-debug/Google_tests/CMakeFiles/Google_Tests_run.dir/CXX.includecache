@@ -326,9 +326,15 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.h
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
+
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp
 gtest/gtest.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/gtest/gtest.h
+../../Addition/AdditionOperation.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/AdditionOperation.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberOperationTests.cpp
 gtest/gtest.h

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Addition.dir/AdditionOperation.cpp.o"
+  "CMakeFiles/Addition.dir/Addition.cpp.o"
   "libAddition.pdb"
   "libAddition.a"
 )

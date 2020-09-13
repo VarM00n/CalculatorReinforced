@@ -265,6 +265,15 @@ Google_Tests_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorRei
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
+Multiplication_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication
+
+//Dependencies for target
+Multiplication_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+Multiplication_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication
+
+//Value Computed by CMake
 Number_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number
 
 //Dependencies for target
@@ -281,6 +290,15 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
+
+//Value Computed by CMake
+Substraction_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction
+
+//Dependencies for target
+Substraction_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+Substraction_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock
@@ -478,7 +496,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

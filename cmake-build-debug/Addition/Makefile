@@ -171,32 +171,32 @@ Addition/fast:
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/build
 .PHONY : Addition/fast
 
-AdditionOperation.o: AdditionOperation.cpp.o
+Addition.o: Addition.cpp.o
 
-.PHONY : AdditionOperation.o
+.PHONY : Addition.o
 
 # target to build an object file
-AdditionOperation.cpp.o:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.o
-.PHONY : AdditionOperation.cpp.o
+Addition.cpp.o:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/Addition.cpp.o
+.PHONY : Addition.cpp.o
 
-AdditionOperation.i: AdditionOperation.cpp.i
+Addition.i: Addition.cpp.i
 
-.PHONY : AdditionOperation.i
+.PHONY : Addition.i
 
 # target to preprocess a source file
-AdditionOperation.cpp.i:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.i
-.PHONY : AdditionOperation.cpp.i
+Addition.cpp.i:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/Addition.cpp.i
+.PHONY : Addition.cpp.i
 
-AdditionOperation.s: AdditionOperation.cpp.s
+Addition.s: Addition.cpp.s
 
-.PHONY : AdditionOperation.s
+.PHONY : Addition.s
 
 # target to generate assembly for a file
-AdditionOperation.cpp.s:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/AdditionOperation.cpp.s
-.PHONY : AdditionOperation.cpp.s
+Addition.cpp.s:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/Addition.cpp.s
+.PHONY : Addition.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... AdditionOperation.o"
-	@echo "... AdditionOperation.i"
-	@echo "... AdditionOperation.s"
+	@echo "... Addition.o"
+	@echo "... Addition.i"
+	@echo "... Addition.s"
 .PHONY : help
 
 

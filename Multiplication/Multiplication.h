@@ -1,0 +1,14 @@
+//
+// Created by VarMoon on 13.09.2020.
+//
+
+#ifndef CALCULATORREINFORED_MULTIPLICATION_H
+#define CALCULATORREINFORED_MULTIPLICATION_H
+
+
+class Multiplication {
+
+};
+
+
+#endif //CALCULATORREINFORED_MULTIPLICATION_H

@@ -21,7 +21,9 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTes
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o: ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o: ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o: ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
+Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o: ../Addition/AdditionOperation.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o: ../Google_Tests/Addition_Tests/AdditionOperationTests.cpp
+Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o: ../Number/Number.h
 
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o: ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o: ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h

@@ -7,10 +7,14 @@
 
 #include "../Number/Number.h"
 
-class AdditionOperation {
+class Addition {
+    Number firstAddend;
+    Number secondAddend;
+    unsigned digitFromFirstAddend;
+    unsigned digitFromSecondAddend;
 public:
-     static Number additionOperation(Number &firstComponent, Number &secondComponent);
-     static string removeTrailingZeros(string &number);
+    Addition (Number &firstAddend, Number &secondAddend);
+    Number additionInt();
 };
 
 

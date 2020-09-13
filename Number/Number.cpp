@@ -47,3 +47,26 @@ void Number::setValue(const string &value) {
 const string &Number::getValue() const {
     return value;
 }
+
+void Number::setNumberInPosition(long position, char digit) {
+    // todo tutaj jest dziwny błąd podczas debugu
+    if (position < 0 || position > this->size() - 1)
+        return;
+//        __builtin_trap();
+    if (digit < (0 + '0') || digit > (9 + '0'))
+        return;
+//        __builtin_trap();
+
+    this->value[position] = digit;
+}
+
+void Number::setNumberInPosition(long position, unsigned digit) {
+    this->setNumberInPosition(position, (char) (digit + '0'));
+}
+
+string Number::removeTrailingZeros(string &number) {
+    while(number[0] == '0' && number.size() != 1){
+        number.erase(0, 1);
+    }
+    return number;
+}

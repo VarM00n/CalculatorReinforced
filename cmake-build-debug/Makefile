@@ -170,6 +170,19 @@ CalculatorReinfored/fast:
 .PHONY : CalculatorReinfored/fast
 
 #=============================================================================
+# Target rules for targets named Substraction
+
+# Build rule for target.
+Substraction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Substraction
+.PHONY : Substraction
+
+# fast build rule for target.
+Substraction/fast:
+	$(MAKE) -f Subtraction/CMakeFiles/Substraction.dir/build.make Subtraction/CMakeFiles/Substraction.dir/build
+.PHONY : Substraction/fast
+
+#=============================================================================
 # Target rules for targets named Addition
 
 # Build rule for target.
@@ -181,6 +194,19 @@ Addition: cmake_check_build_system
 Addition/fast:
 	$(MAKE) -f Addition/CMakeFiles/Addition.dir/build.make Addition/CMakeFiles/Addition.dir/build
 .PHONY : Addition/fast
+
+#=============================================================================
+# Target rules for targets named Multiplication
+
+# Build rule for target.
+Multiplication: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Multiplication
+.PHONY : Multiplication
+
+# fast build rule for target.
+Multiplication/fast:
+	$(MAKE) -f Multiplication/CMakeFiles/Multiplication.dir/build.make Multiplication/CMakeFiles/Multiplication.dir/build
+.PHONY : Multiplication/fast
 
 #=============================================================================
 # Target rules for targets named Number
@@ -260,32 +286,59 @@ gtest/fast:
 	$(MAKE) -f Google_Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_Tests/lib/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-Addition/AdditionOperation.o: Addition/AdditionOperation.cpp.o
+Addition/Addition.o: Addition/Addition.cpp.o
 
-.PHONY : Addition/AdditionOperation.o
+.PHONY : Addition/Addition.o
 
 # target to build an object file
-Addition/AdditionOperation.cpp.o:
-	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Addition/AdditionOperation.cpp.o
-.PHONY : Addition/AdditionOperation.cpp.o
+Addition/Addition.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o
+.PHONY : Addition/Addition.cpp.o
 
-Addition/AdditionOperation.i: Addition/AdditionOperation.cpp.i
+Addition/Addition.i: Addition/Addition.cpp.i
 
-.PHONY : Addition/AdditionOperation.i
+.PHONY : Addition/Addition.i
 
 # target to preprocess a source file
-Addition/AdditionOperation.cpp.i:
-	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Addition/AdditionOperation.cpp.i
-.PHONY : Addition/AdditionOperation.cpp.i
+Addition/Addition.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.i
+.PHONY : Addition/Addition.cpp.i
 
-Addition/AdditionOperation.s: Addition/AdditionOperation.cpp.s
+Addition/Addition.s: Addition/Addition.cpp.s
 
-.PHONY : Addition/AdditionOperation.s
+.PHONY : Addition/Addition.s
 
 # target to generate assembly for a file
-Addition/AdditionOperation.cpp.s:
-	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Addition/AdditionOperation.cpp.s
-.PHONY : Addition/AdditionOperation.cpp.s
+Addition/Addition.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s
+.PHONY : Addition/Addition.cpp.s
+
+Multiplication/Multiplication.o: Multiplication/Multiplication.cpp.o
+
+.PHONY : Multiplication/Multiplication.o
+
+# target to build an object file
+Multiplication/Multiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o
+.PHONY : Multiplication/Multiplication.cpp.o
+
+Multiplication/Multiplication.i: Multiplication/Multiplication.cpp.i
+
+.PHONY : Multiplication/Multiplication.i
+
+# target to preprocess a source file
+Multiplication/Multiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.i
+.PHONY : Multiplication/Multiplication.cpp.i
+
+Multiplication/Multiplication.s: Multiplication/Multiplication.cpp.s
+
+.PHONY : Multiplication/Multiplication.s
+
+# target to generate assembly for a file
+Multiplication/Multiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.s
+.PHONY : Multiplication/Multiplication.cpp.s
 
 Number/Number.o: Number/Number.cpp.o
 
@@ -313,6 +366,33 @@ Number/Number.s: Number/Number.cpp.s
 Number/Number.cpp.s:
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.s
 .PHONY : Number/Number.cpp.s
+
+Subtraction/Subtraction.o: Subtraction/Subtraction.cpp.o
+
+.PHONY : Subtraction/Subtraction.o
+
+# target to build an object file
+Subtraction/Subtraction.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o
+.PHONY : Subtraction/Subtraction.cpp.o
+
+Subtraction/Subtraction.i: Subtraction/Subtraction.cpp.i
+
+.PHONY : Subtraction/Subtraction.i
+
+# target to preprocess a source file
+Subtraction/Subtraction.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.i
+.PHONY : Subtraction/Subtraction.cpp.i
+
+Subtraction/Subtraction.s: Subtraction/Subtraction.cpp.s
+
+.PHONY : Subtraction/Subtraction.s
+
+# target to generate assembly for a file
+Subtraction/Subtraction.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.s
+.PHONY : Subtraction/Subtraction.cpp.s
 
 main.o: main.cpp.o
 
@@ -354,19 +434,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install/local"
+	@echo "... Substraction"
 	@echo "... Addition"
+	@echo "... Multiplication"
 	@echo "... Number"
 	@echo "... Google_Tests_run"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... Addition/AdditionOperation.o"
-	@echo "... Addition/AdditionOperation.i"
-	@echo "... Addition/AdditionOperation.s"
+	@echo "... Addition/Addition.o"
+	@echo "... Addition/Addition.i"
+	@echo "... Addition/Addition.s"
+	@echo "... Multiplication/Multiplication.o"
+	@echo "... Multiplication/Multiplication.i"
+	@echo "... Multiplication/Multiplication.s"
 	@echo "... Number/Number.o"
 	@echo "... Number/Number.i"
 	@echo "... Number/Number.s"
+	@echo "... Subtraction/Subtraction.o"
+	@echo "... Subtraction/Subtraction.i"
+	@echo "... Subtraction/Subtraction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

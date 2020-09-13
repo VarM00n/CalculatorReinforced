@@ -116,6 +116,7 @@ Google_Tests_run_EXTERNAL_OBJECTS =
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make
+Google_Tests/Google_Tests_run: Addition/libAddition.a
 Google_Tests/Google_Tests_run: Number/libNumber.a
 Google_Tests/Google_Tests_run: lib/libgtestd.a
 Google_Tests/Google_Tests_run: lib/libgtest_maind.a

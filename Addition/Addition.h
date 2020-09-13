@@ -10,6 +10,7 @@
 class Addition {
     Number firstAddend;
     Number secondAddend;
+    Number sum;
     unsigned digitFromFirstAddend;
     unsigned digitFromSecondAddend;
 public:

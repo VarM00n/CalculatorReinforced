@@ -255,6 +255,15 @@ CalculatorReinfored_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/Calcul
 CalculatorReinfored_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
 
 //Value Computed by CMake
+Division_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division
+
+//Dependencies for target
+Division_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+Division_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division
+
+//Value Computed by CMake
 Google_Tests_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests
 
 //Value Computed by CMake
@@ -496,7 +505,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

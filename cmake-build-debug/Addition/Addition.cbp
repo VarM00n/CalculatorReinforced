@@ -5,7 +5,7 @@
 		<Option title="Addition"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Addition\;CMake Files\Subtraction\;CMake Files\Multiplication\;CMake Files\Number\;CMake Files\Google_Tests\;CMake Files\Google_Tests\lib\;CMake Files\Google_Tests\lib\googlemock\;CMake Files\Google_Tests\lib\googlemock\cmake\;CMake Files\Google_Tests\lib\googletest\;CMake Files\Google_Tests\lib\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Addition\;CMake Files\Subtraction\;CMake Files\Multiplication\;CMake Files\Division\;CMake Files\Number\;CMake Files\Google_Tests\;CMake Files\Google_Tests\lib\;CMake Files\Google_Tests\lib\googlemock\;CMake Files\Google_Tests\lib\googlemock\cmake\;CMake Files\Google_Tests\lib\googletest\;CMake Files\Google_Tests\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition"/>
@@ -81,6 +81,9 @@
 		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Multiplication\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Division\"/>
 		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Number\"/>

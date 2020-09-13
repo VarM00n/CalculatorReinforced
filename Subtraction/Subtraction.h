@@ -11,6 +11,7 @@
 class Subtraction {
     Number minuend;
     Number subtrahend;
+    Number difference;
     unsigned digitFromMinuend;
     unsigned digitFromSubtrahend;
     long index;

@@ -64,6 +64,12 @@ void Number::setNumberInPosition(long position, unsigned digit) {
     this->setNumberInPosition(position, (char) (digit + '0'));
 }
 
+void Number::removeTrailingZeros() {
+    while(this->value[0] == '0' && this->value.size() != 1){
+        this->setValue(this->value.erase(0, 1));
+    }
+}
+
 string Number::removeTrailingZeros(string &number) {
     while(number[0] == '0' && number.size() != 1){
         number.erase(0, 1);

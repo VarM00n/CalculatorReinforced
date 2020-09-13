@@ -6,15 +6,21 @@ CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
+CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o
+ ../Addition/Addition.h
+ ../Number/Number.h
+ /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp
+ /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
 CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
-CMakeFiles/CalculatorReinfored.dir/Substraction/Subtraction.cpp.o
+CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o
  ../Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.h
+ /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp
+ /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o
  ../Addition/Addition.h
+ ../Multiplication/Multiplication.h
  ../Number/Number.h
- ../Substraction/Subtraction.h
+ ../Subtraction/Subtraction.h
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/main.cpp

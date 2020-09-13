@@ -10,11 +10,15 @@
 ../Number/Number.h
 ../Number/Number.h
 
+../Multiplication/Multiplication.h
+vector
+-
+
 ../Number/Number.h
 string
 -
 
-../Substraction/Subtraction.h
+../Subtraction/Subtraction.h
 Number.h
 -
 
@@ -30,6 +34,20 @@ Number.h
 ../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp
+Number.h
+-
+Addition.h
+-
+iostream
+-
+Multiplication.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
+vector
+-
+
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp
 Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
@@ -38,15 +56,15 @@ Number.h
 string
 -
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.cpp
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp
 iostream
 -
 Subtraction.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
 Number.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Number.h
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Substraction/Subtraction.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
 Number.h
 -
 
@@ -58,5 +76,7 @@ Number.h
 Addition.h
 -
 Subtraction.h
+-
+Multiplication.h
 -
 

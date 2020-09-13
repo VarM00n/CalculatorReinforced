@@ -32,7 +32,11 @@ public:
 
     void setNumberInPosition(long position, unsigned digit);
 
+    void removeTrailingZeros();
+
     static string removeTrailingZeros(string &number);
+
+
 
 };
 

@@ -5,7 +5,7 @@
 		<Option title="CalculatorReinfored"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Addition\;CMake Files\Subtraction\;CMake Files\Multiplication\;CMake Files\Number\;CMake Files\Google_Tests\;CMake Files\Google_Tests\lib\;CMake Files\Google_Tests\lib\googlemock\;CMake Files\Google_Tests\lib\googlemock\cmake\;CMake Files\Google_Tests\lib\googletest\;CMake Files\Google_Tests\lib\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Addition\;CMake Files\Subtraction\;CMake Files\Multiplication\;CMake Files\Division\;CMake Files\Number\;CMake Files\Google_Tests\;CMake Files\Google_Tests\lib\;CMake Files\Google_Tests\lib\googlemock\;CMake Files\Google_Tests\lib\googlemock\cmake\;CMake Files\Google_Tests\lib\googletest\;CMake Files\Google_Tests\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug"/>
@@ -47,6 +47,7 @@
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition"/>
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction"/>
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication"/>
+					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division"/>
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -74,6 +75,7 @@
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition"/>
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction"/>
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication"/>
+					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division"/>
 					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -267,6 +269,52 @@
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Division">
+				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/libDivision.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 Division"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Division/fast">
+				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/libDivision.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 Division/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Number">
@@ -582,6 +630,14 @@
 			<Option target="CalculatorReinfored"/>
 			<Option target="Addition"/>
 		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp">
+			<Option target="CalculatorReinfored"/>
+			<Option target="Division"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h">
+			<Option target="CalculatorReinfored"/>
+			<Option target="Division"/>
+		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
@@ -638,6 +694,9 @@
 		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Multiplication\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Division\"/>
 		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Number\"/>

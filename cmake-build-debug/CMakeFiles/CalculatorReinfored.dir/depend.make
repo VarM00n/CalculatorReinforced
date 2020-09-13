@@ -6,15 +6,21 @@ CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Addition/Addition
 CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Addition/Addition.h
 CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Number/Number.h
 
+CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: ../Addition/Addition.h
+CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: ../Number/Number.h
+CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: ../Multiplication/Multiplication.cpp
+CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: ../Multiplication/Multiplication.h
+
 CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o: ../Number/Number.cpp
 CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o: ../Number/Number.h
 
-CMakeFiles/CalculatorReinfored.dir/Substraction/Subtraction.cpp.o: ../Number/Number.h
-CMakeFiles/CalculatorReinfored.dir/Substraction/Subtraction.cpp.o: ../Substraction/Subtraction.cpp
-CMakeFiles/CalculatorReinfored.dir/Substraction/Subtraction.cpp.o: ../Substraction/Subtraction.h
+CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Number/Number.h
+CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction/Subtraction.cpp
+CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction/Subtraction.h
 
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Addition/Addition.h
+CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Multiplication/Multiplication.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/Number.h
-CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Substraction/Subtraction.h
+CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Subtraction/Subtraction.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../main.cpp
 

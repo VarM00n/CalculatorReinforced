@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o"
+  "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o"
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o"
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o"
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o"
@@ -17,6 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Addition"
   "../Subtraction"
   "../Multiplication"
+  "../Division"
   "../Number"
   )
 

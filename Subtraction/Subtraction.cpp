@@ -7,7 +7,7 @@
 #include "Number.h"
 
 
-Subtraction::Subtraction(Number &minuend, Number &subtrahend): minuend(0), subtrahend(0) {
+Subtraction::Subtraction(Number &minuend, Number &subtrahend): minuend(0), subtrahend(0), difference("") {
     this->minuend = minuend;
     this->subtrahend = subtrahend;
 }
@@ -15,15 +15,18 @@ Subtraction::Subtraction(Number &minuend, Number &subtrahend): minuend(0), subtr
 Number Subtraction::subtractionInt() {
     long counterForMinuend = minuend.size() - 1;
     long counterForSubtrahend = subtrahend.size() - 1;
-    string difference;
     for (size_t i = 0; i < minuend.size() + 1; counterForMinuend--, counterForSubtrahend--, i++) {
         digitFromMinuend = minuend.getDigitFromPosition(counterForMinuend);
         digitFromSubtrahend = subtrahend.getDigitFromPosition(counterForSubtrahend);
         caseWhereMinuendSmallerThanSubtrahend(i);
-        difference.insert(0, to_string((char) (digitFromMinuend - digitFromSubtrahend)));
+        difference.setValue(to_string((char) (digitFromMinuend - digitFromSubtrahend)) + difference.getValue());
+//        difference.insert(0, to_string((char) (digitFromMinuend - digitFromSubtrahend)));
     }
-    cout << Number::removeTrailingZeros(difference);
-    return Number(Number::removeTrailingZeros(difference));
+    difference.removeTrailingZeros();
+//    cout << Number::removeTrailingZeros(difference);
+    cout << difference.getValue();
+//    return Number(Number::removeTrailingZeros(difference));
+    return difference;
 }
 
 void Subtraction::caseWhereMinuendSmallerThanSubtrahend(size_t i) {

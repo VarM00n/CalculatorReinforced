@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number 
+CXX_INCLUDES = -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division -I/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number 
 

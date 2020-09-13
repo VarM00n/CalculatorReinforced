@@ -118,6 +118,7 @@ Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Numb
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make
 Google_Tests/Google_Tests_run: Addition/libAddition.a
 Google_Tests/Google_Tests_run: Number/libNumber.a
+Google_Tests/Google_Tests_run: Division/libDivision.a
 Google_Tests/Google_Tests_run: lib/libgtestd.a
 Google_Tests/Google_Tests_run: lib/libgtest_maind.a
 Google_Tests/Google_Tests_run: lib/libgtestd.a

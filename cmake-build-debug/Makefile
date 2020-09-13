@@ -209,6 +209,19 @@ Multiplication/fast:
 .PHONY : Multiplication/fast
 
 #=============================================================================
+# Target rules for targets named Division
+
+# Build rule for target.
+Division: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Division
+.PHONY : Division
+
+# fast build rule for target.
+Division/fast:
+	$(MAKE) -f Division/CMakeFiles/Division.dir/build.make Division/CMakeFiles/Division.dir/build
+.PHONY : Division/fast
+
+#=============================================================================
 # Target rules for targets named Number
 
 # Build rule for target.
@@ -312,6 +325,33 @@ Addition/Addition.s: Addition/Addition.cpp.s
 Addition/Addition.cpp.s:
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s
 .PHONY : Addition/Addition.cpp.s
+
+Division/Division.o: Division/Division.cpp.o
+
+.PHONY : Division/Division.o
+
+# target to build an object file
+Division/Division.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o
+.PHONY : Division/Division.cpp.o
+
+Division/Division.i: Division/Division.cpp.i
+
+.PHONY : Division/Division.i
+
+# target to preprocess a source file
+Division/Division.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.i
+.PHONY : Division/Division.cpp.i
+
+Division/Division.s: Division/Division.cpp.s
+
+.PHONY : Division/Division.s
+
+# target to generate assembly for a file
+Division/Division.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.s
+.PHONY : Division/Division.cpp.s
 
 Multiplication/Multiplication.o: Multiplication/Multiplication.cpp.o
 
@@ -437,6 +477,7 @@ help:
 	@echo "... Substraction"
 	@echo "... Addition"
 	@echo "... Multiplication"
+	@echo "... Division"
 	@echo "... Number"
 	@echo "... Google_Tests_run"
 	@echo "... gmock_main"
@@ -446,6 +487,9 @@ help:
 	@echo "... Addition/Addition.o"
 	@echo "... Addition/Addition.i"
 	@echo "... Addition/Addition.s"
+	@echo "... Division/Division.o"
+	@echo "... Division/Division.i"
+	@echo "... Division/Division.s"
 	@echo "... Multiplication/Multiplication.o"
 	@echo "... Multiplication/Multiplication.i"
 	@echo "... Multiplication/Multiplication.s"

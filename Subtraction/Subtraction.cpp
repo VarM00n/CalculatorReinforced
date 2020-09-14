@@ -24,7 +24,6 @@ Number Subtraction::subtractionInt() {
     }
     difference.removeTrailingZeros();
 //    cout << Number::removeTrailingZeros(difference);
-    cout << difference.getValue();
 //    return Number(Number::removeTrailingZeros(difference));
     return difference;
 }

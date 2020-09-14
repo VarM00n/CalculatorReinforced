@@ -10,10 +10,17 @@ class Division {
     Number dividend;
     Number divisor;
     Number quotient;
+    Number temporaryDividend;
+    int temporaryResult = 0;
+
+    void whileDivisorBiggerThanTemporaryDivident();
+    void simpleDivisionMechanism();
+    void settingTemporaryDividendFromZeroToEmpty();
+    void caseWhereTemporaryDividendEqZero();
 
 public:
     Division(Number &dividend, Number &divisor);
-    Number divisionInt(Number &n1, Number &n2);
+    Number divisionInt();
 };
 
 

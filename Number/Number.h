@@ -24,6 +24,8 @@ public:
 
     unsigned getDigitFromPosition(long position);
 
+    string getDigitFromPosition(long position, bool differ);
+
     void setValue(const string &value);
 
     const string &getValue() const;
@@ -36,6 +38,12 @@ public:
 
     static string removeTrailingZeros(string &number);
 
+    bool isValueBigger(string val1, string val2);
+
+    bool operator> (const Number& r);
+//    bool operator< (const Number& r);
+    bool operator== (const Number& r);
+//    bool operator!= (const Number& r);
 
 
 };

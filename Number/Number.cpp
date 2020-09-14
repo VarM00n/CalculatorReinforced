@@ -3,6 +3,7 @@
 //
 
 #include "Number.h"
+#include <string>
 
 Number::Number(int value){
     this->value = std::to_string(value);
@@ -36,6 +37,13 @@ unsigned Number::getDigitFromPosition(long position) {
     if (position < 0)
         return 0;
     auto digit = unsigned(this->value[position] - '0');
+    return digit;
+}
+
+string Number::getDigitFromPosition(long position, bool differ) {
+    if (position < 0)
+        return 0;
+    string digit = to_string(this->value[position] - '0');
     return digit;
 }
 
@@ -76,3 +84,49 @@ string Number::removeTrailingZeros(string &number) {
     }
     return number;
 }
+
+bool Number::isValueBigger(string val1, string val2) {
+    if (val1.size() > val2.size())
+        return true;
+    else if (val1.size() < val2.size())
+        return false;
+    else
+        for (int i = 0; i < val1.size(); ++i) {
+            if (val1[i] > val2[i])
+                return true;
+            else if (val1[i] < val2[i])
+                return false;
+        }
+
+    // is equal
+    return false;
+}
+
+bool Number::operator>(const Number &r) {
+        return this->isValueBigger(this->value, r.value);
+}
+
+//bool Number::operator<(const Number &r) {
+//    if (!this->sign && r.sign)
+//        return false;
+//    if (this->sign && !r.sign)
+//        return true;
+//
+//    if (this->sign == r.sign) {
+//        if (this->value == r.value)
+//            return false;
+//
+//        return !this->isValueBigger(this->value, r.value);
+//    }
+//
+//    return true;
+//}
+//
+bool Number::operator==(const Number &r) {
+    return this->value == r.value;
+}
+//
+//bool Number::operator!=(const Number &r) {
+//    return !operator==(r);
+//}
+//

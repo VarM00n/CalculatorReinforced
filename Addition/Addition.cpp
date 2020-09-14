@@ -3,25 +3,32 @@
 //
 
 #include <iostream>
+#include <Subtraction.h>
 #include "Addition.h"
 #include "Number.h"
 
 using namespace std;
 
 
+Addition::Addition(Number &firstAddend, Number &secondAddend): firstAddend(0), secondAddend(0){
+    this->firstAddend = firstAddend;
+    this->secondAddend = secondAddend;
+    this->placeOfCommaInResult = this->secondAddend.getFloatingPos();
+}
+
 Number Addition::additionFinal() {
     Addition addition(firstAddend, secondAddend);
     // a + (-b) = a - b
     if (firstAddend.isPositive() && secondAddend.isNegative()) {
         secondAddend.setSign(false);
-//        return preSubstract(firstAddend, secondAddend);
+        return Subtraction(firstAddend, secondAddend).preSubtract();
     }
 
     // (-a) + b = b - a
     if (firstAddend.isNegative() && secondAddend.isPositive()) {
         firstAddend.setSign(false);
 
-//        return preSubstract(secondAddend, firstAddend);
+        return Subtraction(secondAddend, firstAddend).preSubtract();
     }
 
     // (-a) + (-b) = -(a+b)
@@ -95,8 +102,3 @@ Number Addition::additionInt() {
     return sum;
 }
 
-Addition::Addition(Number &firstAddend, Number &secondAddend): firstAddend(0), secondAddend(0){
-    this->firstAddend = firstAddend;
-    this->secondAddend = secondAddend;
-    this->placeOfCommaInResult = this->secondAddend.getFloatingPos();
-}

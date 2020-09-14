@@ -14,15 +14,21 @@ class Subtraction {
     Number difference;
     unsigned digitFromMinuend;
     unsigned digitFromSubtrahend;
+    int placeOfCommaInResult;
     long index;
 
 
     void caseWhereMinuendSmallerThanSubtrahend(size_t i);
     void gettingTensFromHigherDigits();
+    bool placeOfCommaInResultTakenFromMinuend();
+    void addZerosToMinuend();
+    void addZerosToSubtrahend();
 
 public:
     Subtraction (Number &minuend, Number &subtrahend);
     Number subtractionInt();
+    Number subtractionFloat();
+    Number preSubtract();
 };
 
 

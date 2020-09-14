@@ -12,10 +12,12 @@ int main() {
     cin >> a >> b;
     Number numberA(a);
     Number numberB(b);
-//    Subtraction subtraction(numberA, numberB);
-//    subtraction.subtractionInt();
-    Addition addition(numberA, numberB);
-    cout << addition.additionFinal().getValue();
+    Subtraction subtraction(numberA, numberB);
+//    cout << subtraction.subtractionInt().getValue();
+//    cout << subtraction.subtractionFloat().getValue();
+    cout << subtraction.preSubtract().getValue();
+//    Addition addition(numberA, numberB);
+//    cout << addition.additionFinal().getValue();
 //    cout << addition.additionInt().getValue();
 //    Multiplication multiplication(numberA, numberB);
 //    multiplication.multiplicationInt();

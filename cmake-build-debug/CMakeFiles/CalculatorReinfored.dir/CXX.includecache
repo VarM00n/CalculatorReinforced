@@ -27,6 +27,8 @@ Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
 iostream
 -
+Subtraction.h
+-
 Addition.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
 Number.h
@@ -74,6 +76,8 @@ string
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp
 iostream
+-
+Addition.h
 -
 Subtraction.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h

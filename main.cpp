@@ -15,7 +15,7 @@ int main() {
 //    Subtraction subtraction(numberA, numberB);
 //    subtraction.subtractionInt();
     Addition addition(numberA, numberB);
-    cout << addition.additionFloat().getValue();
+    cout << addition.additionFinal().getValue();
 //    cout << addition.additionInt().getValue();
 //    Multiplication multiplication(numberA, numberB);
 //    multiplication.multiplicationInt();

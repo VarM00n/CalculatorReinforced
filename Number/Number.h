@@ -22,6 +22,12 @@ private:
 
 public:
 
+    bool isNegative() const;
+
+    bool isPositive() const;
+
+    void setSign(bool sign);
+
     string add_coma(int place_of_comma);
 
     int getFloatingPos();

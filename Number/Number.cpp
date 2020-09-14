@@ -12,7 +12,10 @@ Number::Number(int value){
 
 Number::Number(string value) {
     this->value = value;
+    if (this->getValue()[0] == '-')
+        sign = true;
     sanitizeValue();
+
 }
 
 long Number::size() {
@@ -78,16 +81,15 @@ void Number::removeTrailingZeros() {
 //    while(this->value[0] == '0' && this->value.size() != 1){
 //        this->setValue(this->value.erase(0, 1));
 //    }
-//    if (this->getValue().empty())
-//        return "0";
+    if (this->getValue().empty())
+        this->setValue("0");
 
     while ((this->getValue()[0] == '0' && this->getValue()[1] != '.') || this->getValue()[0] == '-')
         this->setValue(this->getValue().substr(1, static_cast<unsigned long>(this->size())));
 
-//    if(this->getValue()[0] != '-' && str.isNegative()){
-//        str.setValue('-' + str.getValue());
-//    }
-//    return str.getValue();
+    if(this->getValue()[0] != '-' && this->isNegative()){
+        this->setValue('-' + this->getValue());
+    }
 }
 
 string Number::removeTrailingZeros(string &number) {
@@ -170,8 +172,8 @@ void Number::sanitizeValue() {
     }
 
     // remove unnecessary zeros from the beginning of the number
-//    while (output[0] == '0')
-//        output.erase(0, 1);
+    while (output[0] == '0')
+        output.erase(0, 1);
 
     // empty value is zero
     if (output.empty()) {
@@ -199,9 +201,9 @@ int Number::getFloatingPos() {
 string Number::add_coma(int place_of_comma){
     std::string value;
     value = "";
-//    if(this->sign){
-//        value += "-";
-//    }
+    if(this->sign){
+        value += "-";
+    }
     for(int i = 0 ; i < this->size(); i++){
         if(i == place_of_comma) {
             value += (char) 46;
@@ -212,4 +214,16 @@ string Number::add_coma(int place_of_comma){
         }
     }
     return value;
+}
+
+bool Number::isNegative() const {
+    return sign;
+}
+
+bool Number::isPositive() const {
+    return !sign;
+}
+
+void Number::setSign(bool sign) {
+    Number::sign = sign;
 }

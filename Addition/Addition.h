@@ -15,13 +15,16 @@ class Addition {
     unsigned digitFromSecondAddend;
     int placeOfCommaInResult;
 
+
     bool placeOfCommaInResultTakenFromSecondAddend();
     void addingZerosToFirstAddend();
     void addingZerosToSecondAddend();
-    Number additionInt();
+
 
 public:
+    Number additionFinal();
     Number additionFloat();
+    Number additionInt();
     Addition (Number &firstAddend, Number &secondAddend);
 };
 

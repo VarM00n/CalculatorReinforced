@@ -8,6 +8,37 @@
 
 using namespace std;
 
+
+Number Addition::additionFinal() {
+    Addition addition(firstAddend, secondAddend);
+    // a + (-b) = a - b
+    if (firstAddend.isPositive() && secondAddend.isNegative()) {
+        secondAddend.setSign(false);
+//        return preSubstract(firstAddend, secondAddend);
+    }
+
+    // (-a) + b = b - a
+    if (firstAddend.isNegative() && secondAddend.isPositive()) {
+        firstAddend.setSign(false);
+
+//        return preSubstract(secondAddend, firstAddend);
+    }
+
+    // (-a) + (-b) = -(a+b)
+    if (firstAddend.isNegative() && secondAddend.isNegative()) {
+        firstAddend.setSign(false);
+        secondAddend.setSign(false);
+
+        Number result = addition.additionFloat();
+        result.setSign(true);
+        result.removeTrailingZeros();
+        return result;
+    }
+
+    // a + b
+    return addition.additionFloat();
+}
+
 Number Addition::additionFloat(){
     if(placeOfCommaInResultTakenFromSecondAddend()){
         //example first number x.xx, second number y.yyy  (x, y -> Natural number)

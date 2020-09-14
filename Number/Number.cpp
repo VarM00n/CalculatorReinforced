@@ -7,10 +7,12 @@
 
 Number::Number(int value){
     this->value = std::to_string(value);
+    sanitizeValue();
 }
 
 Number::Number(string value) {
     this->value = value;
+    sanitizeValue();
 }
 
 long Number::size() {
@@ -73,9 +75,19 @@ void Number::setNumberInPosition(long position, unsigned digit) {
 }
 
 void Number::removeTrailingZeros() {
-    while(this->value[0] == '0' && this->value.size() != 1){
-        this->setValue(this->value.erase(0, 1));
-    }
+//    while(this->value[0] == '0' && this->value.size() != 1){
+//        this->setValue(this->value.erase(0, 1));
+//    }
+//    if (this->getValue().empty())
+//        return "0";
+
+    while ((this->getValue()[0] == '0' && this->getValue()[1] != '.') || this->getValue()[0] == '-')
+        this->setValue(this->getValue().substr(1, static_cast<unsigned long>(this->size())));
+
+//    if(this->getValue()[0] != '-' && str.isNegative()){
+//        str.setValue('-' + str.getValue());
+//    }
+//    return str.getValue();
 }
 
 string Number::removeTrailingZeros(string &number) {
@@ -130,3 +142,74 @@ bool Number::operator==(const Number &r) {
 //    return !operator==(r);
 //}
 //
+
+
+void Number::sanitizeValue() {
+    string output;
+    output.reserve(value.size()); // prevent string realloc in loop
+
+    // zero cannot be negative
+    if (value == "-0") {
+        sign = false;
+        value = "0";
+        return;
+    }
+
+    for(int i = size() - 1; i > 0; i--){
+        if(this -> getValue()[i] == '.'){
+            setFloatingPos(size() - i - 1);
+            this->floating = true;
+            break;
+        }
+    }
+
+    // get rid of all chars expect digits
+    for (char i : value) {
+        if (i >= 48 && i <= 57 )
+            output += i;
+    }
+
+    // remove unnecessary zeros from the beginning of the number
+//    while (output[0] == '0')
+//        output.erase(0, 1);
+
+    // empty value is zero
+    if (output.empty()) {
+        sign = false;
+        value = "0";
+        return;
+    }
+
+    value = output;
+
+    if (value == "0")
+        sign = false;
+
+
+}
+
+void Number::setFloatingPos(int fp) {
+    Number::floating_pos = fp;
+}
+
+int Number::getFloatingPos() {
+    return Number::floating_pos;
+}
+
+string Number::add_coma(int place_of_comma){
+    std::string value;
+    value = "";
+//    if(this->sign){
+//        value += "-";
+//    }
+    for(int i = 0 ; i < this->size(); i++){
+        if(i == place_of_comma) {
+            value += (char) 46;
+            value += this->getValue()[i];
+        }
+        else{
+            value += this->getValue()[i];
+        }
+    }
+    return value;
+}

@@ -14,12 +14,13 @@ int main() {
     Number numberB(b);
 //    Subtraction subtraction(numberA, numberB);
 //    subtraction.subtractionInt();
-//    Addition addition(numberA, numberB);
-//    addition.additionInt();
+    Addition addition(numberA, numberB);
+    cout << addition.additionFloat().getValue();
+//    cout << addition.additionInt().getValue();
 //    Multiplication multiplication(numberA, numberB);
 //    multiplication.multiplicationInt();
-    Division division(numberA, numberB);
-    cout << division.divisionInt().getValue();
+//    Division division(numberA, numberB);
+//    cout << division.divisionInt().getValue();
 
     return 0;
 }

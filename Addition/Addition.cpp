@@ -8,11 +8,49 @@
 
 using namespace std;
 
+Number Addition::additionFloat(){
+    if(placeOfCommaInResultTakenFromSecondAddend()){
+        //example first number x.xx, second number y.yyy  (x, y -> Natural number)
+        addingZerosToFirstAddend();
+    }
+    else {
+        //example first number x.xxx, second number y.yy  (x, y -> Natural number)
+        addingZerosToSecondAddend();
+    }
+    //addition
+    Addition addition(firstAddend, secondAddend);
+    Number result(addition.additionInt());
+    result.setValue(result.add_coma(static_cast<int>(result.size() - placeOfCommaInResult)));
+    result.removeTrailingZeros();
+    return result;
+}
+
+bool Addition::placeOfCommaInResultTakenFromSecondAddend(){
+    if (placeOfCommaInResult < firstAddend.getFloatingPos()){
+        placeOfCommaInResult = firstAddend.getFloatingPos();
+        return false;
+    }
+    return true;
+}
+
+void Addition::addingZerosToFirstAddend(){
+    for (int i = 0; i < secondAddend.getFloatingPos() - firstAddend.getFloatingPos(); i++) {
+        firstAddend.setValue(firstAddend.getValue() + "0");
+    }
+}
+void Addition::addingZerosToSecondAddend() {
+    for(int i = 0 ; i < firstAddend.getFloatingPos() - secondAddend.getFloatingPos(); i++) {
+        secondAddend.setValue(secondAddend.getValue() + "0");
+    }
+}
+
+
 Number Addition::additionInt() {
     unsigned long sizeOfBiggerNumber = firstAddend.getBiggerNumber(secondAddend);
     long counterForFirstAddend = firstAddend.size() - 1;
     long counterForSecondAddend = secondAddend.size() - 1;
-//    string sum;
+    //TODO go around sum -> 0 at the beg
+    sum.setValue("");
     unsigned carry = 0;
     for (size_t i = 0; i < sizeOfBiggerNumber + 1; counterForFirstAddend--,
             counterForSecondAddend--, i++) {
@@ -26,7 +64,8 @@ Number Addition::additionInt() {
     return sum;
 }
 
-Addition::Addition(Number &firstAddend, Number &secondAddend): firstAddend(0), secondAddend(0), sum(""){
+Addition::Addition(Number &firstAddend, Number &secondAddend): firstAddend(0), secondAddend(0){
     this->firstAddend = firstAddend;
     this->secondAddend = secondAddend;
+    this->placeOfCommaInResult = this->secondAddend.getFloatingPos();
 }

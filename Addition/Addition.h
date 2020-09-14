@@ -10,12 +10,19 @@
 class Addition {
     Number firstAddend;
     Number secondAddend;
-    Number sum;
+    Number sum = Number("");
     unsigned digitFromFirstAddend;
     unsigned digitFromSecondAddend;
-public:
-    Addition (Number &firstAddend, Number &secondAddend);
+    int placeOfCommaInResult;
+
+    bool placeOfCommaInResultTakenFromSecondAddend();
+    void addingZerosToFirstAddend();
+    void addingZerosToSecondAddend();
     Number additionInt();
+
+public:
+    Number additionFloat();
+    Addition (Number &firstAddend, Number &secondAddend);
 };
 
 

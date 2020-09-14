@@ -12,7 +12,22 @@ class Number {
 private:
     string value;
 
+    bool sign = false;
+
+    bool floating = false;
+
+    int floating_pos = 0;
+
+    void sanitizeValue();
+
 public:
+
+    string add_coma(int place_of_comma);
+
+    int getFloatingPos();
+
+    void setFloatingPos(int fp);
+
     explicit Number(int value);
 
     explicit Number(string value);

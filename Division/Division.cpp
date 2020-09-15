@@ -11,16 +11,19 @@
 Division::Division(Number &dividend, Number &divisor): dividend(0), divisor(0), quotient(""), temporaryDividend(""){
     this->dividend = dividend;
     this->divisor = divisor;
+    this->temporaryDividend.setValue("");
+    this->quotient.setValue("");
 }
 
 Number Division::divisionInt() {
     while(!dividend.getValue().empty() ) {
         temporaryDividend.setValue( temporaryDividend.getValue() + dividend.getValue().substr(0, 1));
         dividend.setValue(dividend.getValue().substr(1, static_cast<unsigned long>(dividend.size())));
+        caseWhereTemporaryDividendEqZero();
         whileDivisorBiggerThanTemporaryDivident();
         simpleDivisionMechanism();
-        caseWhereTemporaryDividendEqZero();
     }
+    quotient.removeTrailingZeros();
     return quotient;
 }
 

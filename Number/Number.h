@@ -64,7 +64,7 @@ public:
     bool operator> (const Number& r);
 //    bool operator< (const Number& r);
     bool operator== (const Number& r);
-//    bool operator!= (const Number& r);
+    bool operator!= (const Number& r);
 
 
 };

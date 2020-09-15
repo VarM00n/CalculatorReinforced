@@ -139,11 +139,11 @@ bool Number::operator>(const Number &r) {
 bool Number::operator==(const Number &r) {
     return this->value == r.value;
 }
-//
-//bool Number::operator!=(const Number &r) {
-//    return !operator==(r);
-//}
-//
+
+bool Number::operator!=(const Number &r) {
+    return !operator==(r);
+}
+
 
 
 void Number::sanitizeValue() {

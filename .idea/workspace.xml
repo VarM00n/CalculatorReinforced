@@ -24,10 +24,11 @@
     <list default="true" id="385396e4-e76c-45c3-90c4-d90d6347d9f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Addition/Addition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Addition/Addition.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Addition/Addition.h" beforeDir="false" afterPath="$PROJECT_DIR$/Addition/Addition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiplication/Multiplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Multiplication/Multiplication.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiplication/Multiplication.h" beforeDir="false" afterPath="$PROJECT_DIR$/Multiplication/Multiplication.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Subtraction/Subtraction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Subtraction/Subtraction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -43,10 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
+        <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="414">
+              <caret line="216" selection-start-line="216" selection-end-line="216" />
               <folding>
                 <element signature="e#44#63#0" expanded="true" />
               </folding>
@@ -55,28 +56,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
+        <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
-              <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+            <state relative-caret-position="266">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <folding>
+                <element signature="e#44#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
+        <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="234">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
+        <entry file="file://$PROJECT_DIR$/Addition/Addition.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="522">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1023">
+              <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
               <folding>
                 <element signature="e#44#63#0" expanded="true" />
               </folding>
@@ -96,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="432">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -141,8 +154,6 @@
         <option value="$PROJECT_DIR$/Addition/AdditionOperation.cpp" />
         <option value="$PROJECT_DIR$/Addition/AdditionOperation.h" />
         <option value="$PROJECT_DIR$/Multiplication/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Multiplication/Multiplication.h" />
-        <option value="$PROJECT_DIR$/Multiplication/Multiplication.cpp" />
         <option value="$PROJECT_DIR$/Addition/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Division/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
@@ -150,12 +161,14 @@
         <option value="$PROJECT_DIR$/Division/Division.h" />
         <option value="$PROJECT_DIR$/Division/Division.cpp" />
         <option value="$PROJECT_DIR$/Number/Number.h" />
-        <option value="$PROJECT_DIR$/Addition/Addition.h" />
         <option value="$PROJECT_DIR$/Number/Number.cpp" />
-        <option value="$PROJECT_DIR$/Subtraction/Subtraction.h" />
-        <option value="$PROJECT_DIR$/Addition/Addition.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Subtraction/Subtraction.cpp" />
+        <option value="$PROJECT_DIR$/Addition/Addition.h" />
+        <option value="$PROJECT_DIR$/Addition/Addition.cpp" />
+        <option value="$PROJECT_DIR$/Subtraction/Subtraction.h" />
+        <option value="$PROJECT_DIR$/Multiplication/Multiplication.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Multiplication/Multiplication.cpp" />
       </list>
     </option>
   </component>
@@ -172,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,12 +200,18 @@
             <path>
               <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
+              <item name="Multiplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
               <item name="Subtraction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +370,8 @@
       <workItem from="1599923356511" duration="1909000" />
       <workItem from="1599988471397" duration="7962000" />
       <workItem from="1600023098993" duration="9599000" />
-      <workItem from="1600078466289" duration="20139000" />
+      <workItem from="1600078466289" duration="20822000" />
+      <workItem from="1600160907586" duration="2079000" />
     </task>
     <servers />
   </component>
@@ -389,7 +408,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56630000" />
+    <option name="totallyTimeSpent" value="59392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,15 +421,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1871" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1844285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18663722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18085106" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35851064" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44468084" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
@@ -460,6 +478,11 @@
           <url>file://$PROJECT_DIR$/Number/Number.cpp</url>
           <line>47</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Number/Number.cpp</url>
+          <line>200</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -523,23 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addition/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -585,27 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Number/Number.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addition/Addition.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/ext/string_conversions.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -620,10 +605,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
+    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="614">
+          <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addition/Addition.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number/Number.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
           <folding>
             <element signature="e#44#63#0" expanded="true" />
           </folding>
@@ -632,28 +645,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="432">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
+    <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="234">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
           <folding>
             <element signature="e#44#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
+    <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+        <state relative-caret-position="266">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

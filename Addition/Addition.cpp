@@ -101,4 +101,3 @@ Number Addition::additionInt() {
     sum.removeTrailingZeros();
     return sum;
 }
-

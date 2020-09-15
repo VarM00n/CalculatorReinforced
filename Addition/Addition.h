@@ -28,5 +28,4 @@ public:
     Addition (Number &firstAddend, Number &secondAddend);
 };
 
-
 #endif //CALCULATORREINFORED_ADDITIONOPERATION_H

@@ -12,6 +12,45 @@ Multiplication::Multiplication(Number &multiplicand, Number &multiplier): multip
     this->multiplier = multiplier;
 }
 
+Number Multiplication::multiplicationFinal() {
+    // a * 0 = 0
+    // 0 * b = 0
+    if(multiplicand == Number("0") || multiplier == Number("0"))
+        return Number("0");
+
+    // a * b = a * b
+    // (-a) * (-b) = a*b
+    if((multiplicand.isPositive() && multiplier.isPositive()) || (multiplicand.isNegative() && multiplier.isNegative())) {
+        multiplicand.setSign(false);
+        multiplier.setSign(false);
+
+        return Multiplication(multiplicand, multiplier).multiplicationFloat();
+    }
+
+    // (-a) * b = -(a*b)
+    // a * (-b) = -(a*b)
+    if((multiplicand.isPositive() && multiplier.isNegative()) || (multiplicand.isNegative() && multiplier.isPositive()))
+    {
+        multiplicand.setSign(false);
+        multiplier.setSign(false);
+
+        Number result = Multiplication(multiplicand, multiplier).multiplicationFloat();
+        result.setSign(true);
+        result.removeTrailingZeros();
+        return result;
+    }
+
+    return Number("0");
+}
+
+Number Multiplication::multiplicationFloat() {
+    placeOfCommaInResult = multiplicand.getFloatingPos() + multiplier.getFloatingPos();
+    product = Multiplication(multiplicand, multiplier).multiplicationInt();
+    product.setValue(product.add_coma(static_cast<int>(product.size() - placeOfCommaInResult)));
+    product.removeTrailingZeros();
+    return product;
+}
+
 Number Multiplication::multiplicationInt() {
     swapValuesIfMultiplierBigger();
     //TODO add a comment of some kind or rewrite inside of for loop for better understanding
@@ -21,7 +60,6 @@ Number Multiplication::multiplicationInt() {
         addNumberToAVectorForLaterAddition();
     }
     addNumbersFromVectorToAProduct();
-    cout << product.getValue();
     return product;
 }
 

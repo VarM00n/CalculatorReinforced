@@ -16,7 +16,7 @@ class Multiplication {
     unsigned digitFromMultiplier;
     string singleProduct = "";
     vector<string> valuesForAddition = {};
-
+    int placeOfCommaInResult;
     unsigned carry = 0;
 
 
@@ -28,7 +28,8 @@ class Multiplication {
 public:
     Multiplication (Number &multiplicand, Number &multiplier);
     Number multiplicationInt();
-
+    Number multiplicationFloat();
+    Number multiplicationFinal();
 
 };
 

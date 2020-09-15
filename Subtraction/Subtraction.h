@@ -31,6 +31,4 @@ public:
     Number preSubtract();
 };
 
-
-
 #endif //CALCULATORREINFORED_SUBSTRACTIONOPERATION_H

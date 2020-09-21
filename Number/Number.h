@@ -18,9 +18,11 @@ private:
 
     int floating_pos = 0;
 
-    void sanitizeValue();
+
 
 public:
+
+    void sanitizeValue();
 
     bool isNegative() const;
 

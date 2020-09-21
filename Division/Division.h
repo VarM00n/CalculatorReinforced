@@ -12,15 +12,21 @@ class Division {
     Number quotient;
     Number temporaryDividend;
     int temporaryResult = 0;
+    int placeOfComma;
+    int app = 2;
+    bool flagTakenZero = false;
+    bool flagDoneDivision = false;
 
-    void whileDivisorBiggerThanTemporaryDivident();
     void simpleDivisionMechanism();
     void settingTemporaryDividendFromZeroToEmpty();
-    void caseWhereTemporaryDividendEqZero();
+    void caseWhereDivisionHasNotBeenProcessed();
+    void caseWhereDivisionHasBeenProcessed();
+    bool checkForComma(Number &number);
 
 public:
     Division(Number &dividend, Number &divisor);
     Number divisionInt();
+    Number divisionFloat();
 };
 
 

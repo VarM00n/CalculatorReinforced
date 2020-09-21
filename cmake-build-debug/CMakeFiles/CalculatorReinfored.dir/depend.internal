@@ -8,6 +8,7 @@ CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o
+ ../Multiplication/Multiplication.h
  ../Number/Number.h
  ../Subtraction/Subtraction.h
  /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp

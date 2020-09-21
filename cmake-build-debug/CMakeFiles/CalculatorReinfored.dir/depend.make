@@ -7,6 +7,7 @@ CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Addition/Addition
 CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Addition/Addition.h
 CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Number/Number.h
 
+CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Multiplication/Multiplication.h
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Number/Number.h
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Subtraction/Subtraction.h
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Division/Division.cpp

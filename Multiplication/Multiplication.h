@@ -9,14 +9,14 @@
 #include <vector>
 
 class Multiplication {
-    Number multiplicand;
-    Number multiplier;
-    Number product;
-    unsigned digitFromMultiplicand;
-    unsigned digitFromMultiplier;
+    Number multiplicand = Number("0");
+    Number multiplier = Number("0");
+    Number product = Number("0");
+    unsigned digitFromMultiplicand = 0;
+    unsigned digitFromMultiplier = 0;
     string singleProduct = "";
     vector<string> valuesForAddition = {};
-    int placeOfCommaInResult;
+    int placeOfCommaInResult = 0;
     unsigned carry = 0;
 
 

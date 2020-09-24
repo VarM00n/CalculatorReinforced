@@ -7,7 +7,6 @@
 #include "../Multiplication/Multiplication.h"
 
 //Constructors
-
 Number::Number(int value){
     this->setValue(to_string(value));
     sanitizeValue();
@@ -20,57 +19,7 @@ Number::Number(string value) {
     sanitizeValue();
 }
 
-unsigned Number::getBiggerNumberSize(Number secondAddend) {
-    if(this->size() >= secondAddend.size()){
-        return (unsigned int) this->size();
-    } else {
-        return (unsigned int) secondAddend.size();
-    }
-}
-
-unsigned Number::getDigitFromPosition(long position) {
-    if (position < 0 || position > this->size() - 1)
-        return 0;
-    auto digit = unsigned(this->getValue()[position] - '0');
-    return digit;
-}
-
-void Number::setDigitInPosition(long position, char digit) {
-    if (position < 0 || position > this->size() - 1)
-        return;
-    if (digit < (0 + '0') || digit > (9 + '0'))
-        return;
-    this->setValue(this->getValue().substr(0, (unsigned long) position) + digit
-        + this->getValue().substr((unsigned long) position + 1,(unsigned long) this->size()));
-}
-
-bool Number::isValueBigger(string val1, string val2) {
-    if (val1.size() > val2.size())
-        return true;
-    else if (val1.size() < val2.size())
-        return false;
-    else
-        for (int i = 0; i < val1.size(); ++i) {
-            if (val1[i] > val2[i])
-                return true;
-            else if (val1[i] < val2[i])
-                return false;
-        }
-    return false;
-}
-
-bool Number::operator>(const Number &r) {
-    return this->isValueBigger(this->getValue(), r.getValue());
-}
-
-bool Number::operator==(const Number &r) {
-    return this->getValue() == r.getValue();
-}
-
-bool Number::operator!=(const Number &r) {
-    return !operator==(r);
-}
-
+//Public Methods
 void Number::sanitizeValue() {
     string output;
     output.reserve((unsigned long)this->size());
@@ -104,6 +53,30 @@ void Number::sanitizeValue() {
 //    }
 }
 
+unsigned Number::getBiggerNumberSize(Number secondAddend) {
+    if(this->size() >= secondAddend.size()){
+        return (unsigned int) this->size();
+    } else {
+        return (unsigned int) secondAddend.size();
+    }
+}
+
+unsigned Number::getDigitFromPosition(long position) {
+    if (position < 0 || position > this->size() - 1)
+        return 0;
+    auto digit = unsigned(this->getValue()[position] - '0');
+    return digit;
+}
+
+void Number::setDigitInPosition(long position, char digit) {
+    if (position < 0 || position > this->size() - 1)
+        return;
+    if (digit < (0 + '0') || digit > (9 + '0'))
+        return;
+    this->setValue(this->getValue().substr(0, (unsigned long) position) + digit
+        + this->getValue().substr((unsigned long) position + 1,(unsigned long) this->size()));
+}
+
 string Number::addComaAndSign(int place_of_comma){
     std::string value;
     value = "";
@@ -134,4 +107,32 @@ void Number::multiplyByTen() {
         this->setValue(this->getValue() + "0");
     }
     //remove trailing zeros
+}
+
+//Operators Overload
+bool Number::isValueBigger(string val1, string val2) {
+    if (val1.size() > val2.size())
+        return true;
+    else if (val1.size() < val2.size())
+        return false;
+    else
+        for (int i = 0; i < val1.size(); ++i) {
+            if (val1[i] > val2[i])
+                return true;
+            else if (val1[i] < val2[i])
+                return false;
+        }
+    return false;
+}
+
+bool Number::operator>(const Number &r) {
+    return this->isValueBigger(this->getValue(), r.getValue());
+}
+
+bool Number::operator==(const Number &r) {
+    return this->getValue() == r.getValue();
+}
+
+bool Number::operator!=(const Number &r) {
+    return !operator==(r);
 }

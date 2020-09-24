@@ -22,17 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="385396e4-e76c-45c3-90c4-d90d6347d9f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Addition/Addition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Addition/Addition.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Division/Division.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Division/Division.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multiplication/Multiplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Multiplication/Multiplication.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Number/Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Number/Number.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Number/Number.h" beforeDir="false" afterPath="$PROJECT_DIR$/Number/Number.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number/NumberCore.h" beforeDir="false" afterPath="$PROJECT_DIR$/Number/NumberCore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number/NumberValidation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Number/NumberValidation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests_run" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/Number.cpp.o" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,44 +38,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
+            <state relative-caret-position="436">
+              <caret line="111" column="2" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="20" />
               <folding>
                 <element signature="e#44#63#0" expanded="true" />
                 <element signature="e#145#232#0" />
                 <element signature="e#234#379#0" />
+                <element signature="e#380#1205#0" />
                 <element signature="e#437#653#0" />
                 <element signature="e#607#782#0" />
                 <element signature="e#811#1191#0" />
+                <element signature="e#2027#2514#0" />
+                <element signature="e#2516#2773#0" />
                 <element signature="e#1188#1598#0" />
                 <element signature="e#1635#1732#0" />
                 <element signature="e#1734#1813#0" />
                 <element signature="e#1815#1886#0" />
-                <element signature="e#1855#2738#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp">
+        <entry file="file://$PROJECT_DIR$/Number/Number.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+            <state relative-caret-position="382">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="e#44#68#0" expanded="true" />
+                <element signature="e#118#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Number/Number.h">
+        <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="1476">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
-                <element signature="e#118#135#0" expanded="true" />
+                <element signature="e#44#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,10 +207,10 @@
         <option value="$PROJECT_DIR$/Number/NumberValidation.h" />
         <option value="$PROJECT_DIR$/Addition/Addition.cpp" />
         <option value="$PROJECT_DIR$/Number/NumberValidation.cpp" />
-        <option value="$PROJECT_DIR$/Number/Number.h" />
         <option value="$PROJECT_DIR$/Number/NumberCore.h" />
-        <option value="$PROJECT_DIR$/Number/Number.cpp" />
         <option value="$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp" />
+        <option value="$PROJECT_DIR$/Number/Number.cpp" />
+        <option value="$PROJECT_DIR$/Number/Number.h" />
       </list>
     </option>
   </component>
@@ -441,7 +434,7 @@
       <workItem from="1600896867159" duration="1518000" />
       <workItem from="1600949739407" duration="1406000" />
       <workItem from="1600964633372" duration="1758000" />
-      <workItem from="1600984366756" duration="4835000" />
+      <workItem from="1600984366756" duration="5236000" />
     </task>
     <servers />
   </component>
@@ -478,7 +471,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98011000" />
+    <option name="totallyTimeSpent" value="98412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Number/Number.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#118#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Number/NumberCore.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -744,32 +727,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
+    <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
+        <state relative-caret-position="1476">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           <folding>
-            <element signature="e#44#63#0" expanded="true" />
-            <element signature="e#145#232#0" />
-            <element signature="e#234#379#0" />
-            <element signature="e#437#653#0" />
-            <element signature="e#607#782#0" />
-            <element signature="e#811#1191#0" />
-            <element signature="e#1188#1598#0" />
-            <element signature="e#1635#1732#0" />
-            <element signature="e#1734#1813#0" />
-            <element signature="e#1815#1886#0" />
-            <element signature="e#1855#2738#0" />
+            <element signature="e#44#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp">
+    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+        <state relative-caret-position="436">
+          <caret line="111" column="2" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="20" />
           <folding>
-            <element signature="e#44#68#0" expanded="true" />
+            <element signature="e#44#63#0" expanded="true" />
+            <element signature="e#145#232#0" />
+            <element signature="e#234#379#0" />
+            <element signature="e#380#1205#0" />
+            <element signature="e#437#653#0" />
+            <element signature="e#607#782#0" />
+            <element signature="e#811#1191#0" />
+            <element signature="e#2027#2514#0" />
+            <element signature="e#2516#2773#0" />
+            <element signature="e#1188#1598#0" />
+            <element signature="e#1635#1732#0" />
+            <element signature="e#1734#1813#0" />
+            <element signature="e#1815#1886#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number/Number.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#118#135#0" expanded="true" />
           </folding>
         </state>
       </provider>

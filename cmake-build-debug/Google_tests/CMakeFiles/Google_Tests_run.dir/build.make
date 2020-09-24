@@ -116,11 +116,13 @@ Google_Tests_run_EXTERNAL_OBJECTS =
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make
-Google_Tests/Google_Tests_run: Addition/libAddition.a
-Google_Tests/Google_Tests_run: Number/libNumber.a
-Google_Tests/Google_Tests_run: Division/libDivision.a
 Google_Tests/Google_Tests_run: lib/libgtestd.a
 Google_Tests/Google_Tests_run: lib/libgtest_maind.a
+Google_Tests/Google_Tests_run: Addition/libAddition.a
+Google_Tests/Google_Tests_run: Number/libNumber.a
+Google_Tests/Google_Tests_run: Subtraction/libSubtraction.a
+Google_Tests/Google_Tests_run: Multiplication/libMultiplication.a
+Google_Tests/Google_Tests_run: Division/libDivision.a
 Google_Tests/Google_Tests_run: lib/libgtestd.a
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Google_Tests_run"

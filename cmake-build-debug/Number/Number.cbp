@@ -70,6 +70,15 @@
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h">
 			<Option target="Number"/>
 		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h">
+			<Option target="Number"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp">
+			<Option target="Number"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h">
+			<Option target="Number"/>
+		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -3,9 +3,9 @@
 //
 
 #include <iostream>
-#include <Addition.h>
-#include "Subtraction.h"
-#include "Number.h"
+#include "../Addition/Addition.h"
+#include "../Subtraction/Subtraction.h"
+#include "../Number/Number.h"
 
 
 Subtraction::Subtraction(Number &minuend, Number &subtrahend): minuend(0), subtrahend(0), difference("") {

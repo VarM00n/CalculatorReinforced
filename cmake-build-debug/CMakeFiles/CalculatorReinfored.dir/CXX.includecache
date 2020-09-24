@@ -19,44 +19,46 @@ vector
 ../Number/Number.h
 string
 -
+ZerosHandling.h
+../Number/ZerosHandling.h
+
+../Number/ZerosHandling.h
 
 ../Subtraction/Subtraction.h
-Number.h
--
+../Number/Number.h
+../Number/Number.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
 iostream
 -
-Subtraction.h
--
 Addition.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
-Number.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Number.h
+../Subtraction/Subtraction.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
 ../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp
-Number.h
--
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 iostream
 -
-Subtraction.h
--
-Multiplication.h
--
+../Subtraction/Subtraction.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
 Division.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp
-Number.h
--
-Addition.h
--
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
+../Addition/Addition.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
 iostream
 -
 Multiplication.h
@@ -71,24 +73,30 @@ Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string
 -
+../Multiplication/Multiplication.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string
 -
+ZerosHandling.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/ZerosHandling.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/ZerosHandling.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp
 iostream
 -
-Addition.h
--
-Subtraction.h
+../Addition/Addition.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
+../Subtraction/Subtraction.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
-Number.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Number.h
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
-Number.h
--
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/main.cpp
 iostream

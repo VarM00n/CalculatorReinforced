@@ -3,17 +3,14 @@
 //
 
 #include "gtest/gtest.h"
+#include "../../Number/Number.h"
 #include "../../Addition/Addition.h"
 
-TEST(RemoveTrailingZeros, All_Possibilities){
-    string number = "0000";
-    EXPECT_EQ(AdditionOperation::removeTrailingZeros(number), "0");
-    number = "0100";
-    EXPECT_EQ(AdditionOperation::removeTrailingZeros(number), "100");
-    number = "100";
-    EXPECT_EQ(AdditionOperation::removeTrailingZeros(number), "100");
-}
-
-TEST(AdditionOperation, All_Possibilities){
-
-}
+//TEST(AdditionOperation, TwoPositiveInteger_WithZeros){
+//    Number firstAddend("100");
+//    Number secondAddend("0");
+//    EXPECT_EQ(Addition(firstAddend, secondAddend).additionFinal().getValue(), "100");
+//    EXPECT_EQ(Addition(secondAddend, firstAddend).additionFinal().getValue(), "100");
+//    firstAddend.setValue("0");
+//    EXPECT_EQ(Addition(firstAddend, secondAddend).additionFinal().getValue(), "0");
+//}

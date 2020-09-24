@@ -82,7 +82,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CalculatorReinfored.dir/DependInfo.cmake"
-  "Subtraction/CMakeFiles/Substraction.dir/DependInfo.cmake"
+  "Subtraction/CMakeFiles/Subtraction.dir/DependInfo.cmake"
   "Addition/CMakeFiles/Addition.dir/DependInfo.cmake"
   "Multiplication/CMakeFiles/Multiplication.dir/DependInfo.cmake"
   "Division/CMakeFiles/Division.dir/DependInfo.cmake"

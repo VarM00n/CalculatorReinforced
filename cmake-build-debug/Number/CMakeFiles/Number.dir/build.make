@@ -81,17 +81,43 @@ Number/CMakeFiles/Number.dir/Number.cpp.o.provides: Number/CMakeFiles/Number.dir
 Number/CMakeFiles/Number.dir/Number.cpp.o.provides.build: Number/CMakeFiles/Number.dir/Number.cpp.o
 
 
+Number/CMakeFiles/Number.dir/NumberValidation.cpp.o: Number/CMakeFiles/Number.dir/flags.make
+Number/CMakeFiles/Number.dir/NumberValidation.cpp.o: ../Number/NumberValidation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Number/CMakeFiles/Number.dir/NumberValidation.cpp.o"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Number.dir/NumberValidation.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp
+
+Number/CMakeFiles/Number.dir/NumberValidation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Number.dir/NumberValidation.cpp.i"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp > CMakeFiles/Number.dir/NumberValidation.cpp.i
+
+Number/CMakeFiles/Number.dir/NumberValidation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Number.dir/NumberValidation.cpp.s"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp -o CMakeFiles/Number.dir/NumberValidation.cpp.s
+
+Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.requires:
+
+.PHONY : Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.requires
+
+Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.provides: Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.requires
+	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.provides.build
+.PHONY : Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.provides
+
+Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.provides.build: Number/CMakeFiles/Number.dir/NumberValidation.cpp.o
+
+
 # Object files for target Number
 Number_OBJECTS = \
-"CMakeFiles/Number.dir/Number.cpp.o"
+"CMakeFiles/Number.dir/Number.cpp.o" \
+"CMakeFiles/Number.dir/NumberValidation.cpp.o"
 
 # External object files for target Number
 Number_EXTERNAL_OBJECTS =
 
 Number/libNumber.a: Number/CMakeFiles/Number.dir/Number.cpp.o
+Number/libNumber.a: Number/CMakeFiles/Number.dir/NumberValidation.cpp.o
 Number/libNumber.a: Number/CMakeFiles/Number.dir/build.make
 Number/libNumber.a: Number/CMakeFiles/Number.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libNumber.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libNumber.a"
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number && $(CMAKE_COMMAND) -P CMakeFiles/Number.dir/cmake_clean_target.cmake
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Number && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Number.dir/link.txt --verbose=$(VERBOSE)
 
@@ -101,6 +127,7 @@ Number/CMakeFiles/Number.dir/build: Number/libNumber.a
 .PHONY : Number/CMakeFiles/Number.dir/build
 
 Number/CMakeFiles/Number.dir/requires: Number/CMakeFiles/Number.dir/Number.cpp.o.requires
+Number/CMakeFiles/Number.dir/requires: Number/CMakeFiles/Number.dir/NumberValidation.cpp.o.requires
 
 .PHONY : Number/CMakeFiles/Number.dir/requires
 

@@ -198,6 +198,33 @@ Number.cpp.s:
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/Number.cpp.s
 .PHONY : Number.cpp.s
 
+NumberValidation.o: NumberValidation.cpp.o
+
+.PHONY : NumberValidation.o
+
+# target to build an object file
+NumberValidation.cpp.o:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/NumberValidation.cpp.o
+.PHONY : NumberValidation.cpp.o
+
+NumberValidation.i: NumberValidation.cpp.i
+
+.PHONY : NumberValidation.i
+
+# target to preprocess a source file
+NumberValidation.cpp.i:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/NumberValidation.cpp.i
+.PHONY : NumberValidation.cpp.i
+
+NumberValidation.s: NumberValidation.cpp.s
+
+.PHONY : NumberValidation.s
+
+# target to generate assembly for a file
+NumberValidation.cpp.s:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/NumberValidation.cpp.s
+.PHONY : NumberValidation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,6 +241,9 @@ help:
 	@echo "... Number.o"
 	@echo "... Number.i"
 	@echo "... Number.s"
+	@echo "... NumberValidation.o"
+	@echo "... NumberValidation.i"
+	@echo "... NumberValidation.s"
 .PHONY : help
 
 

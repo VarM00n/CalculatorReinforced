@@ -170,17 +170,17 @@ CalculatorReinfored/fast:
 .PHONY : CalculatorReinfored/fast
 
 #=============================================================================
-# Target rules for targets named Substraction
+# Target rules for targets named Subtraction
 
 # Build rule for target.
-Substraction: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Substraction
-.PHONY : Substraction
+Subtraction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Subtraction
+.PHONY : Subtraction
 
 # fast build rule for target.
-Substraction/fast:
-	$(MAKE) -f Subtraction/CMakeFiles/Substraction.dir/build.make Subtraction/CMakeFiles/Substraction.dir/build
-.PHONY : Substraction/fast
+Subtraction/fast:
+	$(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/build
+.PHONY : Subtraction/fast
 
 #=============================================================================
 # Target rules for targets named Addition
@@ -474,7 +474,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install/local"
-	@echo "... Substraction"
+	@echo "... Subtraction"
 	@echo "... Addition"
 	@echo "... Multiplication"
 	@echo "... Division"

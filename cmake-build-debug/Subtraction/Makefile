@@ -157,19 +157,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Subtraction/CMakeFiles/Substraction.dir/rule:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/CMakeFiles/Substraction.dir/rule
-.PHONY : Subtraction/CMakeFiles/Substraction.dir/rule
+Subtraction/CMakeFiles/Subtraction.dir/rule:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/CMakeFiles/Subtraction.dir/rule
+.PHONY : Subtraction/CMakeFiles/Subtraction.dir/rule
 
 # Convenience name for target.
-Substraction: Subtraction/CMakeFiles/Substraction.dir/rule
+Subtraction: Subtraction/CMakeFiles/Subtraction.dir/rule
 
-.PHONY : Substraction
+.PHONY : Subtraction
 
 # fast build rule for target.
-Substraction/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Substraction.dir/build.make Subtraction/CMakeFiles/Substraction.dir/build
-.PHONY : Substraction/fast
+Subtraction/fast:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/build
+.PHONY : Subtraction/fast
 
 Subtraction.o: Subtraction.cpp.o
 
@@ -177,7 +177,7 @@ Subtraction.o: Subtraction.cpp.o
 
 # target to build an object file
 Subtraction.cpp.o:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Substraction.dir/build.make Subtraction/CMakeFiles/Substraction.dir/Subtraction.cpp.o
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o
 .PHONY : Subtraction.cpp.o
 
 Subtraction.i: Subtraction.cpp.i
@@ -186,7 +186,7 @@ Subtraction.i: Subtraction.cpp.i
 
 # target to preprocess a source file
 Subtraction.cpp.i:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Substraction.dir/build.make Subtraction/CMakeFiles/Substraction.dir/Subtraction.cpp.i
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.i
 .PHONY : Subtraction.cpp.i
 
 Subtraction.s: Subtraction.cpp.s
@@ -195,7 +195,7 @@ Subtraction.s: Subtraction.cpp.s
 
 # target to generate assembly for a file
 Subtraction.cpp.s:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Substraction.dir/build.make Subtraction/CMakeFiles/Substraction.dir/Subtraction.cpp.s
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.s
 .PHONY : Subtraction.cpp.s
 
 # Help Target
@@ -207,7 +207,7 @@ help:
 	@echo "... install/strip"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Substraction"
+	@echo "... Subtraction"
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"

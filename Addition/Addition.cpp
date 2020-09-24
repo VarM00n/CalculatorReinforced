@@ -3,12 +3,11 @@
 //
 
 #include <iostream>
-#include <Subtraction.h>
 #include "Addition.h"
-#include "Number.h"
+#include "../Subtraction/Subtraction.h"
+#include "../Number/Number.h"
 
 using namespace std;
-
 
 Addition::Addition(Number &firstAddend, Number &secondAddend): firstAddend(0), secondAddend(0){
     this->firstAddend = firstAddend;
@@ -60,6 +59,9 @@ Number Addition::additionFloat(){
     Number result(addition.additionInt());
     result.setValue(result.add_coma(static_cast<int>(result.size() - placeOfCommaInResult)));
     result.removeTrailingZeros();
+//    cout <<"Wynik: " << result.getValue();
+//    addition.additionInt();
+//    sum.setValue(sum.add_coma(static_cast<int>(sum.size() - placeOfCommaInResult)));
     return result;
 }
 
@@ -84,7 +86,7 @@ void Addition::addingZerosToSecondAddend() {
 
 
 Number Addition::additionInt() {
-    unsigned long sizeOfBiggerNumber = firstAddend.getBiggerNumber(secondAddend);
+    unsigned long sizeOfBiggerNumber = firstAddend.getBiggerNumberSize(secondAddend);
     long counterForFirstAddend = firstAddend.size() - 1;
     long counterForSecondAddend = secondAddend.size() - 1;
     //TODO go around sum -> 0 at the beg
@@ -101,3 +103,5 @@ Number Addition::additionInt() {
     sum.removeTrailingZeros();
     return sum;
 }
+
+

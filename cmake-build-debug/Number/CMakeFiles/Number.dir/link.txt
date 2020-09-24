@@ -1,2 +1,2 @@
-/usr/bin/ar qc libNumber.a  CMakeFiles/Number.dir/Number.cpp.o
+/usr/bin/ar qc libNumber.a  CMakeFiles/Number.dir/Number.cpp.o CMakeFiles/Number.dir/NumberValidation.cpp.o
 /usr/bin/ranlib libNumber.a

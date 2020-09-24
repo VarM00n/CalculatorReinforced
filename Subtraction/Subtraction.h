@@ -6,7 +6,7 @@
 #define CALCULATORREINFORED_SUBSTRACTIONOPERATION_H
 
 
-#include <Number.h>
+#include "../Number/Number.h"
 
 class Subtraction {
     Number minuend;

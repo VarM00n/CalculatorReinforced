@@ -309,6 +309,9 @@ Substraction_LIB_DEPENDS:STATIC=
 //Value Computed by CMake
 Substraction_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction
 
+//Dependencies for target
+Subtraction_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock
 

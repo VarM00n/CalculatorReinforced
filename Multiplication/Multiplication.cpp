@@ -2,8 +2,8 @@
 // Created by VarMoon on 13.09.2020.
 //
 
-#include <Number.h>
-#include <Addition.h>
+#include "../Number/Number.h"
+#include "../Addition/Addition.h"
 #include <iostream>
 #include "Multiplication.h"
 

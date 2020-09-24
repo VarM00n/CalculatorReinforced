@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Number.dir/Number.cpp.o"
+  "CMakeFiles/Number.dir/NumberValidation.cpp.o"
   "libNumber.pdb"
   "libNumber.a"
 )

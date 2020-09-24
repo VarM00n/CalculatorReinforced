@@ -5,30 +5,19 @@
 #ifndef CALCULATORREINFORED_NUMBER_H
 #define CALCULATORREINFORED_NUMBER_H
 #include <string>
+#include "NumberValidation.h"
+#include "NumberCore.h"
 
 using namespace std;
 
-class Number {
-private:
-    string value;
-
-    bool sign = false;
-
-    bool floating = false;
-
-    int floating_pos = 0;
-
-
+class Number : public NumberValidation {
 
 public:
 
+    void multiplyByTen();
+
     void sanitizeValue();
 
-    bool isNegative() const;
-
-    bool isPositive() const;
-
-    void setSign(bool sign);
 
     string add_coma(int place_of_comma);
 
@@ -40,18 +29,15 @@ public:
 
     explicit Number(string value);
 
-    long size();
 
-    unsigned getBiggerNumber(Number secondAddend);
-    static long TEST_getBiggerNumber(Number firstAddend, Number secondAddend);
+
+    unsigned getBiggerNumberSize(Number secondAddend);
 
     unsigned getDigitFromPosition(long position);
 
-    string getDigitFromPosition(long position, bool differ);
+//    string getDigitFromPosition(long position, bool differ);
 
-    void setValue(const string &value);
 
-    const string &getValue() const;
 
     void setNumberInPosition(long position, char digit);
 
@@ -68,6 +54,11 @@ public:
     bool operator== (const Number& r);
     bool operator!= (const Number& r);
 
+    void caseWhereNumberEmpty();
+    void caseWhereZerosAtTheBeginning();
+//    long size();
+    bool isNegative() const;
+    bool isPositive() const;
 
 };
 

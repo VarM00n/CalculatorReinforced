@@ -14,19 +14,20 @@ class Division {
     int temporaryResult = 0;
     int placeOfComma;
     int app = 2;
-    bool flagTakenZero = false;
     bool flagDoneDivision = false;
+
+
 
     void simpleDivisionMechanism();
     void settingTemporaryDividendFromZeroToEmpty();
     void caseWhereDivisionHasNotBeenProcessed();
     void caseWhereDivisionHasBeenProcessed();
-    bool checkForComma(Number &number);
 
 public:
     Division(Number &dividend, Number &divisor);
     Number divisionInt();
     Number divisionFloat();
+    Number divisionFinal();
 };
 
 

@@ -16,15 +16,15 @@ int main() {
 //    cout << subtraction.subtractionInt().getValue();
 //    cout << subtraction.subtractionFloat().getValue();
 //    cout << subtraction.preSubtract().getValue();
-//    Addition addition(numberA, numberB);
-//    cout << addition.additionFinal().getValue();
+    Addition addition(numberA, numberB);
+    cout << addition.additionFinal().getValue();
 //    cout << addition.additionInt().getValue();
 //    Multiplication multiplication(numberA, numberB);
 //    multiplication.multiplicationInt();
 //    multiplication.multiplicationFloat();
 //    cout << multiplication.multiplicationFinal().getValue();
-    Division division(numberA, numberB);
-    cout << division.divisionFloat().getValue();
+//    Division division(numberA, numberB);
+//    cout << division.divisionFinal().getValue();
 //    cout << division.divisionInt().getValue();
 //    cout << division.divisionFloat().getValue();
 

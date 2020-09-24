@@ -19,11 +19,9 @@ public:
     void sanitizeValue();
 
 
-    string add_coma(int place_of_comma);
+    string addComaAndSign(int place_of_comma);
 
-    int getFloatingPos();
 
-    void setFloatingPos(int fp);
 
     explicit Number(int value);
 
@@ -39,7 +37,7 @@ public:
 
 
 
-    void setNumberInPosition(long position, char digit);
+    void setDigitInPosition(long position, char digit);
 
     void setNumberInPosition(long position, unsigned digit);
 

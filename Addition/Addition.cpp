@@ -57,11 +57,11 @@ Number Addition::additionFloat(){
     //addition
     Addition addition(firstAddend, secondAddend);
     Number result(addition.additionInt());
-    result.setValue(result.add_coma(static_cast<int>(result.size() - placeOfCommaInResult)));
+    result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
     result.removeTrailingZeros();
 //    cout <<"Wynik: " << result.getValue();
 //    addition.additionInt();
-//    sum.setValue(sum.add_coma(static_cast<int>(sum.size() - placeOfCommaInResult)));
+//    sum.setValue(sum.addComaAndSign(static_cast<int>(sum.size() - placeOfCommaInResult)));
     return result;
 }
 

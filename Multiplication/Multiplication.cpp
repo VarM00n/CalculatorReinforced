@@ -46,7 +46,7 @@ Number Multiplication::multiplicationFinal() {
 Number Multiplication::multiplicationFloat() {
     placeOfCommaInResult = multiplicand.getFloatingPos() + multiplier.getFloatingPos();
     product = Multiplication(multiplicand, multiplier).multiplicationInt();
-    product.setValue(product.add_coma(static_cast<int>(product.size() - placeOfCommaInResult)));
+    product.setValue(product.addComaAndSign(static_cast<int>(product.size() - placeOfCommaInResult)));
     product.removeTrailingZeros();
     return product;
 }

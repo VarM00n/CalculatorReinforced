@@ -71,7 +71,7 @@ Number Subtraction::subtractionFloat(){
     }
     Subtraction subtraction(minuend, subtrahend);
     Number result(subtraction.subtractionInt());
-    result.setValue(result.add_coma(static_cast<int>(result.size() - placeOfCommaInResult)));
+    result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
     result.removeTrailingZeros();
     return result;
 }
@@ -121,7 +121,7 @@ void Subtraction::caseWhereMinuendSmallerThanSubtrahend(size_t i) {
 
 void Subtraction::gettingTensFromHigherDigits(){
     while (minuend.getDigitFromPosition(index) == 0) {
-        minuend.setNumberInPosition(index, '9');
+        minuend.setDigitInPosition(index, '9');
         index--;
     }
 }

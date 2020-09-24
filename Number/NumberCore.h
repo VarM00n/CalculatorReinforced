@@ -21,7 +21,7 @@ private:
 
 public:
 
-    std::string getValue(){
+    std::string getValue() const {
         return this->value;
     }
 
@@ -45,11 +45,11 @@ public:
         NumberCore::floating = floating;
     }
 
-    int getFloating_pos() const {
+    int getFloatingPos() const {
         return floating_pos;
     }
 
-    void setFloating_pos(int floating_pos) {
+    void setFloatingPos(int floating_pos) {
         NumberCore::floating_pos = floating_pos;
     }
 
@@ -57,6 +57,13 @@ public:
         return this->value.size();
     }
 
+    bool isNegative() const {
+        return sign;
+    }
+
+    bool isPositive() const {
+        return !sign;
+    }
 
 };
 

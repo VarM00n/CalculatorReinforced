@@ -60,7 +60,7 @@ Number Division::divisionFloat() {
     dividend.sanitizeValue();
     divisor.sanitizeValue();
     quotient.setValue(Division(dividend,divisor).divisionInt().getValue());
-    quotient.setValue(quotient.add_coma((int)(quotient.size() - (app + dividend.getFloatingPos()))));
+    quotient.setValue(quotient.addComaAndSign((int) (quotient.size() - (app + dividend.getFloatingPos()))));
     quotient.removeTrailingZeros();
     return quotient;
 }

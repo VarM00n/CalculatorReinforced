@@ -198,6 +198,33 @@ Addition_Tests/AdditionOperationTests.cpp.s:
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.s
 .PHONY : Addition_Tests/AdditionOperationTests.cpp.s
 
+Number_Tests/NumberCoreTests.o: Number_Tests/NumberCoreTests.cpp.o
+
+.PHONY : Number_Tests/NumberCoreTests.o
+
+# target to build an object file
+Number_Tests/NumberCoreTests.cpp.o:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o
+.PHONY : Number_Tests/NumberCoreTests.cpp.o
+
+Number_Tests/NumberCoreTests.i: Number_Tests/NumberCoreTests.cpp.i
+
+.PHONY : Number_Tests/NumberCoreTests.i
+
+# target to preprocess a source file
+Number_Tests/NumberCoreTests.cpp.i:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.i
+.PHONY : Number_Tests/NumberCoreTests.cpp.i
+
+Number_Tests/NumberCoreTests.s: Number_Tests/NumberCoreTests.cpp.s
+
+.PHONY : Number_Tests/NumberCoreTests.s
+
+# target to generate assembly for a file
+Number_Tests/NumberCoreTests.cpp.s:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.s
+.PHONY : Number_Tests/NumberCoreTests.cpp.s
+
 Number_Tests/NumberOperationTests.o: Number_Tests/NumberOperationTests.cpp.o
 
 .PHONY : Number_Tests/NumberOperationTests.o
@@ -241,6 +268,9 @@ help:
 	@echo "... Addition_Tests/AdditionOperationTests.o"
 	@echo "... Addition_Tests/AdditionOperationTests.i"
 	@echo "... Addition_Tests/AdditionOperationTests.s"
+	@echo "... Number_Tests/NumberCoreTests.o"
+	@echo "... Number_Tests/NumberCoreTests.i"
+	@echo "... Number_Tests/NumberCoreTests.s"
 	@echo "... Number_Tests/NumberOperationTests.o"
 	@echo "... Number_Tests/NumberOperationTests.i"
 	@echo "... Number_Tests/NumberOperationTests.s"

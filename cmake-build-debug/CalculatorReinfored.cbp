@@ -641,6 +641,9 @@
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberCoreTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>

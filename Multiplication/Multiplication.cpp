@@ -86,7 +86,7 @@ void Multiplication::multiplicationMechanism(long position) {
 }
 
 void Multiplication::addNumberToAVectorForLaterAddition(){
-    singleProduct = Number::removeTrailingZeros(singleProduct);
+//    singleProduct = Number::removeTrailingZeros(singleProduct);
     valuesForAddition.push_back(singleProduct);
     singleProduct = "";
 }

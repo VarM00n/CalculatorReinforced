@@ -15,7 +15,7 @@ class NumberValidation : public NumberCore {
 
 public:
     void removeTrailingZeros();
-    void caseWhereZerosAtTheBeginning();
+//    void caseWhereZerosAtTheBeginning();
 
 };
 

@@ -11,7 +11,7 @@ TEST(getBiggerNumber, allPossibilities)
     EXPECT_EQ(2, Number("14").getBiggerNumberSize(Number("3")));
     EXPECT_EQ(2, Number("5").getBiggerNumberSize(Number("20")));
     EXPECT_EQ(1, Number("4").getBiggerNumberSize(Number("4")));
-    EXPECT_EQ(0, Number("").getBiggerNumberSize(Number("")));
+    EXPECT_EQ(1, Number("").getBiggerNumberSize(Number("")));
 }
 
 TEST(getDigitFromPosition, allPossibilities)

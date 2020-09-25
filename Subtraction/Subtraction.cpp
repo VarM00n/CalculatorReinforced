@@ -115,7 +115,7 @@ void Subtraction::caseWhereMinuendSmallerThanSubtrahend(size_t i) {
         digitFromMinuend += 10;
         index = minuend.size() - i - 2;
         gettingTensFromHigherDigits();
-        minuend.setNumberInPosition(index, minuend.getDigitFromPosition(index) - 1);
+        minuend.setDigitInPosition(index, minuend.getDigitFromPosition(index) - 1);
     }
 }
 

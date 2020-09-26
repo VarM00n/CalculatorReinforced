@@ -1,32 +1,29 @@
 #include <iostream>
+//#include "Number/Number.h"
+//#include "Addition/Addition.h"
+//#include "Number/Number.h"
+//#include "Number.h"
+//#include "Addition/Addition.h"
+//#include <Number.h>
+//#include <Addition.h>
+//#include <Subtraction.h>
+//#include <Multiplication.h>
+//#include <Division.h>
 #include <Number.h>
 #include <Addition.h>
-#include <Subtraction.h>
-#include <Multiplication.h>
-#include <Division.h>
 
 using namespace std;
 
 int main() {
-    string a, b;
-    cin >> a >> b;
-    Number numberA(a);
-    Number numberB(b);
-    Subtraction subtraction(numberA, numberB);
-//    cout << subtraction.subtractionInt().getValue();
-//    cout << subtraction.subtractionFloat().getValue();
-//    cout << subtraction.preSubtract().getValue();
-    Addition addition(numberA, numberB);
+    string a;
+    string b;
+    cin >> a;
+    cin >> b;
+
+    Number number1(a);
+    Number number2(b);
+    Addition addition(number1, number2);
     cout << addition.additionFinal().getValue();
-//    cout << addition.additionInt().getValue();
-//    Multiplication multiplication(numberA, numberB);
-//    multiplication.multiplicationInt();
-//    multiplication.multiplicationFloat();
-//    cout << multiplication.multiplicationFinal().getValue();
-//    Division division(numberA, numberB);
-//    cout << division.divisionFinal().getValue();
-//    cout << division.divisionInt().getValue();
-//    cout << division.divisionFloat().getValue();
 
     return 0;
 }

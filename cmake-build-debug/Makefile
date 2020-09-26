@@ -170,6 +170,19 @@ CalculatorReinfored/fast:
 .PHONY : CalculatorReinfored/fast
 
 #=============================================================================
+# Target rules for targets named Number
+
+# Build rule for target.
+Number: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Number
+.PHONY : Number
+
+# fast build rule for target.
+Number/fast:
+	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/build
+.PHONY : Number/fast
+
+#=============================================================================
 # Target rules for targets named Subtraction
 
 # Build rule for target.
@@ -220,19 +233,6 @@ Division: cmake_check_build_system
 Division/fast:
 	$(MAKE) -f Division/CMakeFiles/Division.dir/build.make Division/CMakeFiles/Division.dir/build
 .PHONY : Division/fast
-
-#=============================================================================
-# Target rules for targets named Number
-
-# Build rule for target.
-Number: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Number
-.PHONY : Number
-
-# fast build rule for target.
-Number/fast:
-	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/build
-.PHONY : Number/fast
 
 #=============================================================================
 # Target rules for targets named Google_Tests_run
@@ -407,6 +407,33 @@ Number/Number.cpp.s:
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.s
 .PHONY : Number/Number.cpp.s
 
+Number/NumberValidation.o: Number/NumberValidation.cpp.o
+
+.PHONY : Number/NumberValidation.o
+
+# target to build an object file
+Number/NumberValidation.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o
+.PHONY : Number/NumberValidation.cpp.o
+
+Number/NumberValidation.i: Number/NumberValidation.cpp.i
+
+.PHONY : Number/NumberValidation.i
+
+# target to preprocess a source file
+Number/NumberValidation.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.i
+.PHONY : Number/NumberValidation.cpp.i
+
+Number/NumberValidation.s: Number/NumberValidation.cpp.s
+
+.PHONY : Number/NumberValidation.s
+
+# target to generate assembly for a file
+Number/NumberValidation.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.s
+.PHONY : Number/NumberValidation.cpp.s
+
 Subtraction/Subtraction.o: Subtraction/Subtraction.cpp.o
 
 .PHONY : Subtraction/Subtraction.o
@@ -474,11 +501,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CalculatorReinfored"
+	@echo "... Number"
 	@echo "... Subtraction"
 	@echo "... Addition"
 	@echo "... Multiplication"
 	@echo "... Division"
-	@echo "... Number"
 	@echo "... Google_Tests_run"
 	@echo "... gmock_main"
 	@echo "... gmock"
@@ -496,6 +523,9 @@ help:
 	@echo "... Number/Number.o"
 	@echo "... Number/Number.i"
 	@echo "... Number/Number.s"
+	@echo "... Number/NumberValidation.o"
+	@echo "... Number/NumberValidation.i"
+	@echo "... Number/NumberValidation.s"
 	@echo "... Subtraction/Subtraction.o"
 	@echo "... Subtraction/Subtraction.i"
 	@echo "... Subtraction/Subtraction.s"

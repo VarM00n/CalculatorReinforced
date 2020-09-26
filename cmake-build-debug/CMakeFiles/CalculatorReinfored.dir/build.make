@@ -70,22 +70,9 @@ CMakeFiles/CalculatorReinfored.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/main.cpp -o CMakeFiles/CalculatorReinfored.dir/main.cpp.s
 
-CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
-CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Addition/Addition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
-
-CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp > CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.i
-
-CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp -o CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s
-
 CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
 CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o: ../Number/Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp
 
 CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.i: cmake_force
@@ -96,9 +83,35 @@ CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp -o CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.s
 
+CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
+CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o: ../Number/NumberValidation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp
+
+CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp > CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.i
+
+CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp -o CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.s
+
+CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
+CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o: ../Addition/Addition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
+
+CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp > CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.i
+
+CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp -o CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.s
+
 CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
 CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction/Subtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp
 
 CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.s: cmake_force
 
 CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
 CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: ../Multiplication/Multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp
 
 CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.s: cmake_fo
 
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Division/Division.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp
 
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.i: cmake_force
@@ -138,8 +151,9 @@ CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.s: cmake_force
 # Object files for target CalculatorReinfored
 CalculatorReinfored_OBJECTS = \
 "CMakeFiles/CalculatorReinfored.dir/main.cpp.o" \
-"CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o" \
 "CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o" \
+"CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o" \
+"CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o" \
 "CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" \
 "CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" \
 "CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o"
@@ -148,14 +162,15 @@ CalculatorReinfored_OBJECTS = \
 CalculatorReinfored_EXTERNAL_OBJECTS =
 
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/main.cpp.o
-CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o
+CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o
+CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/build.make
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CalculatorReinfored"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CalculatorReinfored"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CalculatorReinfored.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -37,6 +37,8 @@ iostream
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
 ../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
+../Number/NumberValidation.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
 ../Number/Number.h

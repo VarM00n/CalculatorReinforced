@@ -6,6 +6,7 @@
 #include "../Addition/Addition.h"
 #include "../Subtraction/Subtraction.h"
 #include "../Number/Number.h"
+#include "../Number/NumberValidation.h"
 
 
 Subtraction::Subtraction(Number &minuend, Number &subtrahend): minuend(0), subtrahend(0), difference("") {

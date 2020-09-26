@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Addition/Addition.h
+../Number/Number.h
+../Number/Number.h
+
+../Number/Number.h
+string
+-
+NumberValidation.h
+../Number/NumberValidation.h
+NumberCore.h
+../Number/NumberCore.h
+
+../Number/NumberCore.h
+string
+-
+
+../Number/NumberValidation.h
+string
+../Number/string
+NumberCore.h
+../Number/NumberCore.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/main.cpp
+iostream
+-
+Number.h
+-
+Addition.h
+-
+

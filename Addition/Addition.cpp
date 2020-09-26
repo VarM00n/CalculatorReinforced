@@ -6,6 +6,8 @@
 #include "Addition.h"
 #include "../Subtraction/Subtraction.h"
 #include "../Number/Number.h"
+//#include <Subtraction.h>
+//#include <Number.h>
 
 using namespace std;
 
@@ -103,5 +105,3 @@ Number Addition::additionInt() {
     sum.prepareNumberForOutput();
     return sum;
 }
-
-

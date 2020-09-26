@@ -54,32 +54,32 @@ CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmak
 
 # The main recursive "all" target.
 all: CMakeFiles/CalculatorReinfored.dir/all
+all: Number/all
 all: Subtraction/all
 all: Addition/all
 all: Multiplication/all
 all: Division/all
-all: Number/all
 all: Google_Tests/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: Number/preinstall
 preinstall: Subtraction/preinstall
 preinstall: Addition/preinstall
 preinstall: Multiplication/preinstall
 preinstall: Division/preinstall
-preinstall: Number/preinstall
 preinstall: Google_Tests/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/CalculatorReinfored.dir/clean
+clean: Number/clean
 clean: Subtraction/clean
 clean: Addition/clean
 clean: Multiplication/clean
 clean: Division/clean
-clean: Number/clean
 clean: Google_Tests/clean
 
 .PHONY : clean
@@ -261,12 +261,12 @@ Subtraction/clean: Subtraction/CMakeFiles/Subtraction.dir/clean
 CMakeFiles/CalculatorReinfored.dir/all:
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/depend
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target CalculatorReinfored"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target CalculatorReinfored"
 .PHONY : CMakeFiles/CalculatorReinfored.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CalculatorReinfored.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CalculatorReinfored.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CalculatorReinfored.dir/rule
@@ -282,13 +282,40 @@ CMakeFiles/CalculatorReinfored.dir/clean:
 .PHONY : CMakeFiles/CalculatorReinfored.dir/clean
 
 #=============================================================================
+# Target rules for target Number/CMakeFiles/Number.dir
+
+# All Build rule for target.
+Number/CMakeFiles/Number.dir/all:
+	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/depend
+	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=20,21,22 "Built target Number"
+.PHONY : Number/CMakeFiles/Number.dir/all
+
+# Build rule for subdir invocation for target.
+Number/CMakeFiles/Number.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 Number/CMakeFiles/Number.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
+.PHONY : Number/CMakeFiles/Number.dir/rule
+
+# Convenience name for target.
+Number: Number/CMakeFiles/Number.dir/rule
+
+.PHONY : Number
+
+# clean rule for target.
+Number/CMakeFiles/Number.dir/clean:
+	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/clean
+.PHONY : Number/CMakeFiles/Number.dir/clean
+
+#=============================================================================
 # Target rules for target Subtraction/CMakeFiles/Subtraction.dir
 
 # All Build rule for target.
 Subtraction/CMakeFiles/Subtraction.dir/all:
 	$(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/depend
 	$(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target Subtraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target Subtraction"
 .PHONY : Subtraction/CMakeFiles/Subtraction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -342,7 +369,7 @@ Addition/CMakeFiles/Addition.dir/clean:
 Multiplication/CMakeFiles/Multiplication.dir/all:
 	$(MAKE) -f Multiplication/CMakeFiles/Multiplication.dir/build.make Multiplication/CMakeFiles/Multiplication.dir/depend
 	$(MAKE) -f Multiplication/CMakeFiles/Multiplication.dir/build.make Multiplication/CMakeFiles/Multiplication.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target Multiplication"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target Multiplication"
 .PHONY : Multiplication/CMakeFiles/Multiplication.dir/all
 
 # Build rule for subdir invocation for target.
@@ -369,7 +396,7 @@ Multiplication/CMakeFiles/Multiplication.dir/clean:
 Division/CMakeFiles/Division.dir/all:
 	$(MAKE) -f Division/CMakeFiles/Division.dir/build.make Division/CMakeFiles/Division.dir/depend
 	$(MAKE) -f Division/CMakeFiles/Division.dir/build.make Division/CMakeFiles/Division.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target Division"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target Division"
 .PHONY : Division/CMakeFiles/Division.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,46 +417,19 @@ Division/CMakeFiles/Division.dir/clean:
 .PHONY : Division/CMakeFiles/Division.dir/clean
 
 #=============================================================================
-# Target rules for target Number/CMakeFiles/Number.dir
-
-# All Build rule for target.
-Number/CMakeFiles/Number.dir/all:
-	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/depend
-	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target Number"
-.PHONY : Number/CMakeFiles/Number.dir/all
-
-# Build rule for subdir invocation for target.
-Number/CMakeFiles/Number.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 Number/CMakeFiles/Number.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
-.PHONY : Number/CMakeFiles/Number.dir/rule
-
-# Convenience name for target.
-Number: Number/CMakeFiles/Number.dir/rule
-
-.PHONY : Number
-
-# clean rule for target.
-Number/CMakeFiles/Number.dir/clean:
-	$(MAKE) -f Number/CMakeFiles/Number.dir/build.make Number/CMakeFiles/Number.dir/clean
-.PHONY : Number/CMakeFiles/Number.dir/clean
-
-#=============================================================================
 # Target rules for target Google_Tests/CMakeFiles/Google_Tests_run.dir
 
 # All Build rule for target.
+Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Number/CMakeFiles/Number.dir/all
 Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Subtraction/CMakeFiles/Subtraction.dir/all
 Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Addition/CMakeFiles/Addition.dir/all
 Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Multiplication/CMakeFiles/Multiplication.dir/all
 Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Division/CMakeFiles/Division.dir/all
-Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Number/CMakeFiles/Number.dir/all
 Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/all
 Google_Tests/CMakeFiles/Google_Tests_run.dir/all: Google_Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/depend
 	$(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15,16 "Built target Google_Tests_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17 "Built target Google_Tests_run"
 .PHONY : Google_Tests/CMakeFiles/Google_Tests_run.dir/all
 
 # Build rule for subdir invocation for target.
@@ -457,7 +457,7 @@ Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_Tests/lib/goog
 Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target gmock_main"
 .PHONY : Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -484,7 +484,7 @@ Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/clean:
 Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/all: Google_Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target gmock"
 .PHONY : Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -511,7 +511,7 @@ Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/clean:
 Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/all: Google_Tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target gtest_main"
 .PHONY : Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -538,7 +538,7 @@ Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/clean:
 Google_Tests/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f Google_Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_Tests/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f Google_Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_Tests/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target gtest"
 .PHONY : Google_Tests/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

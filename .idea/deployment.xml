@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
+      <paths name="WSL (4922b8d8-5a9a-43e6-b00c-8d5729f7bbf8)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="WSL (602037ed-05f1-4cb3-8b67-549c0425e92e)">
         <serverdata>
           <mappings>

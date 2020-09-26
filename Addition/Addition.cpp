@@ -37,7 +37,7 @@ Number Addition::additionFinal() {
 
         Number result = addition.additionFloat();
         result.setSign(true);
-        result.removeTrailingZeros();
+        result.prepareNumberForOutput();
         return result;
     }
 
@@ -58,7 +58,7 @@ Number Addition::additionFloat(){
     Addition addition(firstAddend, secondAddend);
     Number result(addition.additionInt());
     result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
-    result.removeTrailingZeros();
+    result.prepareNumberForOutput();
 //    cout <<"Wynik: " << result.getValue();
 //    addition.additionInt();
 //    sum.setValue(sum.addComaAndSign(static_cast<int>(sum.size() - placeOfCommaInResult)));
@@ -100,7 +100,7 @@ Number Addition::additionInt() {
         carry = numberToPutIntoSum / 10;
         sum.setValue(to_string((numberToPutIntoSum % 10)) + sum.getValue());
     }
-    sum.removeTrailingZeros();
+    sum.prepareNumberForOutput();
     return sum;
 }
 

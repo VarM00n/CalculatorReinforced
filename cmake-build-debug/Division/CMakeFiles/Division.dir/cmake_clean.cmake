@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Division.dir/Division.cpp.o"
-  "libDivision.pdb"
   "libDivision.a"
+  "libDivision.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

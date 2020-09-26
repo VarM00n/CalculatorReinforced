@@ -97,7 +97,7 @@ string Number::addComaAndSign(int place_of_comma){
     }
     return value;
 }
-
+//TODO removeTrailingZeros - to add
 void Number::multiplyByTen() {
     if(this->getFloatingPos() != 0) {
         this->setFloatingPos(this->getFloatingPos() - 1);

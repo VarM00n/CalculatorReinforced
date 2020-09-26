@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Multiplication.dir/Multiplication.cpp.o"
-  "libMultiplication.pdb"
   "libMultiplication.a"
+  "libMultiplication.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

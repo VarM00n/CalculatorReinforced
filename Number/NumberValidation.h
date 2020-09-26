@@ -15,9 +15,11 @@ class NumberValidation : public NumberCore {
 
 public:
     void removeTrailingZeros();
-//    void caseWhereZerosAtTheBeginning();
+    void caseWhereZerosAtTheBeginning();
+    void caseWhereNumberEmpty();
 
-};
+    void prepareNumberForOutput();
+    };
 
 
 #endif //CALCULATORREINFORED_ZEROSHANDLING_H

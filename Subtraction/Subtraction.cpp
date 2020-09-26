@@ -31,7 +31,7 @@ Number Subtraction::preSubtract() {
         Addition addition(minuend, subtrahend);
         Number result = addition.additionFinal();
         result.setSign(true);
-        result.removeTrailingZeros();
+        result.prepareNumberForOutput();
         return result;
     }
 
@@ -45,6 +45,7 @@ Number Subtraction::preSubtract() {
         else {
             Number result = Subtraction(minuend, subtrahend).subtractionFloat();
             result.setSign(true);
+            result.prepareNumberForOutput();
             return result;
         }
     }
@@ -55,7 +56,7 @@ Number Subtraction::preSubtract() {
     else {
         Number result = Subtraction(subtrahend, minuend).subtractionFloat();
         result.setSign(true);
-        result.removeTrailingZeros();
+        result.prepareNumberForOutput();
         return result;
     }
 }
@@ -72,7 +73,7 @@ Number Subtraction::subtractionFloat(){
     Subtraction subtraction(minuend, subtrahend);
     Number result(subtraction.subtractionInt());
     result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
-    result.removeTrailingZeros();
+    result.prepareNumberForOutput();
     return result;
 }
 
@@ -105,7 +106,7 @@ Number Subtraction::subtractionInt() {
         caseWhereMinuendSmallerThanSubtrahend(i);
         difference.setValue(to_string((char) (digitFromMinuend - digitFromSubtrahend)) + difference.getValue());
     }
-    difference.removeTrailingZeros();
+    difference.prepareNumberForOutput();
 
     return difference;
 }

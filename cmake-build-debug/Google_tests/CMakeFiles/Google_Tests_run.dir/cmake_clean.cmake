@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o"
-  "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o"
   "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o"
-  "Google_Tests_run.pdb"
+  "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.o"
   "Google_Tests_run"
+  "Google_Tests_run.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

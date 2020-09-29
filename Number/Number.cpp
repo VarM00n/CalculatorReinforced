@@ -71,8 +71,8 @@ unsigned Number::getDigitFromPosition(long position) {
 void Number::setDigitInPosition(long position, char digit) {
     if (position < 0 || position > this->size() - 1)
         return;
-    if (digit < (0 + '0') || digit > (9 + '0'))
-        return;
+//    if (digit < (0 + '0') || digit > (9 + '0'))
+//        return;
     this->setValue(this->getValue().substr(0, (unsigned long) position) + digit
         + this->getValue().substr((unsigned long) position + 1,(unsigned long) this->size()));
 }

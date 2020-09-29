@@ -6,8 +6,6 @@
 #include "Addition.h"
 #include "../Subtraction/Subtraction.h"
 #include "../Number/Number.h"
-//#include <Subtraction.h>
-//#include <Number.h>
 
 using namespace std;
 
@@ -28,7 +26,6 @@ Number Addition::additionFinal() {
     // (-a) + b = b - a
     if (firstAddend.isNegative() && secondAddend.isPositive()) {
         firstAddend.setSign(false);
-
         return Subtraction(secondAddend, firstAddend).preSubtract();
     }
 
@@ -61,9 +58,6 @@ Number Addition::additionFloat(){
     Number result(addition.additionInt());
     result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
     result.prepareNumberForOutput();
-//    cout <<"Wynik: " << result.getValue();
-//    addition.additionInt();
-//    sum.setValue(sum.addComaAndSign(static_cast<int>(sum.size() - placeOfCommaInResult)));
     return result;
 }
 
@@ -86,12 +80,10 @@ void Addition::addingZerosToSecondAddend() {
     }
 }
 
-
 Number Addition::additionInt() {
     unsigned long sizeOfBiggerNumber = firstAddend.getBiggerNumberSize(secondAddend);
     long counterForFirstAddend = firstAddend.size() - 1;
     long counterForSecondAddend = secondAddend.size() - 1;
-    //TODO go around sum -> 0 at the beg
     sum.setValue("");
     unsigned carry = 0;
     for (size_t i = 0; i < sizeOfBiggerNumber + 1; counterForFirstAddend--,

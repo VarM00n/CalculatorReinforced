@@ -8,7 +8,6 @@
 #include "string"
 #include "NumberCore.h"
 
-
 using namespace std;
 
 class NumberValidation : public NumberCore {

@@ -4,7 +4,7 @@ add_subdirectory(lib)
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
-add_executable(Google_Tests_run Addition_Tests/AdditionOperationTests.cpp Number_Tests/NumberOperationTests.cpp Number_Tests/NumberCoreTests.cpp Number_Tests/NumberValidationTests.cpp)
+add_executable(Google_Tests_run Addition_Tests/AdditionOperationTests.cpp Number_Tests/NumberOperationTests.cpp Number_Tests/NumberCoreTests.cpp Number_Tests/NumberValidationTests.cpp Addition_Tests/AdditionNumbers.h)
 
 
 target_link_libraries(Google_Tests_run gtest gtest_main)

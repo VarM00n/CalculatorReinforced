@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o"
   "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o"
   "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.o"
   "Google_Tests_run"
   "Google_Tests_run.pdb"
 )

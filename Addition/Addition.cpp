@@ -20,13 +20,13 @@ Number Addition::additionFinal() {
     // a + (-b) = a - b
     if (firstAddend.isPositive() && secondAddend.isNegative()) {
         secondAddend.setSign(false);
-        return Subtraction(firstAddend, secondAddend).preSubtract();
+        return Subtraction(firstAddend, secondAddend).subtractionFinal();
     }
 
     // (-a) + b = b - a
     if (firstAddend.isNegative() && secondAddend.isPositive()) {
         firstAddend.setSign(false);
-        return Subtraction(secondAddend, firstAddend).preSubtract();
+        return Subtraction(secondAddend, firstAddend).subtractionFinal();
     }
 
     // (-a) + (-b) = -(a+b)

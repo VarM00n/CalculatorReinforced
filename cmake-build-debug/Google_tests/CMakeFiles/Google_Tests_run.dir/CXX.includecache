@@ -330,21 +330,23 @@ acxx_demangle.h
 ../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionNumbers.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionNumbers.h
 iostream
 -
 string
--
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/string
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionOperationTests.cpp
 gtest/gtest.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/gtest/gtest.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/gtest/gtest.h
 ../../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 ../../Addition/Addition.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
-AdditionNumbers.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionNumbers.h
+../../Subtraction/Subtraction.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
+SubtractionNumbers.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionNumbers.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string
@@ -363,4 +365,8 @@ string
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/string
 NumberCore.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 

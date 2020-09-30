@@ -279,6 +279,33 @@ Number_Tests/NumberValidationTests.cpp.s:
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.s
 .PHONY : Number_Tests/NumberValidationTests.cpp.s
 
+Subtraction_Tests/SubtractionOperationTests.o: Subtraction_Tests/SubtractionOperationTests.cpp.o
+
+.PHONY : Subtraction_Tests/SubtractionOperationTests.o
+
+# target to build an object file
+Subtraction_Tests/SubtractionOperationTests.cpp.o:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.o
+.PHONY : Subtraction_Tests/SubtractionOperationTests.cpp.o
+
+Subtraction_Tests/SubtractionOperationTests.i: Subtraction_Tests/SubtractionOperationTests.cpp.i
+
+.PHONY : Subtraction_Tests/SubtractionOperationTests.i
+
+# target to preprocess a source file
+Subtraction_Tests/SubtractionOperationTests.cpp.i:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.i
+.PHONY : Subtraction_Tests/SubtractionOperationTests.cpp.i
+
+Subtraction_Tests/SubtractionOperationTests.s: Subtraction_Tests/SubtractionOperationTests.cpp.s
+
+.PHONY : Subtraction_Tests/SubtractionOperationTests.s
+
+# target to generate assembly for a file
+Subtraction_Tests/SubtractionOperationTests.cpp.s:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.s
+.PHONY : Subtraction_Tests/SubtractionOperationTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -304,6 +331,9 @@ help:
 	@echo "... Number_Tests/NumberValidationTests.o"
 	@echo "... Number_Tests/NumberValidationTests.i"
 	@echo "... Number_Tests/NumberValidationTests.s"
+	@echo "... Subtraction_Tests/SubtractionOperationTests.o"
+	@echo "... Subtraction_Tests/SubtractionOperationTests.i"
+	@echo "... Subtraction_Tests/SubtractionOperationTests.s"
 .PHONY : help
 
 

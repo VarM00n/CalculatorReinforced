@@ -20,12 +20,7 @@ int main(int argc, char **argv) {
 
     Number number1("-12348651623");
     Number number2("23456.23");
-//    Number number1("200");
-//    Number number2("10");
-    Addition addition(number1, number2);
-//    Subtraction subtraction(number1, number2);
-//    cout << subtraction.preSubtract().getValue() << endl;
-    cout << addition.additionFinal().getValue();
-
+    Subtraction subtraction(number1, number2);
+    cout << subtraction.preSubtract().getValue() << endl;
     return 0;
 }

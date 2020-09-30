@@ -15,7 +15,7 @@ Subtraction::Subtraction(Number &minuend, Number &subtrahend): minuend(0), subtr
     this->placeOfCommaInResult = this->subtrahend.getFloatingPos();
 }
 
-Number Subtraction::preSubtract() {
+Number Subtraction::subtractionFinal() {
     if(minuend == subtrahend && minuend.getFloatingPos() == subtrahend.getFloatingPos())
         return Number("0");
 
@@ -23,7 +23,7 @@ Number Subtraction::preSubtract() {
     if (minuend.isPositive() && subtrahend.isNegative()) {
         subtrahend.setSign(false);
         Addition addition(minuend, subtrahend);
-        return addition.additionFinal();
+        return addition.additionFloat();
     }
 
     // (-a) - b = -(a+b)
@@ -41,8 +41,15 @@ Number Subtraction::preSubtract() {
         minuend.setSign(false);
         subtrahend.setSign(false);
 
-        if(subtrahend > minuend)
-            return Subtraction(subtrahend, minuend).subtractionFloat();
+        if(subtrahend > minuend) {
+            placeOfCommaInResultTakenFromMinuend();
+            Subtraction subtraction(subtrahend, minuend);
+            Number result(subtraction.subtractionInt());
+            result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
+            result.setSign(true);
+            result.prepareNumberForOutput();
+            return result;
+        }
         else {
             Number result = Subtraction(minuend, subtrahend).subtractionFloat();
             result.setSign(true);
@@ -125,10 +132,7 @@ void Subtraction::caseWhereMinuendSmallerThanSubtrahend(size_t i) {
         digitFromMinuend += 10;
         index = minuend.size() - i - 2;
         gettingTensFromHigherDigits();
-
-
         minuend.setDigitInPosition(index, (char)((int)minuend.getDigitFromPosition(index) - 1) + '0');
-
     }
 }
 

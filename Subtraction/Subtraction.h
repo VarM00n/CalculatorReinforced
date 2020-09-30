@@ -28,7 +28,7 @@ public:
     Subtraction (Number &minuend, Number &subtrahend);
     Number subtractionInt();
     Number subtractionFloat();
-    Number preSubtract();
+    Number subtractionFinal();
 };
 
 #endif //CALCULATORREINFORED_SUBSTRACTIONOPERATION_H

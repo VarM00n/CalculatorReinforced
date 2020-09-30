@@ -139,8 +139,6 @@ public:
             //bigger
             {"-5612351.63", "-126547.176", "-5738898.806"}
     };
-
-
 };
 
 #endif //CALCULATORREINFORED_ADDITIONNUMBERS_H

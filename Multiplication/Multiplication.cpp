@@ -52,7 +52,7 @@ Number Multiplication::multiplicationFloat() {
 }
 
 Number Multiplication::multiplicationInt() {
-    swapValuesIfMultiplierBigger();
+//    swapValuesIfMultiplierBigger();
     //TODO add a comment of some kind or rewrite inside of for loop for better understanding
     for (long position = multiplicand.size() - 1; position >= 0; position--) {
         addZerosAtTheEndToIncreaseAProduct(position);
@@ -64,8 +64,11 @@ Number Multiplication::multiplicationInt() {
 }
 
 void Multiplication::swapValuesIfMultiplierBigger(){
-    if (multiplicand.size() < multiplier.size())
-        swap(multiplicand, multiplier);
+    if (multiplicand.size() < multiplier.size()) {
+        Number temporary = multiplier;
+        multiplier = multiplicand;
+        multiplicand = multiplier;
+    }
 }
 
 void Multiplication::addZerosAtTheEndToIncreaseAProduct(long position){

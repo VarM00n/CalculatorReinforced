@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../Number/Number.h
-string
--
-NumberValidation.h
-../Number/NumberValidation.h
-NumberCore.h
-../Number/NumberCore.h
-
-../Subtraction/Subtraction.h
-../Number/Number.h
-../Number/Number.h
-
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp
 iostream
 -
@@ -44,6 +32,28 @@ Division.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
 
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
+../Addition/Addition.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
+iostream
+-
+Multiplication.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
+vector
+-
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp
+Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
+string
+-
+../Multiplication/Multiplication.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
+
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string
 -
@@ -55,6 +65,10 @@ NumberCore.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
 string
 -
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp
+NumberValidation.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
 string
@@ -82,8 +96,6 @@ iostream
 iostream
 -
 string.h
--
-Subtraction.h
 -
 Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h

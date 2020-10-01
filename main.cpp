@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string.h>
-#include <Subtraction.h>
+//#include <Subtraction.h>
 #include "Number/Number.h"
 #include "Addition/Addition.h"
+//#include "Multiplication/Multiplication.h"
 //#include "Number/Number.h"
 //#include "Number.h"
 //#include "Addition/Addition.h"
@@ -16,14 +17,16 @@
 
 using namespace std;
 //int argc, char **argv
-//-523457619026345.54", "-4891238746.52345", "-523452727787599.01655
+//63456456", "5234572734574
 int main(int argc, char **argv) {
 
-    Number number1("-523457619026345.54");
-    Number number2("-4891238746.52345");
-    Subtraction subtraction(number1, number2);
+    Number number1(argv[1]);
+    Number number2(argv[2]);
+//    Subtraction subtraction(number1, number2);
     Addition addition(number1, number2);
-//    cout << addition.additionFinal().getValue();
-    cout << subtraction.subtractionFinal().getValue();
+//    Multiplication multiplication(number1, number2);
+//    cout << multiplication.multiplicationFinal().getValue();
+    cout << addition.additionFinal().getValue();
+//    cout << subtraction.subtractionFinal().getValue();
     return 0;
 }

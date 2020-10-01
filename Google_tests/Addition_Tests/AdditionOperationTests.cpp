@@ -5,9 +5,11 @@
 #include "gtest/gtest.h"
 #include "../../Number/Number.h"
 #include "../../Addition/Addition.h"
+//#include "AdditionNumbers.h"
 #include "AdditionNumbers.h"
 
 AdditionNumbers aN;
+
 
 TEST(Addition, PosNegBigger)
 {

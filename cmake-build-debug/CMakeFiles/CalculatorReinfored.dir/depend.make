@@ -39,8 +39,6 @@ CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Number/Numb
 CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction/Subtraction.cpp
 CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction/Subtraction.h
 
-CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/Number.h
-CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Subtraction/Subtraction.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Addition/Addition.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/Number.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/NumberCore.h

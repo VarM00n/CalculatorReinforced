@@ -198,6 +198,33 @@ Addition_Tests/AdditionOperationTests.cpp.s:
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.s
 .PHONY : Addition_Tests/AdditionOperationTests.cpp.s
 
+Multiplication_Tests/MultiplicationOperationTests.o: Multiplication_Tests/MultiplicationOperationTests.cpp.o
+
+.PHONY : Multiplication_Tests/MultiplicationOperationTests.o
+
+# target to build an object file
+Multiplication_Tests/MultiplicationOperationTests.cpp.o:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.o
+.PHONY : Multiplication_Tests/MultiplicationOperationTests.cpp.o
+
+Multiplication_Tests/MultiplicationOperationTests.i: Multiplication_Tests/MultiplicationOperationTests.cpp.i
+
+.PHONY : Multiplication_Tests/MultiplicationOperationTests.i
+
+# target to preprocess a source file
+Multiplication_Tests/MultiplicationOperationTests.cpp.i:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.i
+.PHONY : Multiplication_Tests/MultiplicationOperationTests.cpp.i
+
+Multiplication_Tests/MultiplicationOperationTests.s: Multiplication_Tests/MultiplicationOperationTests.cpp.s
+
+.PHONY : Multiplication_Tests/MultiplicationOperationTests.s
+
+# target to generate assembly for a file
+Multiplication_Tests/MultiplicationOperationTests.cpp.s:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.s
+.PHONY : Multiplication_Tests/MultiplicationOperationTests.cpp.s
+
 Number_Tests/NumberCoreTests.o: Number_Tests/NumberCoreTests.cpp.o
 
 .PHONY : Number_Tests/NumberCoreTests.o
@@ -322,6 +349,9 @@ help:
 	@echo "... Addition_Tests/AdditionOperationTests.o"
 	@echo "... Addition_Tests/AdditionOperationTests.i"
 	@echo "... Addition_Tests/AdditionOperationTests.s"
+	@echo "... Multiplication_Tests/MultiplicationOperationTests.o"
+	@echo "... Multiplication_Tests/MultiplicationOperationTests.i"
+	@echo "... Multiplication_Tests/MultiplicationOperationTests.s"
 	@echo "... Number_Tests/NumberCoreTests.o"
 	@echo "... Number_Tests/NumberCoreTests.i"
 	@echo "... Number_Tests/NumberCoreTests.s"

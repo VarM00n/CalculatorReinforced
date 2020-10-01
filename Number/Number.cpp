@@ -137,4 +137,6 @@ bool Number::operator!=(const Number &r) {
     return !operator==(r);
 }
 
-Number::Number() = default;
+Number::Number() {
+
+}

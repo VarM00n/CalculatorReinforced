@@ -23,21 +23,32 @@
   <component name="ChangeListManager">
     <list default="true" id="385396e4-e76c-45c3-90c4-d90d6347d9f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionNumbers.h" beforeDir="false" afterPath="$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionNumbers.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionOperationTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionOperationTests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Number/Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Number/Number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Number/Number.h" beforeDir="false" afterPath="$PROJECT_DIR$/Number/Number.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Subtraction/Subtraction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Subtraction/Subtraction.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Addition/CMakeFiles/Addition.dir/Addition.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Addition/CMakeFiles/Addition.dir/Addition.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Addition/libAddition.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Addition/libAddition.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Division/CMakeFiles/Division.dir/Division.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Division/CMakeFiles/Division.dir/Division.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Division/libDivision.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Division/libDivision.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests_run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Multiplication/libMultiplication.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Multiplication/libMultiplication.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/Number.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/Number.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/libNumber.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Number/libNumber.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Subtraction/libSubtraction.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Subtraction/libSubtraction.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -55,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionOperationTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="414">
               <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
               <folding>
                 <element signature="e#44#68#0" expanded="true" />
@@ -67,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="468">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -79,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionNumbers.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="373">
+              <caret line="107" column="72" selection-start-line="107" selection-start-column="72" selection-end-line="107" selection-end-column="72" />
               <folding>
                 <element signature="e#143#162#0" expanded="true" />
               </folding>
@@ -91,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+            <state relative-caret-position="288">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
               <folding>
                 <element signature="e#44#63#0" expanded="true" />
               </folding>
@@ -101,10 +112,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
+        <entry file="file://$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionNumbers.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#137#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionOperationTests.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#44#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addition/Addition.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-748">
+              <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+              <folding>
+                <element signature="e#44#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+              <folding>
+                <marker date="1601582076544" expanded="true" signature="1923:2002" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -171,7 +239,6 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/PythonScritps/Sum.py" />
         <option value="$PROJECT_DIR$/Number/Number.h" />
-        <option value="$PROJECT_DIR$/Number/Number.cpp" />
         <option value="$PROJECT_DIR$/TestsShortcut.txt" />
         <option value="$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionOperationTests.cpp" />
         <option value="$PROJECT_DIR$/Addition/Addition.h" />
@@ -179,8 +246,9 @@
         <option value="$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionNumbers.h" />
         <option value="$PROJECT_DIR$/Addition/Addition.cpp" />
         <option value="$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionNumbers.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionOperationTests.cpp" />
+        <option value="$PROJECT_DIR$/Number/Number.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Subtraction/Subtraction.h" />
         <option value="$PROJECT_DIR$/Subtraction/Subtraction.cpp" />
       </list>
@@ -205,6 +273,11 @@
             <path>
               <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
+              <item name="Addition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
@@ -281,7 +354,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Google_Tests_run">
-    <configuration name="Subtraction.NegPosSmaller" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Subtraction" TEST_METHOD="NegPosSmaller" TEST_MODE="SUITE_TEST">
+    <configuration name="Addition.PosNegBigger" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Addition" TEST_METHOD="PosNegBigger" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -371,19 +444,19 @@
       <item itemvalue="Application.Multiplication" />
       <item itemvalue="Application.Number" />
       <item itemvalue="Application.Subtraction" />
-      <item itemvalue="Google Test.Subtraction.NegPosSmaller" />
       <item itemvalue="Google Test.Subtraction.PosPosSmaller" />
       <item itemvalue="Google Test.Subtraction.PosPosBigger" />
       <item itemvalue="Application.Google_Tests_run" />
       <item itemvalue="Google Test.Subtraction.PosNegSmaller" />
+      <item itemvalue="Google Test.Addition.PosNegBigger" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Google_Tests_run" />
+        <item itemvalue="Google Test.Addition.PosNegBigger" />
         <item itemvalue="Google Test.Subtraction.PosNegSmaller" />
         <item itemvalue="Google Test.Subtraction.PosPosBigger" />
         <item itemvalue="Google Test.Subtraction.PosPosSmaller" />
-        <item itemvalue="Google Test.Subtraction.NegPosSmaller" />
       </list>
     </recent_temporary>
   </component>
@@ -432,14 +505,11 @@
       <workItem from="1601411888490" duration="7803000" />
       <workItem from="1601457598067" duration="4292000" />
       <workItem from="1601553309533" duration="4575000" />
-      <workItem from="1601579035680" duration="2691000" />
+      <workItem from="1601579035680" duration="4392000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Subtraction_NegNegSmaller - 2020.10.01 at 14h 53m 36s.xml">
-      <configuration name="Subtraction.NegNegSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="Subtraction_NegPosSmaller - 2020.10.01 at 14h 53m 40s.xml">
       <configuration name="Subtraction.NegPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -467,9 +537,12 @@
     <history-entry file="Subtraction_PosNegSmaller - 2020.10.01 at 21h 30m 54s.xml">
       <configuration name="Subtraction.PosNegSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="Addition_PosNegBigger - 2020.10.01 at 21h 57m 50s.xml">
+      <configuration name="Addition.PosNegBigger" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162367000" />
+    <option name="totallyTimeSpent" value="164068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,8 +562,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28936172" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27340424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35531914" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3425532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
@@ -546,11 +619,6 @@
           <url>file://$PROJECT_DIR$/Subtraction/Subtraction.cpp</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Subtraction/Subtraction.cpp</url>
-          <line>86</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -754,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addition/Addition.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Subtraction_Tests/AdditionOperationTests.h" />
     <entry file="file://$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionNumbers.cpp" />
     <entry file="file://$PROJECT_DIR$/Google_tests/CMakeLists.txt">
@@ -770,10 +831,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+          <folding>
+            <marker date="1601582076544" expanded="true" signature="1923:2002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addition/Addition.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionNumbers.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        <state relative-caret-position="193">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="e#137#156#0" expanded="true" />
           </folding>
@@ -782,7 +870,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionOperationTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
+        <state relative-caret-position="180">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#44#68#0" expanded="true" />
@@ -790,56 +878,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <marker date="1601236516139" expanded="true" signature="1923:2002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionNumbers.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="373">
+          <caret line="107" column="72" selection-start-line="107" selection-start-column="72" selection-end-line="107" selection-end-column="72" />
           <folding>
             <element signature="e#143#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionOperationTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="414">
           <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
           <folding>
             <element signature="e#44#68#0" expanded="true" />
@@ -847,10 +898,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        <state relative-caret-position="288">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
           <folding>
             <element signature="e#44#63#0" expanded="true" />
           </folding>

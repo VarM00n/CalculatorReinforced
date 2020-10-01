@@ -37,50 +37,19 @@ Number Subtraction::subtractionFinal() {
         subtrahend.setSign(false);
         if(subtrahend > minuend) {
             return Subtraction(subtrahend, minuend).subtractionFinal();
-
         }
         else {
-            Number result = Subtraction(minuend, subtrahend).subtractionFinal();
-            result.setSign(true);
-            result.prepareNumberForOutput();
-            return result;
+            return subtractionForReturn(true, false, false);
         }
     }
 
     // a - b
     changePlaceOfComma();
     if(minuend > subtrahend) {
-        Number result = Subtraction(minuend, subtrahend).subtractionFloat();
-        result.prepareNumberForOutput();
-        return result;
+        return subtractionForReturn(false, false, true);
     }
     else {
-//        placeOfCommaInResultTakenFromMinuend();
-//        Subtraction subtraction(subtrahend, minuend);
-//        Number result(subtraction.subtractionInt());
-//        result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
-//        result.setSign(true);
-//        result.prepareNumberForOutput();
-//        return result;
-        placeOfCommaInResultTakenFromMinuend();
-        Subtraction subtraction(subtrahend, minuend);
-        Number result(subtraction.subtractionFloat());
-//        result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
-        result.setSign(true);
-        result.prepareNumberForOutput();
-        return result;
-    }
-}
-
-void Subtraction::changePlaceOfComma() {
-    if(placeOfCommaInResultTakenFromMinuend()){
-        //example first number x.xx, second number y.yyy  (x, y -> Natural number)
-        addZerosToMinuend();
-    }
-    else{
-        //example first number x.xxx, second number y.yy  (x, y -> Natural number)
-        addZerosToSubtrahend();
-        addZerosToMinuend();
+        return subtractionForReturn(true, true, true);
     }
 }
 
@@ -94,16 +63,33 @@ Number Subtraction::additionForReturn(bool sign){
     return result;
 }
 
-Number Subtraction::subtractionForReturn(bool sign) {
-    Number result = Subtraction(minuend, subtrahend).subtractionFinal();
-    if(sign){
-        result.setSign(true);
+Number Subtraction::subtractionForReturn(bool sign, bool reverseSubtraction, bool finalSubtraction) {
+    Number result;
+    if(reverseSubtraction){
+        result = Subtraction(subtrahend, minuend).subtractionFloat();
     }
+    else if(finalSubtraction){
+        result = Subtraction(minuend, subtrahend).subtractionFloat();
+    }
+    else{
+        result = Subtraction(minuend, subtrahend).subtractionFinal();
+    }
+    result.setSign(sign);
     result.prepareNumberForOutput();
     return result;
 }
 
-
+void Subtraction::changePlaceOfComma() {
+    if(placeOfCommaInResultTakenFromMinuend()){
+        //example first number x.xx, second number y.yyy  (x, y -> Natural number)
+        addZerosToMinuend();
+    }
+    else{
+        //example first number x.xxx, second number y.yy  (x, y -> Natural number)
+        addZerosToSubtrahend();
+        addZerosToMinuend();
+    }
+}
 
 Number Subtraction::subtractionFloat(){
     placeOfCommaInResultTakenFromMinuend();

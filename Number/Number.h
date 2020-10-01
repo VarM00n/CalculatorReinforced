@@ -12,6 +12,8 @@ using namespace std;
 
 class Number : public NumberValidation {
 public:
+    Number();
+
     //Constructors
     explicit Number(int value);
     explicit Number(string value);

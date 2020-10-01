@@ -25,7 +25,7 @@ class Subtraction {
     void addZerosToSubtrahend();
     Number additionForReturn(bool sign);
     void changePlaceOfComma();
-    Number subtractionForReturn(bool sign);
+    Number subtractionForReturn(bool sign, bool reverseSubtraction, bool finalSubtraction);
 
 public:
     Subtraction (Number &minuend, Number &subtrahend);

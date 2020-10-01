@@ -16,12 +16,14 @@
 
 using namespace std;
 //int argc, char **argv
-//"8523451236748465", "-529384561", "8523451766133026"
+//-523457619026345.54", "-4891238746.52345", "-523452727787599.01655
 int main(int argc, char **argv) {
 
-    Number number1("8523451236748465");
-    Number number2("-529384561");
+    Number number1("-523457619026345.54");
+    Number number2("-4891238746.52345");
     Subtraction subtraction(number1, number2);
+    Addition addition(number1, number2);
+//    cout << addition.additionFinal().getValue();
     cout << subtraction.subtractionFinal().getValue();
     return 0;
 }

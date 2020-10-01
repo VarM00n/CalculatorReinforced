@@ -54,3 +54,26 @@ TEST(Subtraction, NegNegBigger)
         EXPECT_EQ(NegNegBigger[2], Subtraction(minuend, subtrahend).subtractionFinal().getValue());
     }
 }
+
+TEST(Subtraction, PosPosSmaller)
+{
+    for (auto &PosPosSmaller : Sn.PosPosSmaller) {
+        Number minuend(PosPosSmaller[0]);
+        Number subtrahend(PosPosSmaller[1]);
+        EXPECT_EQ(PosPosSmaller[2], Subtraction(minuend, subtrahend).subtractionFinal().getValue());
+    }
+}
+
+TEST(Subtraction, PosPosBigger)
+{
+    for (auto &PosPosBigger : Sn.PosPosBigger) {
+        Number minuend(PosPosBigger[0]);
+        Number subtrahend(PosPosBigger[1]);
+        EXPECT_EQ(PosPosBigger[2], Subtraction(minuend, subtrahend).subtractionFinal().getValue());
+    }
+}
+
+int main() {
+    testing::InitGoogleTest();
+    return RUN_ALL_TESTS();
+}

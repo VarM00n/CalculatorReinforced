@@ -23,6 +23,9 @@ class Subtraction {
     bool placeOfCommaInResultTakenFromMinuend();
     void addZerosToMinuend();
     void addZerosToSubtrahend();
+    Number additionForReturn(bool sign);
+    void changePlaceOfComma();
+    Number subtractionForReturn(bool sign);
 
 public:
     Subtraction (Number &minuend, Number &subtrahend);

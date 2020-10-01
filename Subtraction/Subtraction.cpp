@@ -22,29 +22,22 @@ Number Subtraction::subtractionFinal() {
     // a - (-b) = a + b
     if (minuend.isPositive() && subtrahend.isNegative()) {
         subtrahend.setSign(false);
-        Addition addition(minuend, subtrahend);
-        return addition.additionFloat();
+        return additionForReturn(false);
     }
 
     // (-a) - b = -(a+b)
     if (minuend.isNegative() && subtrahend.isPositive()) {
         minuend.setSign(false);
-        Addition addition(minuend, subtrahend);
-        Number result = addition.additionFinal();
-        result.setSign(true);
-        result.prepareNumberForOutput();
-        return result;
+        return additionForReturn(true);
     }
 
     // (-a) - (-b) = b - a
     if (minuend.isNegative() && subtrahend.isNegative()) {
         minuend.setSign(false);
         subtrahend.setSign(false);
-
         if(subtrahend > minuend) {
-            Number result = Subtraction(subtrahend, minuend).subtractionFinal();
-//            result.prepareNumberForOutput();
-            return result;
+            return Subtraction(subtrahend, minuend).subtractionFinal();
+
         }
         else {
             Number result = Subtraction(minuend, subtrahend).subtractionFinal();
@@ -55,6 +48,31 @@ Number Subtraction::subtractionFinal() {
     }
 
     // a - b
+    changePlaceOfComma();
+    if(minuend > subtrahend) {
+        Number result = Subtraction(minuend, subtrahend).subtractionFloat();
+        result.prepareNumberForOutput();
+        return result;
+    }
+    else {
+//        placeOfCommaInResultTakenFromMinuend();
+//        Subtraction subtraction(subtrahend, minuend);
+//        Number result(subtraction.subtractionInt());
+//        result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
+//        result.setSign(true);
+//        result.prepareNumberForOutput();
+//        return result;
+        placeOfCommaInResultTakenFromMinuend();
+        Subtraction subtraction(subtrahend, minuend);
+        Number result(subtraction.subtractionFloat());
+//        result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
+        result.setSign(true);
+        result.prepareNumberForOutput();
+        return result;
+    }
+}
+
+void Subtraction::changePlaceOfComma() {
     if(placeOfCommaInResultTakenFromMinuend()){
         //example first number x.xx, second number y.yyy  (x, y -> Natural number)
         addZerosToMinuend();
@@ -64,21 +82,28 @@ Number Subtraction::subtractionFinal() {
         addZerosToSubtrahend();
         addZerosToMinuend();
     }
-    if(minuend > subtrahend) {
-        Number result = Subtraction(minuend, subtrahend).subtractionFloat();
-        result.prepareNumberForOutput();
-        return result;
-    }
-    else {
-        placeOfCommaInResultTakenFromMinuend();
-        Subtraction subtraction(subtrahend, minuend);
-        Number result(subtraction.subtractionInt());
-        result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
-        result.setSign(true);
-        result.prepareNumberForOutput();
-        return result;
-    }
 }
+
+Number Subtraction::additionForReturn(bool sign){
+    Addition addition(minuend, subtrahend);
+    Number result = addition.additionFinal();
+    if(sign){
+        result.setSign(true);
+    }
+    result.prepareNumberForOutput();
+    return result;
+}
+
+Number Subtraction::subtractionForReturn(bool sign) {
+    Number result = Subtraction(minuend, subtrahend).subtractionFinal();
+    if(sign){
+        result.setSign(true);
+    }
+    result.prepareNumberForOutput();
+    return result;
+}
+
+
 
 Number Subtraction::subtractionFloat(){
     placeOfCommaInResultTakenFromMinuend();

@@ -42,16 +42,12 @@ Number Subtraction::subtractionFinal() {
         subtrahend.setSign(false);
 
         if(subtrahend > minuend) {
-            placeOfCommaInResultTakenFromMinuend();
-            Subtraction subtraction(subtrahend, minuend);
-            Number result(subtraction.subtractionInt());
-            result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
-            result.setSign(true);
-            result.prepareNumberForOutput();
+            Number result = Subtraction(subtrahend, minuend).subtractionFinal();
+//            result.prepareNumberForOutput();
             return result;
         }
         else {
-            Number result = Subtraction(minuend, subtrahend).subtractionFloat();
+            Number result = Subtraction(minuend, subtrahend).subtractionFinal();
             result.setSign(true);
             result.prepareNumberForOutput();
             return result;

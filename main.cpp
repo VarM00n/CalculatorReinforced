@@ -18,9 +18,9 @@ using namespace std;
 //int argc, char **argv
 int main(int argc, char **argv) {
 
-    Number number1("-12348651623");
-    Number number2("23456.23");
+    Number number1("-6138475123645");
+    Number number2("-531462564.17352");
     Subtraction subtraction(number1, number2);
-    cout << subtraction.preSubtract().getValue() << endl;
+    cout << subtraction.subtractionFinal().getValue();
     return 0;
 }

@@ -27,3 +27,30 @@ TEST(Subtraction, PosNegBigger)
         EXPECT_EQ(PosNegBigger[2], Subtraction(minuend, subtrahend).subtractionFinal().getValue());
     }
 }
+
+TEST(Subtraction, NegPosSmaller)
+{
+    for (auto &NegPosSmaller : Sn.NegPosSmaller) {
+        Number minuend(NegPosSmaller[0]);
+        Number subtrahend(NegPosSmaller[1]);
+        EXPECT_EQ(NegPosSmaller[2], Subtraction(minuend, subtrahend).subtractionFinal().getValue());
+    }
+}
+
+TEST(Subtraction, NegNegSmaller)
+{
+    for (auto &NegNegSmaller : Sn.NegNegSmaller) {
+        Number minuend(NegNegSmaller[0]);
+        Number subtrahend(NegNegSmaller[1]);
+        EXPECT_EQ(NegNegSmaller[2], Subtraction(minuend, subtrahend).subtractionFinal().getValue());
+    }
+}
+
+TEST(Subtraction, NegNegBigger)
+{
+    for (auto &NegNegBigger : Sn.NegNegBigger) {
+        Number minuend(NegNegBigger[0]);
+        Number subtrahend(NegNegBigger[1]);
+        EXPECT_EQ(NegNegBigger[2], Subtraction(minuend, subtrahend).subtractionFinal().getValue());
+    }
+}

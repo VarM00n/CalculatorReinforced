@@ -1,26 +1,36 @@
+import random
+import subprocess
+# from tqdm import tqdm
+# import thread
 
-from random import randrange
-import os
+COMMAND = "./a.out"
+OUT_TEMP_FILE = "out.txt"
+PROGRAM_PATH = "01.png"
+
+def rand_two_integers():
+    a = random.randrange(-90000000000000000000000000000000000000000000000000000000000000000, 90000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
+    b = random.randrange(-90000000000000000000000000000000000000000000000000000000000000000, 90000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
+    return a, b
+
+def get_command_string(a, b):
+	return COMMAND + " " + str(a) + " " + str(b)
+
+def test_random_case():
+	a,b = rand_two_integers()
+	process = subprocess.Popen(get_command_string(a,b).split(), stdout=subprocess.PIPE)
+	output, error = process.communicate()
+	f = open("test.txt", "a")
+	if error is not None:
+		print("Error")
+	elif (a-b) != int(output):
+		f.write(str(a) + " + " + str(b) + " != " + str(output))
+	else:
+		pass
 
 
-print ("works")
-for i in range(100):
-    a = randrange(
-        41720394871239048723902347832412312312312312156236463263462543)
-    b = randrange(4172039487123904872390234783241231231312312313)
-    print(a+b)
+i = 0
+for x in range(10000000):
+	i += 1
+	test_random_case()
+	print ("Progress: " + str(i) + "/10000000", end = '\r', flush = True)
 
-    if a < b:
-        a, b = b, a
-
-    os.system("./a.exe "+str(a)+ " "+str(b) +" > test.txt")
-    c = a + b
-    f = open("test.txt", "r")
-    if c != int(f.read()):
-        print("error")
-        print("a: "+str(a))
-        print("b: "+str(b))
-        exit()
-    else:
-        print("Ok")
-    f.close()

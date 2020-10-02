@@ -22,6 +22,8 @@ void NumberValidation::caseWhereZerosAtTheBeginning(){
     }
 }
 
+
+
 void NumberValidation::caseWhereNumberEmpty() {
     if(this->getValue().empty()){
         this->setValue("0");
@@ -34,8 +36,12 @@ void NumberValidation::prepareNumberForOutput(){
         for(int i = this->size(); i >0; i--){
             if(i == this->size() - this->getFloatingPos()){
                 this->setValue(this->getValue().substr(0, i) + '.' + this->getValue().substr(i, this->size()));
+                break;
             }
         }
+    }
+    while (this->isFloating() && this->getValue()[this->size() - 1] == '0' && this->getValue()[this->size() - 2] != '.'&& this->getValue() != "0"){
+        this->setValue(this->getValue().substr(0, (unsigned long) this->size() - 1));
     }
     if(this->isSign()){
         this->setValue('-' + this->getValue());

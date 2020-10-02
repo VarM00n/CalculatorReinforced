@@ -7,8 +7,8 @@
       <config projectName="CalculatorReinfored" targetName="Multiplication" />
       <config projectName="CalculatorReinfored" targetName="gtest" />
       <config projectName="CalculatorReinfored" targetName="gmock" />
-      <config projectName="CalculatorReinfored" targetName="gtest_main" />
       <config projectName="CalculatorReinfored" targetName="Subtraction" />
+      <config projectName="CalculatorReinfored" targetName="gtest_main" />
       <config projectName="CalculatorReinfored" targetName="CalculatorReinfored" />
       <config projectName="CalculatorReinfored" targetName="Addition" />
       <config projectName="CalculatorReinfored" targetName="gmock_main" />
@@ -22,47 +22,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="385396e4-e76c-45c3-90c4-d90d6347d9f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionOperationTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionOperationTests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google_tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Google_tests/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h" beforeDir="false" afterPath="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Multiplication/Multiplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Multiplication/Multiplication.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number/Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Number/Number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Number/NumberValidation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Number/NumberValidation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonScritps/Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonScritps/Sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests_run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Subtraction/libSubtraction.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Subtraction/libSubtraction.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Multiplication/libMultiplication.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Multiplication/libMultiplication.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/Number.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/Number.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/NumberValidation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Number/CMakeFiles/Number.dir/NumberValidation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Number/libNumber.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Number/libNumber.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -72,27 +52,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#67#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="312">
+              <caret line="125" column="71" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="71" />
               <folding>
                 <element signature="e#137#156#0" expanded="true" />
               </folding>
@@ -100,20 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="510">
+              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
               <folding>
                 <element signature="e#44#68#0" expanded="true" />
               </folding>
@@ -122,45 +94,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
-              <folding>
-                <marker date="1601590599949" expanded="true" signature="1923:2002" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Number/NumberCore.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="198">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="e#44#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonScritps/Sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#1#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,10 +155,8 @@
         <option value="$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp" />
         <option value="$PROJECT_DIR$/Google_tests/Number_Tests/NumberCoreTests.cpp" />
         <option value="$PROJECT_DIR$/Google_tests/Number_Tests/NumberValidationTests.cpp" />
-        <option value="$PROJECT_DIR$/Number/NumberValidation.cpp" />
         <option value="$PROJECT_DIR$/Number/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Addition/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Number/NumberValidation.h" />
         <option value="$PROJECT_DIR$/Number/Number.h" />
         <option value="$PROJECT_DIR$/TestsShortcut.txt" />
         <option value="$PROJECT_DIR$/Addition/Addition.h" />
@@ -229,25 +166,27 @@
         <option value="$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionOperationTests.cpp" />
         <option value="$PROJECT_DIR$/Subtraction/Subtraction.h" />
         <option value="$PROJECT_DIR$/Subtraction/Subtraction.cpp" />
-        <option value="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Google_tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionNumbers.h" />
         <option value="$PROJECT_DIR$/Google_tests/Addition_Tests/AdditionOperationTests.cpp" />
-        <option value="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp" />
-        <option value="$PROJECT_DIR$/Multiplication/Multiplication.cpp" />
-        <option value="$PROJECT_DIR$/Number/Number.cpp" />
         <option value="$PROJECT_DIR$/Number/NumberCore.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/PythonScritps/Sum.py" />
         <option value="$PROJECT_DIR$/build.bat" />
+        <option value="$PROJECT_DIR$/PythonScritps/Sum.py" />
+        <option value="$PROJECT_DIR$/Number/NumberValidation.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Number/NumberValidation.cpp" />
+        <option value="$PROJECT_DIR$/Number/Number.cpp" />
+        <option value="$PROJECT_DIR$/Multiplication/Multiplication.cpp" />
+        <option value="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h" />
+        <option value="$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="391" />
-    <option name="y" value="-20" />
+    <option name="x" value="328" />
+    <option name="y" value="-19" />
     <option name="width" value="921" />
     <option name="height" value="1080" />
   </component>
@@ -267,12 +206,28 @@
             <path>
               <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
-              <item name="Number" type="462c0819:PsiDirectoryNode" />
+              <item name="Addition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonScritps" type="462c0819:PsiDirectoryNode" />
+              <item name="Google_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
+              <item name="Google_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Multiplication_Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
+              <item name="Multiplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
+              <item name="Number" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,26 +271,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalculatorReinfored">
-    <configuration name="Addition.PosNegBigger" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Addition" TEST_METHOD="PosNegBigger" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.Multiplication.PosNegAll">
+    <configuration name="Multiplication.NegNegBigger" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Multiplication" TEST_METHOD="NegNegBigger" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiplication.PosPosSmaller" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Multiplication" TEST_METHOD="PosPosSmaller" TEST_MODE="SUITE_TEST">
+    <configuration name="Multiplication.NegNegSmaller" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Multiplication" TEST_METHOD="NegNegSmaller" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subtraction.PosNegSmaller" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Subtraction" TEST_METHOD="PosNegSmaller" TEST_MODE="SUITE_TEST">
+    <configuration name="Multiplication.NegPosAll" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Multiplication" TEST_METHOD="NegPosAll" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subtraction.PosPosBigger" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Subtraction" TEST_METHOD="PosPosBigger" TEST_MODE="SUITE_TEST">
+    <configuration name="Multiplication.PosNegAll" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Multiplication" TEST_METHOD="PosNegAll" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Multiplication.PosPosBigger" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="Multiplication" TEST_METHOD="PosPosBigger" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -352,11 +313,6 @@
       </method>
     </configuration>
     <configuration name="Division" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Division" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Google_Tests_run" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -407,19 +363,19 @@
       <item itemvalue="Application.Multiplication" />
       <item itemvalue="Application.Number" />
       <item itemvalue="Application.Subtraction" />
-      <item itemvalue="Application.Google_Tests_run" />
-      <item itemvalue="Google Test.Subtraction.PosPosBigger" />
-      <item itemvalue="Google Test.Subtraction.PosNegSmaller" />
-      <item itemvalue="Google Test.Addition.PosNegBigger" />
-      <item itemvalue="Google Test.Multiplication.PosPosSmaller" />
+      <item itemvalue="Google Test.Multiplication.PosPosBigger" />
+      <item itemvalue="Google Test.Multiplication.NegNegSmaller" />
+      <item itemvalue="Google Test.Multiplication.NegNegBigger" />
+      <item itemvalue="Google Test.Multiplication.NegPosAll" />
+      <item itemvalue="Google Test.Multiplication.PosNegAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.Multiplication.PosPosSmaller" />
-        <item itemvalue="Google Test.Addition.PosNegBigger" />
-        <item itemvalue="Application.Google_Tests_run" />
-        <item itemvalue="Google Test.Subtraction.PosNegSmaller" />
-        <item itemvalue="Google Test.Subtraction.PosPosBigger" />
+        <item itemvalue="Google Test.Multiplication.PosNegAll" />
+        <item itemvalue="Google Test.Multiplication.NegPosAll" />
+        <item itemvalue="Google Test.Multiplication.NegNegBigger" />
+        <item itemvalue="Google Test.Multiplication.NegNegSmaller" />
+        <item itemvalue="Google Test.Multiplication.PosPosBigger" />
       </list>
     </recent_temporary>
   </component>
@@ -468,44 +424,45 @@
       <workItem from="1601411888490" duration="7803000" />
       <workItem from="1601457598067" duration="4292000" />
       <workItem from="1601553309533" duration="4575000" />
-      <workItem from="1601579035680" duration="11702000" />
+      <workItem from="1601579035680" duration="13693000" />
+      <workItem from="1601629707400" duration="10469000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 44m 39s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_PosPosBigger - 2020.10.02 at 13h 56m 59s.xml">
+      <configuration name="Multiplication.PosPosBigger" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 46m 07s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegNegSmaller - 2020.10.02 at 14h 05m 21s.xml">
+      <configuration name="Multiplication.NegNegSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 47m 09s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegNegSmaller - 2020.10.02 at 14h 05m 51s.xml">
+      <configuration name="Multiplication.NegNegSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 47m 48s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegNegBigger - 2020.10.02 at 14h 14m 34s.xml">
+      <configuration name="Multiplication.NegNegBigger" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 48m 07s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegPosAll - 2020.10.02 at 14h 21m 26s.xml">
+      <configuration name="Multiplication.NegPosAll" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 49m 45s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegPosAll - 2020.10.02 at 14h 22m 23s.xml">
+      <configuration name="Multiplication.NegPosAll" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Addition_PosNegBigger - 2020.10.01 at 22h 51m 05s.xml">
-      <configuration name="Addition.PosNegBigger" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegPosAll - 2020.10.02 at 14h 23m 30s.xml">
+      <configuration name="Multiplication.NegPosAll" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 51m 20s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegPosAll - 2020.10.02 at 14h 23m 51s.xml">
+      <configuration name="Multiplication.NegPosAll" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 56m 15s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_NegPosAll - 2020.10.02 at 14h 24m 46s.xml">
+      <configuration name="Multiplication.NegPosAll" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Multiplication_PosPosSmaller - 2020.10.01 at 22h 56m 23s.xml">
-      <configuration name="Multiplication.PosPosSmaller" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Multiplication_PosNegAll - 2020.10.02 at 14h 35m 56s.xml">
+      <configuration name="Multiplication.PosNegAll" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171378000" />
+    <option name="totallyTimeSpent" value="183838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,21 +474,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
+    <frame x="921" y="0" width="921" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14238042" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3003337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35531914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22978723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22510822" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4542553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.2851064" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.2835498" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -542,7 +499,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32965213" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3298109" />
       <window_info anchor="right" id="SciView" order="5" />
     </layout>
     <layout-to-restore>
@@ -586,21 +543,6 @@
           <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Multiplication/Multiplication.cpp</url>
-          <line>14</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Multiplication/Multiplication.cpp</url>
-          <line>45</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Multiplication/Multiplication.cpp</url>
-          <line>53</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -609,6 +551,7 @@
       </configuration>
       <configuration name="CMakeRunConfiguration">
         <watch expression="this-&gt;minuend.NumberCore" language="ObjectiveC" />
+        <watch expression="this-&gt;product" />
       </configuration>
     </watches-manager>
   </component>
@@ -670,16 +613,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberCoreTests.h" />
     <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberValidationTests.h" />
-    <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberValidationTests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1090">
-          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
-          <folding>
-            <element signature="e#44#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberCoreTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -694,25 +627,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Number/NumberValidation.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#133#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sum.py" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
-    <entry file="file://$PROJECT_DIR$/Number/NumberValidation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberOperationTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -747,16 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="143" column="1" lean-forward="true" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google_tests/Subtraction_Tests/SubtractionNumbers.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -774,30 +680,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/AdditionNumbers.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/AdditionNumbers.cpp" />
+    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.h" />
     <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/9/bits/basic_string.tcc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,83 +747,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#44#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="4" column="636" lean-forward="true" selection-start-line="4" selection-start-column="636" selection-end-line="4" selection-end-column="636" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="e#137#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="e#44#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number/NumberCore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/a.out" />
     <entry file="file://$PROJECT_DIR$/../../untitled2/a.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Build/a.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
-          <folding>
-            <marker date="1601590599949" expanded="true" signature="1923:2002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonScritps/Sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="10" column="117" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
           <folding>
-            <element signature="e#1#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#67#93#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -943,7 +767,112 @@
     <entry file="file://$PROJECT_DIR$/build.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google_tests/Number_Tests/NumberValidationTests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#44#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number/NumberValidation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number/NumberCore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number/Number.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding>
+            <marker date="1601638580139" expanded="true" signature="1923:2002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Number/NumberValidation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#133#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#67#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multiplication/Multiplication.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationOperationTests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google_tests/Multiplication_Tests/MultiplicationNumbers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="125" column="71" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="71" />
+          <folding>
+            <element signature="e#137#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

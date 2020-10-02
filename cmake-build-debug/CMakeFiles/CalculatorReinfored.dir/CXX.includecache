@@ -6,23 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp
 ../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
-
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp
-../Number/Number.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
-../Addition/Addition.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
 iostream
 -
-Multiplication.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
+../Subtraction/Subtraction.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
+Division.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
-vector
--
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string
@@ -41,4 +35,8 @@ string
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/string
 NumberCore.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
+../Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 

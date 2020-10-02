@@ -272,6 +272,12 @@
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationNumbers.h">
 			<Option target="Google_Tests_run"/>
 		</Unit>

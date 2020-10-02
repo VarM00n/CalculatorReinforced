@@ -135,6 +135,19 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/Multiplication
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.s"
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationOperationTests.cpp -o CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.s
 
+Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o: Google_Tests/CMakeFiles/Google_Tests_run.dir/flags.make
+Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o: ../Google_Tests/Division_Tests/DivisionOperationTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp
+
+Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.i"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp > CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.i
+
+Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.s"
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp -o CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.s
+
 # Object files for target Google_Tests_run
 Google_Tests_run_OBJECTS = \
 "CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.o" \
@@ -142,7 +155,8 @@ Google_Tests_run_OBJECTS = \
 "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o" \
 "CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.o" \
 "CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.o" \
-"CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.o"
+"CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.o" \
+"CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o"
 
 # External object files for target Google_Tests_run
 Google_Tests_run_EXTERNAL_OBJECTS =
@@ -153,6 +167,7 @@ Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Numb
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.o
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.o
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.o
+Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make
 Google_Tests/Google_Tests_run: lib/libgtestd.a
 Google_Tests/Google_Tests_run: lib/libgtest_maind.a
@@ -163,7 +178,7 @@ Google_Tests/Google_Tests_run: Multiplication/libMultiplication.a
 Google_Tests/Google_Tests_run: Division/libDivision.a
 Google_Tests/Google_Tests_run: lib/libgtestd.a
 Google_Tests/Google_Tests_run: Google_Tests/CMakeFiles/Google_Tests_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Google_Tests_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Google_Tests_run"
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Google_Tests_run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

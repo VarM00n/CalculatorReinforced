@@ -28,7 +28,7 @@ Number Division::divisionFinal() {
         dividend.setSign(false);
         divisor.setSign(false);
         Number result = Division(dividend, divisor).divisionFloat();
-        result.removeTrailingZeros();
+//        result.removeTrailingZeros();
         return result;
     }
 
@@ -40,8 +40,10 @@ Number Division::divisionFinal() {
         divisor.setSign(false);
 
         Number result = Division(dividend, divisor).divisionFloat();
-        result.setSign(true);
-        result.removeTrailingZeros();
+        result.setValue('-' + result.getValue());
+
+//        result.removeTrailingZeros();
+//        result.prepareNumberForOutput();
         return result;
     }
 
@@ -60,8 +62,17 @@ Number Division::divisionFloat() {
     dividend.sanitizeValue();
     divisor.sanitizeValue();
     quotient.setValue(Division(dividend,divisor).divisionInt().getValue());
-    quotient.setValue(quotient.addComaAndSign((int) (quotient.size() - (app + dividend.getFloatingPos()))));
-    quotient.removeTrailingZeros();
+    quotient.setFloatingPos(app + dividend.getFloatingPos());
+    if(app + dividend.getFloatingPos() != 0){
+        quotient.setFloating(true);
+    }
+    quotient.prepareNumberForOutput();
+    for(int i = 0; i < dividend.getFloatingPos(); i++){
+        if(quotient.getValue()[quotient.size() - app - 1] == '.'){
+            break;
+        }
+        quotient.setValue(quotient.getValue().substr(0, (unsigned long) quotient.size() - 1));
+    }
     return quotient;
 }
 
@@ -77,7 +88,7 @@ Number Division::divisionInt() {
         settingTemporaryDividendFromZeroToEmpty();
         temporaryResult = 0;
     }
-    quotient.removeTrailingZeros();
+//    quotient.removeTrailingZeros();
     return quotient;
 }
 
@@ -111,14 +122,6 @@ void Division::caseWhereDivisionHasBeenProcessed(){
 
 
 
-// rounding
+void Division::round(){
 
-//    while(dividend.getFloatingPos() != 0){
-//        int rest = (int) quotient.getValue()[quotient.size() - 1];
-//        quotient.setValue(quotient.getValue().substr(0, quotient.size() - 1));
-//        dividend.setFloatingPos(dividend.getFloatingPos() - 1);
-//        if(rest >= 5){
-//            quotient.setValue(quotient.getValue().substr(0, quotient.size() - 1));
-//            quotient.setValue(quotient.getValue() + (char)((int) quotient.getValue()[quotient.size() - 1] + 1));
-//        }
-//    }
+}

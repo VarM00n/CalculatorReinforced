@@ -13,7 +13,7 @@ class Division {
     Number temporaryDividend;
     int temporaryResult = 0;
     int placeOfComma;
-    int app = 2;
+    int app = 4;
     bool flagDoneDivision = false;
 
 
@@ -22,6 +22,7 @@ class Division {
     void settingTemporaryDividendFromZeroToEmpty();
     void caseWhereDivisionHasNotBeenProcessed();
     void caseWhereDivisionHasBeenProcessed();
+    void round();
 
 public:
     Division(Number &dividend, Number &divisor);

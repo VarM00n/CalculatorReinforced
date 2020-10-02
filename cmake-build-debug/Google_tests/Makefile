@@ -198,6 +198,33 @@ Addition_Tests/AdditionOperationTests.cpp.s:
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTests.cpp.s
 .PHONY : Addition_Tests/AdditionOperationTests.cpp.s
 
+Division_Tests/DivisionOperationTests.o: Division_Tests/DivisionOperationTests.cpp.o
+
+.PHONY : Division_Tests/DivisionOperationTests.o
+
+# target to build an object file
+Division_Tests/DivisionOperationTests.cpp.o:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o
+.PHONY : Division_Tests/DivisionOperationTests.cpp.o
+
+Division_Tests/DivisionOperationTests.i: Division_Tests/DivisionOperationTests.cpp.i
+
+.PHONY : Division_Tests/DivisionOperationTests.i
+
+# target to preprocess a source file
+Division_Tests/DivisionOperationTests.cpp.i:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.i
+.PHONY : Division_Tests/DivisionOperationTests.cpp.i
+
+Division_Tests/DivisionOperationTests.s: Division_Tests/DivisionOperationTests.cpp.s
+
+.PHONY : Division_Tests/DivisionOperationTests.s
+
+# target to generate assembly for a file
+Division_Tests/DivisionOperationTests.cpp.s:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.s
+.PHONY : Division_Tests/DivisionOperationTests.cpp.s
+
 Multiplication_Tests/MultiplicationOperationTests.o: Multiplication_Tests/MultiplicationOperationTests.cpp.o
 
 .PHONY : Multiplication_Tests/MultiplicationOperationTests.o
@@ -349,6 +376,9 @@ help:
 	@echo "... Addition_Tests/AdditionOperationTests.o"
 	@echo "... Addition_Tests/AdditionOperationTests.i"
 	@echo "... Addition_Tests/AdditionOperationTests.s"
+	@echo "... Division_Tests/DivisionOperationTests.o"
+	@echo "... Division_Tests/DivisionOperationTests.i"
+	@echo "... Division_Tests/DivisionOperationTests.s"
 	@echo "... Multiplication_Tests/MultiplicationOperationTests.o"
 	@echo "... Multiplication_Tests/MultiplicationOperationTests.i"
 	@echo "... Multiplication_Tests/MultiplicationOperationTests.s"

@@ -326,25 +326,23 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationNumbers.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
+
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h
 iostream
 -
 string
 -
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationOperationTests.cpp
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp
 gtest/gtest.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/gtest/gtest.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/gtest/gtest.h
+DivisionNumbers.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h
 ../../Number/Number.h
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
-../../Multiplication/Multiplication.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
-MultiplicationNumbers.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationNumbers.h
-
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
-vector
--
+../../Division/Division.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
 
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
 string

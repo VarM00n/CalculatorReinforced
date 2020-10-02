@@ -45,7 +45,7 @@ Number Multiplication::multiplicationFloat() {
     placeOfCommaInResult = multiplicand.getFloatingPos() + multiplier.getFloatingPos();
     product = Multiplication(multiplicand, multiplier).multiplicationInt();
     product.setFloatingPos(placeOfCommaInResult);
-    if(static_cast<int>(placeOfCommaInResult) != 0){
+    if(placeOfCommaInResult != 0){
         product.setFloating(true);
     }
     product.prepareNumberForOutput();

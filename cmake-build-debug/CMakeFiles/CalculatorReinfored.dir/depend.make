@@ -40,6 +40,7 @@ CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction
 CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction/Subtraction.h
 
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Addition/Addition.h
+CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Division/Division.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Multiplication/Multiplication.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/Number.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/NumberCore.h

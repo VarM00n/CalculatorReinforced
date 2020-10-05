@@ -1,2 +1,0 @@
-/usr/bin/ar qc libSubstraction.a  CMakeFiles/Substraction.dir/Subtraction.cpp.o
-/usr/bin/ranlib libSubstraction.a

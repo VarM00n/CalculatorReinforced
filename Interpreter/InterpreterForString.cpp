@@ -34,6 +34,7 @@ void InterpreterForString::stringOperation(){
     }
     else {
         parseString();
+        createONP();
     }
 }
 
@@ -76,6 +77,10 @@ void InterpreterForString::numberValidation(){
             validInput = false;
         }
     }
+    if(this->getOperation().empty()){
+        validInput = false;
+    }
+
 }
 
 bool InterpreterForString::checkIfValidChar(char character){
@@ -91,10 +96,14 @@ void InterpreterForString::careOfSigns(){
 }
 
 void InterpreterForString::checkFirstChar(){
-    while(!(((char(this->getOperation()[0]) >=48 && char(this->getOperation()[0]) <=57)) || char(this->getOperation()[0]) == 45)) {
-        if (this->getOperation()[0] == '+' || this->getOperation()[0] == '*' || this->getOperation()[0] == '/') {
+    while(!(((char(this->getOperation()[0]) >=48 && char(this->getOperation()[0]) <=57)) || char(this->getOperation()[0]) == 45) && !this->getOperation().empty()) {
+        if (this->getOperation()[0] == '+' || this->getOperation()[0] == '*' || this->getOperation()[0] == '/' || this->getOperation()[0] == ')') {
             //TODO obsługa błędu inputu
-            this->setOperation(this->getOperation().substr(1, this->getOperation().size() - 1));
+            this->validInput = false;
+            break;
+        }
+        if(this->getOperation()[0] == '('){
+            break;
         }
     }
 }
@@ -134,4 +143,78 @@ void InterpreterForString::parseString(){
             singleParsedNumber = "";
         }
     }
+}
+
+void InterpreterForString::createONP() {
+    for(string i : this->stringAfterParsing){
+        if(isNumber(i)){
+            this->ONP += i + " ";
+        }
+        else if(isOpenBracket(i)){
+            this->stackForONP.push(i);
+        }
+        else if(isClosingBracket(i)){
+            string valueForStack;
+            string characterForStack = this->stackForONP.top();
+            this->stackForONP.pop();
+            while(!isOpenBracket(characterForStack)){
+                valueForStack += characterForStack + " ";
+                characterForStack = this->stackForONP.top();
+                this->stackForONP.pop();
+            }
+            this->ONP += valueForStack;
+        }
+        else {
+            if(stackForONP.empty() || checkPriority(i, this->stackForONP.top())){
+                stackForONP.push(i);
+            }
+            else {
+                while (!checkPriority(i, this->stackForONP.top())) {
+                    this->ONP += this->stackForONP.top() + " ";
+                    this->stackForONP.pop();
+                    if(this->stackForONP.empty()){
+                        break;
+                    }
+                }
+                this->stackForONP.push(i);
+            }
+        }
+    }
+    while(!this->stackForONP.empty()){
+        this->ONP += this->stackForONP.top() + " ";
+        this->stackForONP.pop();
+    }
+    this->ONP = this->ONP.substr(0, this->ONP.size() - 1);
+}
+
+bool InterpreterForString::isNumber(string character){
+    for (char i : character) {
+        if(i >= 48 && i <= 57){
+            return true;
+        }
+    }
+    return false;
+}
+
+bool InterpreterForString::isOpenBracket(string character){
+    return character == "(";
+}
+
+bool InterpreterForString::isClosingBracket(string character){
+    return character == ")";
+}
+
+bool InterpreterForString::checkPriority(string firstChar, string secondChar){
+    int priorityForFirstChar = this->getPriority(std::move(firstChar));
+    int priorityForSecondChar = this->getPriority(std::move(secondChar));
+    return priorityForFirstChar > priorityForSecondChar;
+}
+
+int InterpreterForString::getPriority(string character){
+    for (auto &operand : this->operands) {
+        if(character[0] == operand[0]){
+            return int(operand[1] - '0');
+        }
+    }
+    return false;
 }

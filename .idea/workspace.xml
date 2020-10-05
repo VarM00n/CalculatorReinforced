@@ -7,8 +7,8 @@
       <config projectName="CalculatorReinfored" targetName="Multiplication" />
       <config projectName="CalculatorReinfored" targetName="gtest" />
       <config projectName="CalculatorReinfored" targetName="gmock" />
-      <config projectName="CalculatorReinfored" targetName="gtest_main" />
       <config projectName="CalculatorReinfored" targetName="Subtraction" />
+      <config projectName="CalculatorReinfored" targetName="gtest_main" />
       <config projectName="CalculatorReinfored" targetName="CalculatorReinfored" />
       <config projectName="CalculatorReinfored" targetName="Addition" />
       <config projectName="CalculatorReinfored" targetName="Interpreter" />
@@ -24,20 +24,12 @@
   <component name="ChangeListManager">
     <list default="true" id="385396e4-e76c-45c3-90c4-d90d6347d9f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter/CleanStringForInterpreter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/CleanStringForInterpreter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/InterpreterForString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/InterpreterForString.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/InterpreterForString.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/InterpreterForString.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Interpreter/Interpreter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/CMakeFiles/Google_Tests_run.dir/Interpreter/Interpreter.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Google_tests/Google_Tests_run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Interpreter/libInterpreter.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Interpreter/libInterpreter.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -64,11 +56,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="360">
+              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -79,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interpreter/InterpreterForString.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
               <folding>
                 <element signature="e#44#77#0" expanded="true" />
               </folding>
@@ -91,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interpreter/InterpreterForString.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="479">
+              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
               <folding>
                 <element signature="e#147#164#0" expanded="true" />
               </folding>
@@ -100,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google_tests/Interpreter/Interpreter.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="57" column="75" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="75" />
+            <state relative-caret-position="316">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
               <folding>
                 <element signature="e#44#68#0" expanded="true" />
               </folding>
@@ -184,10 +176,10 @@
         <option value="$PROJECT_DIR$/Interpreter/cleanStringForInterpreter.h" />
         <option value="$PROJECT_DIR$/Interpreter/CleanStringForInterpreter.cpp" />
         <option value="$PROJECT_DIR$/Interpreter/CleanStringForInterpreter.h" />
+        <option value="$PROJECT_DIR$/Google_tests/Interpreter/Interpreter.cpp" />
         <option value="$PROJECT_DIR$/Interpreter/InterpreterForString.h" />
         <option value="$PROJECT_DIR$/Interpreter/InterpreterForString.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Google_tests/Interpreter/Interpreter.cpp" />
       </list>
     </option>
   </component>
@@ -216,11 +208,6 @@
               <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
               <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CalculatorReinfored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorReinforced" type="462c0819:PsiDirectoryNode" />
-              <item name="Number" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -240,16 +227,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projekty\CalculatorReinfored\CalculatorReinforced" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projekty\CalculatorReinfored\CalculatorReinforced\Interpreter" />
       <recent name="D:\Projekty\CalculatorReinfored\Number" />
       <recent name="D:\Projekty\CalculatorReinfored\Google_Tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projekty\CalculatorReinfored\CalculatorReinforced" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.careOfSigns.AllCases">
+  <component name="RunManager" selected="Application.CalculatorReinfored">
     <configuration name="careOfBrackets.AllCases" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CalculatorReinfored" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CalculatorReinfored" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="careOfBrackets" TEST_METHOD="AllCases" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -432,14 +419,12 @@
       <workItem from="1601846446947" duration="693000" />
       <workItem from="1601856513520" duration="6840000" />
       <workItem from="1601884312436" duration="7630000" />
-      <workItem from="1601892518271" duration="11812000" />
+      <workItem from="1601892518271" duration="12511000" />
+      <workItem from="1601923164006" duration="8535000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="careOfSigns_AllCases - 2020.10.05 at 13h 12m 50s.xml">
-      <configuration name="careOfSigns.AllCases" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="careOfSigns_AllCases - 2020.10.05 at 13h 55m 35s.xml">
       <configuration name="careOfSigns.AllCases" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -467,9 +452,12 @@
     <history-entry file="careOfSigns_AllCases - 2020.10.05 at 16h 03m 08s.xml">
       <configuration name="careOfSigns.AllCases" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="careOfSigns_AllCases - 2020.10.05 at 16h 05m 31s.xml">
+      <configuration name="careOfSigns.AllCases" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235291000" />
+    <option name="totallyTimeSpent" value="244525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,19 +470,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32925472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33314794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26702127" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3723404" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26702127" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4861702" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.27872342" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.27872342" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -542,6 +531,15 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Interpreter/InterpreterForString.cpp</url>
+          <line>147</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeGoogleTestRunConfigurationType">
         <watch expression="this-&gt;difference" />
@@ -848,42 +846,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Google_tests/Interpreter/Interpreter.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="316">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interpreter/InterpreterForString.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-          <folding>
-            <element signature="e#44#77#0" expanded="true" />
+            <element signature="e#44#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interpreter/InterpreterForString.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="479">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
           <folding>
             <element signature="e#147#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google_tests/Interpreter/Interpreter.cpp">
+    <entry file="file://$PROJECT_DIR$/Interpreter/InterpreterForString.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="57" column="75" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="75" />
+        <state relative-caret-position="289">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
           <folding>
-            <element signature="e#44#68#0" expanded="true" />
+            <element signature="e#44#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,6 +7,7 @@
 
 #include <string>
 #include <list>
+#include <stack>
 #include <iostream>
 
 using namespace std;
@@ -28,8 +29,19 @@ private:
             {'-', '*', '8'},
             {'+', '*', '+'},
     };
+    char operands [6][2] = {
+            {'(', '0'},
+            {')', '1'},
+            {'+', '1'},
+            {'-', '1'},
+            {'*', '2'},
+            {'/', '2'},
+    };
+
+    stack <string> stackForONP;
 
 public:
+    string ONP;
     list<string> stringAfterParsing;
     void stringOperation();
     void cleanString();
@@ -45,7 +57,12 @@ public:
     bool isValidInput() const;
     explicit InterpreterForString(const string &operation);
     void parseString();
-
+    void createONP();
+    bool isNumber(string character);
+    bool isOpenBracket(string character);
+    bool isClosingBracket(string character);
+    bool checkPriority(string firstChar, string secondChar);
+    int getPriority(string character);
     };
 
 

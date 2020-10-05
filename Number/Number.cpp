@@ -3,6 +3,7 @@
 //
 
 #include "Number.h"
+#include <iostream>
 #include <string>
 #include "../Multiplication/Multiplication.h"
 
@@ -110,23 +111,28 @@ void Number::multiplyByTen() {
 }
 
 //Operators Overload
-bool Number::isValueBigger(string val1, string val2) {
-    if (val1.size() > val2.size())
+bool Number::isValueBigger(Number val1) {
+    long a =  this->size() ;
+    long aa = this->getFloatingPos();
+    long b =  val1.size();
+    long bb = val1.getFloatingPos();
+    if (this->size() - this->getFloatingPos() > val1.size() - this->getFloatingPos())
         return true;
-    else if (val1.size() < val2.size())
+    else if (this->size() - this->getFloatingPos() < val1.size() - val1.getFloatingPos()) {
         return false;
+    }
     else
-        for (int i = 0; i < val1.size(); ++i) {
-            if (val1[i] > val2[i])
+        for (int i = 0; i < this->size(); ++i) {
+            if (this->getValue()[i] > val1.getValue()[i])
                 return true;
-            else if (val1[i] < val2[i])
+            else if (this->getValue()[i] < val1.getValue()[i])
                 return false;
         }
     return false;
 }
 
 bool Number::operator>(const Number &r) {
-    return this->isValueBigger(this->getValue(), r.getValue());
+    return this->isValueBigger(r);
 }
 
 bool Number::operator==(const Number &r) {

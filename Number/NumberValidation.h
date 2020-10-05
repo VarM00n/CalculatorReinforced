@@ -16,7 +16,8 @@ public:
     void removeTrailingZeros();
     void caseWhereZerosAtTheBeginning();
     void caseWhereNumberEmpty();
-
+    bool preparedFloat();
+    bool preparedSign();
     void prepareNumberForOutput();
     };
 

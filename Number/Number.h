@@ -27,7 +27,7 @@ public:
     void multiplyByTen();
 
     //Operators Overload
-    bool isValueBigger(string val1, string val2);
+    bool isValueBigger(Number val1);
     bool operator> (const Number& r);
     bool operator== (const Number& r);
     bool operator!= (const Number& r);

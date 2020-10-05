@@ -57,9 +57,8 @@ Number Subtraction::additionForReturn(bool sign){
     Addition addition(minuend, subtrahend);
     Number result = addition.additionFinal();
     if(sign){
-        result.setSign(true);
+        result.setValue("-" + result.getValue());
     }
-    result.prepareNumberForOutput();
     return result;
 }
 
@@ -75,6 +74,7 @@ Number Subtraction::subtractionForReturn(bool sign, bool reverseSubtraction, boo
         result = Subtraction(minuend, subtrahend).subtractionFinal();
     }
     result.setSign(sign);
+
     result.prepareNumberForOutput();
     return result;
 }
@@ -95,8 +95,12 @@ Number Subtraction::subtractionFloat(){
     placeOfCommaInResultTakenFromMinuend();
     Subtraction subtraction(minuend, subtrahend);
     Number result(subtraction.subtractionInt());
-    result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
-    result.prepareNumberForOutput();
+//    result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
+    result.setFloatingPos(placeOfCommaInResult);
+
+    if(result.getFloatingPos() != 0){
+        result.setFloating(true);
+    }
     return result;
 }
 
@@ -109,14 +113,23 @@ bool Subtraction::placeOfCommaInResultTakenFromMinuend(){
 }
 
 void Subtraction::addZerosToMinuend(){
-    for (int i = 0; i < subtrahend.getFloatingPos() - minuend.getFloatingPos(); i++)
+    int minuendFPos = minuend.getFloatingPos();
+    int subtrahendFPos = subtrahend.getFloatingPos();
+    for (int i = 0; i < subtrahendFPos - minuendFPos; i++) {
 //        for (int j = 0; j < subtrahend.getFloatingPos() - minuend.getFloatingPos(); j++)
         minuend.setValue(minuend.getValue() + "0");
+        minuend.setFloatingPos(minuend.getFloatingPos() + 1);
+    }
+
 }
 
 void Subtraction::addZerosToSubtrahend() {
-    for(int i = 0 ; i < minuend.getFloatingPos() - subtrahend.getFloatingPos(); i++)
+    int minuendFPos = minuend.getFloatingPos();
+    int subtrahendFPos = subtrahend.getFloatingPos();
+    for(int i = 0 ; i < minuendFPos - subtrahendFPos; i++) {
         subtrahend.setValue(subtrahend.getValue() + "0");
+        subtrahend.setFloatingPos(subtrahend.getFloatingPos() + 1);
+    }
 }
 
 Number Subtraction::subtractionInt() {
@@ -129,7 +142,6 @@ Number Subtraction::subtractionInt() {
         caseWhereMinuendSmallerThanSubtrahend(i);
         difference.setValue(to_string((char) (digitFromMinuend - digitFromSubtrahend)) + difference.getValue());
     }
-    difference.prepareNumberForOutput();
 
     return difference;
 }

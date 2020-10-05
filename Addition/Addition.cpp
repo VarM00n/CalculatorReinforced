@@ -56,7 +56,10 @@ Number Addition::additionFloat(){
     //addition
     Addition addition(firstAddend, secondAddend);
     Number result(addition.additionInt());
-    result.setValue(result.addComaAndSign(static_cast<int>(result.size() - placeOfCommaInResult)));
+    result.setFloatingPos(placeOfCommaInResult);
+    if(placeOfCommaInResult != 0){
+        result.setFloating(true);
+    }
     result.prepareNumberForOutput();
     return result;
 }

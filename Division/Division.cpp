@@ -95,7 +95,7 @@ Number Division::divisionInt() {
 void Division::simpleDivisionMechanism(){
     while(temporaryDividend > divisor || temporaryDividend == divisor){
         Subtraction subtraction(temporaryDividend, divisor);
-        temporaryDividend = subtraction.subtractionInt();
+        temporaryDividend = subtraction.subtractionFinal();
         settingTemporaryDividendFromZeroToEmpty();
         temporaryResult++;
         flagDoneDivision = true;

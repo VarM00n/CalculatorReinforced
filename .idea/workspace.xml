@@ -22,29 +22,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="385396e4-e76c-45c3-90c4-d90d6347d9f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonScritps/DivInt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonScritps/MulInt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonScritps/OperationTests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Addition/Addition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Addition/Addition.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number/Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Number/Number.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number/Number.h" beforeDir="false" afterPath="$PROJECT_DIR$/Number/Number.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number/NumberValidation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Number/NumberValidation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number/NumberValidation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Number/NumberValidation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonScritps/SumInt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonScritps/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonScritps/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Subtraction/Subtraction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CalculatorReinfored" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Division/Division.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Division/Division.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonScritps/MulInt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonScritps/Subtraction/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PythonScritps/Subtraction/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -74,22 +55,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addition/Addition.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-              <folding>
-                <element signature="e#44#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,31 +81,10 @@
         <entry file="file://$PROJECT_DIR$/Number/Number.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="e#118#135#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="e#44#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Subtraction/Subtraction.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -165,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Division/Division.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+            <state relative-caret-position="244">
+              <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
               <folding>
                 <element signature="e#44#73#0" expanded="true" />
               </folding>
@@ -240,7 +188,6 @@
         <option value="$PROJECT_DIR$/Multiplication/Multiplication.cpp" />
         <option value="$PROJECT_DIR$/Division/Division.h" />
         <option value="$PROJECT_DIR$/Google_tests/Division_Tests/DivisionOperationTests.cpp" />
-        <option value="$PROJECT_DIR$/Division/Division.cpp" />
         <option value="$PROJECT_DIR$/Google_tests/Division_Tests/DivisionNumbers.h" />
         <option value="$PROJECT_DIR$/PythonScritps/SumFloatFloat.py" />
         <option value="$PROJECT_DIR$/PythonScritps/OperationTests.py" />
@@ -257,6 +204,7 @@
         <option value="$PROJECT_DIR$/Number/Number.cpp" />
         <option value="$PROJECT_DIR$/Subtraction/Subtraction.cpp" />
         <option value="$PROJECT_DIR$/Number/NumberValidation.cpp" />
+        <option value="$PROJECT_DIR$/Division/Division.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -515,7 +463,7 @@
       <workItem from="1601831227481" duration="8000" />
       <workItem from="1601842786361" duration="1392000" />
       <workItem from="1601846446947" duration="693000" />
-      <workItem from="1601856513520" duration="5088000" />
+      <workItem from="1601856513520" duration="6112000" />
     </task>
     <servers />
   </component>
@@ -552,7 +500,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214097000" />
+    <option name="totallyTimeSpent" value="215121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +521,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32978722" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26702127" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4106383" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6680851" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
@@ -662,6 +610,26 @@
           <url>file://$PROJECT_DIR$/Number/NumberValidation.cpp</url>
           <line>35</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Division/Division.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Division/Division.cpp</url>
+          <line>52</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Division/Division.cpp</url>
+          <line>80</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Division/Division.cpp</url>
+          <line>94</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -923,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Division/Division.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="e#44#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -953,7 +911,7 @@
     <entry file="file://$PROJECT_DIR$/Number/Number.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#118#135#0" expanded="true" />
           </folding>
@@ -998,10 +956,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Division/Division.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+          <folding>
+            <element signature="e#44#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

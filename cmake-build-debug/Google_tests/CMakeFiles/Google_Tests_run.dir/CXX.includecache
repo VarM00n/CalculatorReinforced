@@ -335,4 +335,8 @@ gtest/gtest.h
 /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 string
 -
+list
+-
+iostream
+-
 

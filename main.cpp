@@ -10,10 +10,18 @@
 
 using namespace std;
 
+void print(list<string> const &list1){
+    for(auto const& i: list1){
+        cout << i << endl;
+    }
+}
+
+
 int main(int argc, char **argv) {
-    InterpreterForString interpreterForString("51234.5 - 123666.111");
+    InterpreterForString interpreterForString("12 * (461 - 16 -(15 + 25))");
     interpreterForString.stringOperation();
-    cout << interpreterForString.getOperation();
+    print(interpreterForString.stringAfterParsing);
+//    cout << interpreterForString.getOperation();
 
     return 0;
 }

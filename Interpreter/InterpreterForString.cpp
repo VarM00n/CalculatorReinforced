@@ -29,6 +29,12 @@ bool InterpreterForString::isValidInput() const {
 //Methods
 void InterpreterForString::stringOperation(){
     cleanString();
+    if(!this->isValidInput()){
+        cout << "-1";
+    }
+    else {
+        parseString();
+    }
 }
 
 void InterpreterForString::cleanString(){
@@ -103,4 +109,29 @@ int InterpreterForString::combinationOfOperations(int i){
         }
     }
     return i;
+}
+
+void InterpreterForString::parseString(){
+    string singleParsedNumber;
+    if(this->getOperation()[0] == '-'){
+        this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
+        singleParsedNumber = "-";
+    } else{
+        singleParsedNumber = "";
+    }
+    while(!this->getOperation().empty()){
+        if((char(this->getOperation()[0]) >=48 && char(this->getOperation()[0]) <=57) || char(this->getOperation()[0]) == 46){
+            singleParsedNumber += this->getOperation()[0];
+            this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
+            if(!((char(this->getOperation()[0]) >=48 && char(this->getOperation()[0] <=57)) || char(this->getOperation()[0]) == 46)){
+                stringAfterParsing.push_back(singleParsedNumber);
+                singleParsedNumber = "";
+            }
+        } else{
+            singleParsedNumber = this->getOperation()[0];
+            stringAfterParsing.push_back(singleParsedNumber);
+            this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
+            singleParsedNumber = "";
+        }
+    }
 }

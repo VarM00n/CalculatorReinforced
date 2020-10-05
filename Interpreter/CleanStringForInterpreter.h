@@ -5,11 +5,15 @@
 #ifndef CALCULATORREINFORED_CLEANSTRINGFORINTERPRETER_H
 #define CALCULATORREINFORED_CLEANSTRINGFORINTERPRETER_H
 
+#include <iostream>
+#include <list>
 #include "string"
+
+using namespace std;
 
 class CleanStringForInterpreter {
 protected:
-    std::string operation;
+    string operation;
     bool validInput = true;
     char tableOfOperations [9][3] = {
             {'-', '-', '+'},
@@ -24,6 +28,7 @@ protected:
             {'-', '*', '8'},
             {'+', '*', '+'},
     };
+
 public:
     void cleanString();
     void careOfSpaces();

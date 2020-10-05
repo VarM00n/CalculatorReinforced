@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o"
   "CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o"
   "libInterpreter.a"
   "libInterpreter.pdb"

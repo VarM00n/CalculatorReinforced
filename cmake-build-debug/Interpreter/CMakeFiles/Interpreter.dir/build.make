@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
+CMAKE_SOURCE_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Interpreter/CMakeFiles/Interpreter.dir/depend.make
@@ -59,30 +59,45 @@ include Interpreter/CMakeFiles/Interpreter.dir/flags.make
 
 Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o: Interpreter/CMakeFiles/Interpreter.dir/flags.make
 Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o: ../Interpreter/InterpreterForString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o -c /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp
 
 Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interpreter.dir/InterpreterForString.cpp.i"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.cpp > CMakeFiles/Interpreter.dir/InterpreterForString.cpp.i
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp > CMakeFiles/Interpreter.dir/InterpreterForString.cpp.i
 
 Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interpreter.dir/InterpreterForString.cpp.s"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.cpp -o CMakeFiles/Interpreter.dir/InterpreterForString.cpp.s
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp -o CMakeFiles/Interpreter.dir/InterpreterForString.cpp.s
+
+Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o: Interpreter/CMakeFiles/Interpreter.dir/flags.make
+Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o: ../Interpreter/CleanStringForInterpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o -c /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp
+
+Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.i"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp > CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.i
+
+Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.s"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp -o CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.s
 
 # Object files for target Interpreter
 Interpreter_OBJECTS = \
-"CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o"
+"CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o" \
+"CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o"
 
 # External object files for target Interpreter
 Interpreter_EXTERNAL_OBJECTS =
 
 Interpreter/libInterpreter.a: Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o
+Interpreter/libInterpreter.a: Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o
 Interpreter/libInterpreter.a: Interpreter/CMakeFiles/Interpreter.dir/build.make
 Interpreter/libInterpreter.a: Interpreter/CMakeFiles/Interpreter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libInterpreter.a"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter && $(CMAKE_COMMAND) -P CMakeFiles/Interpreter.dir/cmake_clean_target.cmake
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Interpreter.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libInterpreter.a"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && $(CMAKE_COMMAND) -P CMakeFiles/Interpreter.dir/cmake_clean_target.cmake
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Interpreter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Interpreter/CMakeFiles/Interpreter.dir/build: Interpreter/libInterpreter.a
@@ -90,10 +105,10 @@ Interpreter/CMakeFiles/Interpreter.dir/build: Interpreter/libInterpreter.a
 .PHONY : Interpreter/CMakeFiles/Interpreter.dir/build
 
 Interpreter/CMakeFiles/Interpreter.dir/clean:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter && $(CMAKE_COMMAND) -P CMakeFiles/Interpreter.dir/cmake_clean.cmake
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter && $(CMAKE_COMMAND) -P CMakeFiles/Interpreter.dir/cmake_clean.cmake
 .PHONY : Interpreter/CMakeFiles/Interpreter.dir/clean
 
 Interpreter/CMakeFiles/Interpreter.dir/depend:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Interpreter/CMakeFiles/Interpreter.dir/depend
 

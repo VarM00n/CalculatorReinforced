@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
+CMAKE_SOURCE_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Subtraction/CMakeFiles/Subtraction.dir/depend.make
@@ -59,16 +59,16 @@ include Subtraction/CMakeFiles/Subtraction.dir/flags.make
 
 Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o: Subtraction/CMakeFiles/Subtraction.dir/flags.make
 Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o: ../Subtraction/Subtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Subtraction.dir/Subtraction.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Subtraction.dir/Subtraction.cpp.o -c /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.cpp
 
 Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Subtraction.dir/Subtraction.cpp.i"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp > CMakeFiles/Subtraction.dir/Subtraction.cpp.i
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.cpp > CMakeFiles/Subtraction.dir/Subtraction.cpp.i
 
 Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Subtraction.dir/Subtraction.cpp.s"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.cpp -o CMakeFiles/Subtraction.dir/Subtraction.cpp.s
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.cpp -o CMakeFiles/Subtraction.dir/Subtraction.cpp.s
 
 # Object files for target Subtraction
 Subtraction_OBJECTS = \
@@ -80,9 +80,9 @@ Subtraction_EXTERNAL_OBJECTS =
 Subtraction/libSubtraction.a: Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o
 Subtraction/libSubtraction.a: Subtraction/CMakeFiles/Subtraction.dir/build.make
 Subtraction/libSubtraction.a: Subtraction/CMakeFiles/Subtraction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSubtraction.a"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction && $(CMAKE_COMMAND) -P CMakeFiles/Subtraction.dir/cmake_clean_target.cmake
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Subtraction.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSubtraction.a"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction && $(CMAKE_COMMAND) -P CMakeFiles/Subtraction.dir/cmake_clean_target.cmake
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Subtraction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Subtraction/CMakeFiles/Subtraction.dir/build: Subtraction/libSubtraction.a
@@ -90,10 +90,10 @@ Subtraction/CMakeFiles/Subtraction.dir/build: Subtraction/libSubtraction.a
 .PHONY : Subtraction/CMakeFiles/Subtraction.dir/build
 
 Subtraction/CMakeFiles/Subtraction.dir/clean:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction && $(CMAKE_COMMAND) -P CMakeFiles/Subtraction.dir/cmake_clean.cmake
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction && $(CMAKE_COMMAND) -P CMakeFiles/Subtraction.dir/cmake_clean.cmake
 .PHONY : Subtraction/CMakeFiles/Subtraction.dir/clean
 
 Subtraction/CMakeFiles/Subtraction.dir/depend:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/Subtraction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Subtraction/CMakeFiles/Subtraction.dir/depend
 

@@ -11,12 +11,9 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-    InterpreterForString interpreterForString("12 - - -4");
+    InterpreterForString interpreterForString("51234.5 - 123666.111");
     interpreterForString.stringOperation();
     cout << interpreterForString.getOperation();
-
-
-
 
     return 0;
 }

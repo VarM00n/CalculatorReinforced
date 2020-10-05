@@ -8,24 +8,24 @@
 		<Option virtualFolders="CMake Files\;CMake Files\Addition\;CMake Files\Number\;CMake Files\Subtraction\;CMake Files\Multiplication\;CMake Files\Division\;CMake Files\Interpreter\;CMake Files\Google_Tests\;CMake Files\Google_Tests\lib\;CMake Files\Google_Tests\lib\googlemock\;CMake Files\Google_Tests\lib\googlemock\cmake\;CMake Files\Google_Tests\lib\googletest\;CMake Files\Google_Tests\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Google_Tests_run">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -35,21 +35,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 Google_Tests_run"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 Google_Tests_run"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Google_Tests_run/fast">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -59,23 +59,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 Google_Tests_run/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 Google_Tests_run/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -85,23 +85,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -111,23 +111,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -137,23 +137,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -163,21 +163,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -187,21 +187,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -211,21 +211,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -235,21 +235,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
-					<Add directory="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/include"/>
+					<Add directory="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -259,110 +259,110 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Google_Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionNumbers.h">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionNumbers.h">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Interpreter/Interpreter.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Interpreter/Interpreter.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationNumbers.h">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationNumbers.h">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationOperationTests.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberCoreTests.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Number_Tests/NumberCoreTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberOperationTests.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Number_Tests/NumberOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberValidationTests.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Number_Tests/NumberValidationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionNumbers.h">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionNumbers.h">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionOperationTests.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionOperationTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/src/gmock-all.cc">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/src/gmock_main.cc">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/src/gtest-all.cc">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/src/gtest_main.cc">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Addition/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Addition\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Number\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Subtraction\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Multiplication\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Division\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Interpreter\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/Config.cmake.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
 	</Project>

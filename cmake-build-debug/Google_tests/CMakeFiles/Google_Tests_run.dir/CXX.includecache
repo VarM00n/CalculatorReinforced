@@ -326,13 +326,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Interpreter/Interpreter.cpp
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Interpreter/Interpreter.cpp
 gtest/gtest.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Interpreter/gtest/gtest.h
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Interpreter/gtest/gtest.h
 ../../Interpreter/InterpreterForString.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.h
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.h
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 string
 -
 

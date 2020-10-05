@@ -8,29 +8,36 @@
 #include <string>
 
 class InterpreterForString {
+private:
     std::string operation;
     bool validInput = true;
+    char tableOfOperations [9][3] = {
+            {'-', '-', '+'},
+            {'-', '+', '-'},
+            {'+', '-', '-'},
 
-private:
+            //błąd
+            {'*', '/', '*'},
+            {'/', '*', '/'},
+            {'-', '/', '-'},
+            {'+', '/', '+'},
+            {'-', '*', '8'},
+            {'+', '*', '+'},
+    };
+public:
+    void stringOperation();
     void cleanString();
     void careOfSpaces();
     void careOfBrackets();
     void numberValidation();
     bool checkIfValidChar(char character);
     void careOfSigns();
-    int twoMinusesNextTo(int i);
-    int twoPlusesNextTo(int i);
-    int minusAnsPlusNextTo(int i);
+    int combinationOfOperations(int i);
     void checkFirstChar();
-
-public:
-    void setOperation(const std::string &operation);
-
-public:
-    explicit InterpreterForString(const std::string &operation);
-    const std::string &getOperation() const;
+    void setOperation(std::string operation);
+    std::string getOperation();
     bool isValidInput() const;
-    void stringOperation();
+    explicit InterpreterForString(const std::string &operation);
 
 
 };

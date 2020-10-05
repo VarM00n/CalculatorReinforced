@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
+CMAKE_SOURCE_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/progress.marks
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Subtraction/CMakeFiles/progress.marks
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/clean
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/preinstall
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/preinstall
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Subtraction/CMakeFiles/Subtraction.dir/rule:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/CMakeFiles/Subtraction.dir/rule
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Subtraction/CMakeFiles/Subtraction.dir/rule
 .PHONY : Subtraction/CMakeFiles/Subtraction.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Subtraction: Subtraction/CMakeFiles/Subtraction.dir/rule
 
 # fast build rule for target.
 Subtraction/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/build
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/build
 .PHONY : Subtraction/fast
 
 Subtraction.o: Subtraction.cpp.o
@@ -177,7 +177,7 @@ Subtraction.o: Subtraction.cpp.o
 
 # target to build an object file
 Subtraction.cpp.o:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.o
 .PHONY : Subtraction.cpp.o
 
 Subtraction.i: Subtraction.cpp.i
@@ -186,7 +186,7 @@ Subtraction.i: Subtraction.cpp.i
 
 # target to preprocess a source file
 Subtraction.cpp.i:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.i
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.i
 .PHONY : Subtraction.cpp.i
 
 Subtraction.s: Subtraction.cpp.s
@@ -195,7 +195,7 @@ Subtraction.s: Subtraction.cpp.s
 
 # target to generate assembly for a file
 Subtraction.cpp.s:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.s
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Subtraction/CMakeFiles/Subtraction.dir/build.make Subtraction/CMakeFiles/Subtraction.dir/Subtraction.cpp.s
 .PHONY : Subtraction.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

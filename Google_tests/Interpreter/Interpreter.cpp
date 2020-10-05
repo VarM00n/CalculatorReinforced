@@ -64,16 +64,16 @@ TEST(numberValidation, AllCases){
     EXPECT_EQ(true, interpreterForString3.isValidInput());
 
     InterpreterForString interpreterForString4("51234.5 - 123666.111");
-    interpreterForString3.stringOperation();
-    EXPECT_EQ(true, interpreterForString4.isValidInput());
+    interpreterForString4.stringOperation();
+    EXPECT_EQ("51234.5-123666.111", interpreterForString4.getOperation());
 }
 
 TEST(careOfSigns, AllCases){
-    InterpreterForString interpreterForString0("2 - - 2");
+    InterpreterForString interpreterForString0("-2  /  2");
     interpreterForString0.stringOperation();
-    EXPECT_EQ("2+2", interpreterForString0.getOperation());
+    EXPECT_EQ(true, interpreterForString0.isValidInput());
 
-    InterpreterForString interpreterForString1("12 - - -4");
+    InterpreterForString interpreterForString1("/*12 - - -4");
     interpreterForString1.stringOperation();
     EXPECT_EQ("12-4", interpreterForString1.getOperation());
 
@@ -81,4 +81,5 @@ TEST(careOfSigns, AllCases){
     interpreterForString2.stringOperation();
     EXPECT_EQ("4+2-1", interpreterForString2.getOperation());
 }
+
 

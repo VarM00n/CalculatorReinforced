@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\Addition\;CMake Files\Number\;CMake Files\Subtraction\;CMake Files\Multiplication\;CMake Files\Division\;CMake Files\Interpreter\;CMake Files\Google_Tests\;CMake Files\Google_Tests\lib\;CMake Files\Google_Tests\lib\googlemock\;CMake Files\Google_Tests\lib\googlemock\cmake\;CMake Files\Google_Tests\lib\googletest\;CMake Files\Google_Tests\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Division">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/libDivision.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/libDivision.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 Division"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 Division"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Division/fast">
-				<Option output="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/libDivision.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division"/>
+				<Option output="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/libDivision.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -55,68 +55,68 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 Division/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 Division/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Division/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/Division.cpp">
 			<Option target="Division"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/Division.h">
 			<Option target="Division"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Addition/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Addition\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Number\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Subtraction\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Multiplication\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Division\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Interpreter\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/CMakeLists.txt">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/Config.cmake.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\Google_Tests\lib\googletest\cmake\"/>
 		</Unit>
 	</Project>

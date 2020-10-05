@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
+-- Build files have been written to: /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug

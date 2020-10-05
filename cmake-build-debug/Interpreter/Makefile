@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
+CMAKE_SOURCE_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/progress.marks
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/progress.marks
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/clean
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/preinstall
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/preinstall
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Interpreter/CMakeFiles/Interpreter.dir/rule:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/CMakeFiles/Interpreter.dir/rule
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Interpreter/CMakeFiles/Interpreter.dir/rule
 .PHONY : Interpreter/CMakeFiles/Interpreter.dir/rule
 
 # Convenience name for target.
@@ -168,8 +168,35 @@ Interpreter: Interpreter/CMakeFiles/Interpreter.dir/rule
 
 # fast build rule for target.
 Interpreter/fast:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/build
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/build
 .PHONY : Interpreter/fast
+
+CleanStringForInterpreter.o: CleanStringForInterpreter.cpp.o
+
+.PHONY : CleanStringForInterpreter.o
+
+# target to build an object file
+CleanStringForInterpreter.cpp.o:
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o
+.PHONY : CleanStringForInterpreter.cpp.o
+
+CleanStringForInterpreter.i: CleanStringForInterpreter.cpp.i
+
+.PHONY : CleanStringForInterpreter.i
+
+# target to preprocess a source file
+CleanStringForInterpreter.cpp.i:
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.i
+.PHONY : CleanStringForInterpreter.cpp.i
+
+CleanStringForInterpreter.s: CleanStringForInterpreter.cpp.s
+
+.PHONY : CleanStringForInterpreter.s
+
+# target to generate assembly for a file
+CleanStringForInterpreter.cpp.s:
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.s
+.PHONY : CleanStringForInterpreter.cpp.s
 
 InterpreterForString.o: InterpreterForString.cpp.o
 
@@ -177,7 +204,7 @@ InterpreterForString.o: InterpreterForString.cpp.o
 
 # target to build an object file
 InterpreterForString.cpp.o:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o
 .PHONY : InterpreterForString.cpp.o
 
 InterpreterForString.i: InterpreterForString.cpp.i
@@ -186,7 +213,7 @@ InterpreterForString.i: InterpreterForString.cpp.i
 
 # target to preprocess a source file
 InterpreterForString.cpp.i:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.i
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.i
 .PHONY : InterpreterForString.cpp.i
 
 InterpreterForString.s: InterpreterForString.cpp.s
@@ -195,7 +222,7 @@ InterpreterForString.s: InterpreterForString.cpp.s
 
 # target to generate assembly for a file
 InterpreterForString.cpp.s:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.s
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.s
 .PHONY : InterpreterForString.cpp.s
 
 # Help Target
@@ -211,6 +238,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Interpreter"
+	@echo "... CleanStringForInterpreter.o"
+	@echo "... CleanStringForInterpreter.i"
+	@echo "... CleanStringForInterpreter.s"
 	@echo "... InterpreterForString.o"
 	@echo "... InterpreterForString.i"
 	@echo "... InterpreterForString.s"
@@ -225,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

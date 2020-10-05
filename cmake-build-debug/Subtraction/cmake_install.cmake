@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction
+# Install script for directory: /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

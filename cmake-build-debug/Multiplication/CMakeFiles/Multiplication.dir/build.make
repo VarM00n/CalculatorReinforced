@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced
+CMAKE_SOURCE_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Multiplication/CMakeFiles/Multiplication.dir/depend.make
@@ -59,16 +59,16 @@ include Multiplication/CMakeFiles/Multiplication.dir/flags.make
 
 Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o: Multiplication/CMakeFiles/Multiplication.dir/flags.make
 Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o: ../Multiplication/Multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multiplication.dir/Multiplication.cpp.o -c /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multiplication.dir/Multiplication.cpp.o -c /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/Multiplication.cpp
 
 Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multiplication.dir/Multiplication.cpp.i"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp > CMakeFiles/Multiplication.dir/Multiplication.cpp.i
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/Multiplication.cpp > CMakeFiles/Multiplication.dir/Multiplication.cpp.i
 
 Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multiplication.dir/Multiplication.cpp.s"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp -o CMakeFiles/Multiplication.dir/Multiplication.cpp.s
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/Multiplication.cpp -o CMakeFiles/Multiplication.dir/Multiplication.cpp.s
 
 # Object files for target Multiplication
 Multiplication_OBJECTS = \
@@ -80,9 +80,9 @@ Multiplication_EXTERNAL_OBJECTS =
 Multiplication/libMultiplication.a: Multiplication/CMakeFiles/Multiplication.dir/Multiplication.cpp.o
 Multiplication/libMultiplication.a: Multiplication/CMakeFiles/Multiplication.dir/build.make
 Multiplication/libMultiplication.a: Multiplication/CMakeFiles/Multiplication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMultiplication.a"
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication && $(CMAKE_COMMAND) -P CMakeFiles/Multiplication.dir/cmake_clean_target.cmake
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multiplication.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMultiplication.a"
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication && $(CMAKE_COMMAND) -P CMakeFiles/Multiplication.dir/cmake_clean_target.cmake
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multiplication.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Multiplication/CMakeFiles/Multiplication.dir/build: Multiplication/libMultiplication.a
@@ -90,10 +90,10 @@ Multiplication/CMakeFiles/Multiplication.dir/build: Multiplication/libMultiplica
 .PHONY : Multiplication/CMakeFiles/Multiplication.dir/build
 
 Multiplication/CMakeFiles/Multiplication.dir/clean:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication && $(CMAKE_COMMAND) -P CMakeFiles/Multiplication.dir/cmake_clean.cmake
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication && $(CMAKE_COMMAND) -P CMakeFiles/Multiplication.dir/cmake_clean.cmake
 .PHONY : Multiplication/CMakeFiles/Multiplication.dir/clean
 
 Multiplication/CMakeFiles/Multiplication.dir/depend:
-	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Multiplication/CMakeFiles/Multiplication.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Multiplication/CMakeFiles/Multiplication.dir/depend
 

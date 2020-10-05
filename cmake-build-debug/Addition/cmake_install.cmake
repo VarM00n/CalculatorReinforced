@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition
+# Install script for directory: /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Addition
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

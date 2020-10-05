@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.cpp
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp
 InterpreterForString.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.h
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 iostream
 -
 string
 -
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.h
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 string
 -
 

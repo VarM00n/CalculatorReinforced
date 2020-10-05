@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division
+# Install script for directory: /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

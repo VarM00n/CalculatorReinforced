@@ -22,12 +22,12 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Addition_Tests/AdditionOperationTes
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionNumbers.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Addition/Addition.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionNumbers.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Addition_Tests/AdditionOperationTests.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -49,12 +49,12 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTes
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/Division.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Interpreter/Interpreter.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -76,8 +76,8 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Interpreter/Interpreter.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Interpreter/Interpreter.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Interpreter/Interpreter.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/MultiplicationOperationTests.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -99,12 +99,12 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Multiplication_Tests/Multiplication
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationNumbers.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationOperationTests.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationNumbers.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Multiplication_Tests/MultiplicationOperationTests.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/Multiplication.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -126,10 +126,10 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberCoreTests.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberCoreTests.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Number_Tests/NumberCoreTests.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -151,10 +151,10 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberOperationTests.c
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberOperationTests.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Number_Tests/NumberOperationTests.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -176,10 +176,10 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Number_Tests/NumberValidationTests.
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Number_Tests/NumberValidationTests.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Number_Tests/NumberValidationTests.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
 Google_Tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperationTests.cpp.o
  ../Google_Tests/lib/googletest/include/gtest/gtest-death-test.h
  ../Google_Tests/lib/googletest/include/gtest/gtest-matchers.h
@@ -201,10 +201,10 @@ Google_Tests/CMakeFiles/Google_Tests_run.dir/Subtraction_Tests/SubtractionOperat
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h
  ../Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionNumbers.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionOperationTests.cpp
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
- /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Subtraction/Subtraction.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Addition/Addition.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionNumbers.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Google_Tests/Subtraction_Tests/SubtractionOperationTests.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.h

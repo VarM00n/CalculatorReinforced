@@ -225,6 +225,33 @@ Division_Tests/DivisionOperationTests.cpp.s:
 	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Division_Tests/DivisionOperationTests.cpp.s
 .PHONY : Division_Tests/DivisionOperationTests.cpp.s
 
+Interpreter/Interpreter.o: Interpreter/Interpreter.cpp.o
+
+.PHONY : Interpreter/Interpreter.o
+
+# target to build an object file
+Interpreter/Interpreter.cpp.o:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Interpreter/Interpreter.cpp.o
+.PHONY : Interpreter/Interpreter.cpp.o
+
+Interpreter/Interpreter.i: Interpreter/Interpreter.cpp.i
+
+.PHONY : Interpreter/Interpreter.i
+
+# target to preprocess a source file
+Interpreter/Interpreter.cpp.i:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Interpreter/Interpreter.cpp.i
+.PHONY : Interpreter/Interpreter.cpp.i
+
+Interpreter/Interpreter.s: Interpreter/Interpreter.cpp.s
+
+.PHONY : Interpreter/Interpreter.s
+
+# target to generate assembly for a file
+Interpreter/Interpreter.cpp.s:
+	cd /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/Interpreter/Interpreter.cpp.s
+.PHONY : Interpreter/Interpreter.cpp.s
+
 Multiplication_Tests/MultiplicationOperationTests.o: Multiplication_Tests/MultiplicationOperationTests.cpp.o
 
 .PHONY : Multiplication_Tests/MultiplicationOperationTests.o
@@ -379,6 +406,9 @@ help:
 	@echo "... Division_Tests/DivisionOperationTests.o"
 	@echo "... Division_Tests/DivisionOperationTests.i"
 	@echo "... Division_Tests/DivisionOperationTests.s"
+	@echo "... Interpreter/Interpreter.o"
+	@echo "... Interpreter/Interpreter.i"
+	@echo "... Interpreter/Interpreter.s"
 	@echo "... Multiplication_Tests/MultiplicationOperationTests.o"
 	@echo "... Multiplication_Tests/MultiplicationOperationTests.i"
 	@echo "... Multiplication_Tests/MultiplicationOperationTests.s"

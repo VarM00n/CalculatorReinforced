@@ -1,0 +1,2 @@
+/usr/bin/ar qc libInterpreter.a  CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o
+/usr/bin/ranlib libInterpreter.a

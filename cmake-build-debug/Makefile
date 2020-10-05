@@ -235,6 +235,19 @@ Division/fast:
 .PHONY : Division/fast
 
 #=============================================================================
+# Target rules for targets named Interpreter
+
+# Build rule for target.
+Interpreter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Interpreter
+.PHONY : Interpreter
+
+# fast build rule for target.
+Interpreter/fast:
+	$(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/build
+.PHONY : Interpreter/fast
+
+#=============================================================================
 # Target rules for targets named Google_Tests_run
 
 # Build rule for target.
@@ -352,6 +365,33 @@ Division/Division.s: Division/Division.cpp.s
 Division/Division.cpp.s:
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.s
 .PHONY : Division/Division.cpp.s
+
+Interpreter/InterpreterForString.o: Interpreter/InterpreterForString.cpp.o
+
+.PHONY : Interpreter/InterpreterForString.o
+
+# target to build an object file
+Interpreter/InterpreterForString.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o
+.PHONY : Interpreter/InterpreterForString.cpp.o
+
+Interpreter/InterpreterForString.i: Interpreter/InterpreterForString.cpp.i
+
+.PHONY : Interpreter/InterpreterForString.i
+
+# target to preprocess a source file
+Interpreter/InterpreterForString.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.i
+.PHONY : Interpreter/InterpreterForString.cpp.i
+
+Interpreter/InterpreterForString.s: Interpreter/InterpreterForString.cpp.s
+
+.PHONY : Interpreter/InterpreterForString.s
+
+# target to generate assembly for a file
+Interpreter/InterpreterForString.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.s
+.PHONY : Interpreter/InterpreterForString.cpp.s
 
 Multiplication/Multiplication.o: Multiplication/Multiplication.cpp.o
 
@@ -506,6 +546,7 @@ help:
 	@echo "... Addition"
 	@echo "... Multiplication"
 	@echo "... Division"
+	@echo "... Interpreter"
 	@echo "... Google_Tests_run"
 	@echo "... gmock_main"
 	@echo "... gmock"
@@ -517,6 +558,9 @@ help:
 	@echo "... Division/Division.o"
 	@echo "... Division/Division.i"
 	@echo "... Division/Division.s"
+	@echo "... Interpreter/InterpreterForString.o"
+	@echo "... Interpreter/InterpreterForString.i"
+	@echo "... Interpreter/InterpreterForString.s"
 	@echo "... Multiplication/Multiplication.o"
 	@echo "... Multiplication/Multiplication.i"
 	@echo "... Multiplication/Multiplication.s"

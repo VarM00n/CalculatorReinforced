@@ -4,7 +4,7 @@ add_subdirectory(lib)
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
-add_executable(Google_Tests_run Addition_Tests/AdditionOperationTests.cpp Number_Tests/NumberOperationTests.cpp Number_Tests/NumberCoreTests.cpp Number_Tests/NumberValidationTests.cpp Addition_Tests/AdditionNumbers.h Subtraction_Tests/SubtractionOperationTests.cpp Subtraction_Tests/SubtractionNumbers.h Multiplication_Tests/MultiplicationNumbers.h Multiplication_Tests/MultiplicationOperationTests.cpp Division_Tests/DivisionNumbers.h Division_Tests/DivisionOperationTests.cpp)
+add_executable(Google_Tests_run Addition_Tests/AdditionOperationTests.cpp Number_Tests/NumberOperationTests.cpp Number_Tests/NumberCoreTests.cpp Number_Tests/NumberValidationTests.cpp Addition_Tests/AdditionNumbers.h Subtraction_Tests/SubtractionOperationTests.cpp Subtraction_Tests/SubtractionNumbers.h Multiplication_Tests/MultiplicationNumbers.h Multiplication_Tests/MultiplicationOperationTests.cpp Division_Tests/DivisionNumbers.h Division_Tests/DivisionOperationTests.cpp Interpreter/Interpreter.cpp)
 
 
 target_link_libraries(Google_Tests_run gtest gtest_main)
@@ -13,3 +13,4 @@ target_link_libraries(Google_Tests_run Number)
 target_link_libraries(Google_Tests_run Subtraction)
 target_link_libraries(Google_Tests_run Multiplication)
 target_link_libraries(Google_Tests_run Division)
+target_link_libraries(Google_Tests_run Interpreter)

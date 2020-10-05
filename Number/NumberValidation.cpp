@@ -14,13 +14,19 @@ void NumberValidation::caseWhereZerosAtTheBeginning(){
     while(!this->isFloating() && !this->isNegative() && this->getValue()[0] == '0'){
         this->setValue(this->getValue().substr(1, (unsigned long) this->size() - 1));
     }
-    //Floating && Sign
+    //Floating
     while(this->isFloating() && this->getValue()[0] == '0'){
         if(this->size() - this->getFloatingPos() != 1){
             this->setValue(this->getValue().substr(1, (unsigned long) this->size() - 1));
         }
         else{
             break;
+        }
+    }
+    //Sign
+    while(this->isSign() && this->getValue()[0] == '0'){
+        if(!this->getValue().empty()) {
+            this->setValue(this->getValue().substr(1, (unsigned long) this->size() - 1));
         }
     }
 }

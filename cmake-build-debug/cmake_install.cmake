@@ -44,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Addition/cmake_install.cmake")
   include("/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication/cmake_install.cmake")
   include("/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/cmake_install.cmake")
+  include("/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/cmake_install.cmake")
   include("/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/cmake_install.cmake")
 
 endif()

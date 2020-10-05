@@ -40,6 +40,13 @@
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/CMakeFiles/rebuild_cache.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/CMakeFiles/edit_cache.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Division/CMakeFiles/Division.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/install/strip.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/install/local.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/install.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/list_install_components.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/rebuild_cache.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/edit_cache.dir
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/CMakeFiles/install/strip.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/CMakeFiles/install/local.dir
 /mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Google_Tests/CMakeFiles/install.dir

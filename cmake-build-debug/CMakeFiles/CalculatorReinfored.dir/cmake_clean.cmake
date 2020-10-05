@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o"
   "CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o"
+  "CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o"
   "CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o"
   "CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o"
   "CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o"

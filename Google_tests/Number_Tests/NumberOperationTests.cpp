@@ -48,13 +48,13 @@ TEST(setDigitInPosition, allPossibilities)
 
 TEST(isValueBigger, allPossibilities)
 {
-    EXPECT_EQ(false, Number("").isValueBigger("0", "0"));
-    EXPECT_EQ(true, Number("").isValueBigger("10", "5"));
-    EXPECT_EQ(true, Number("").isValueBigger("32455436", "234562"));
-    EXPECT_EQ(true, Number("").isValueBigger("123456", "123455"));
-    EXPECT_EQ(false, Number("").isValueBigger("5", "10"));
-    EXPECT_EQ(false, Number("").isValueBigger("2412344", "123466786192"));
-    EXPECT_EQ(false, Number("").isValueBigger("653633", "653733"));
+    EXPECT_EQ(false, Number("0").isValueBigger(Number("0")));
+    EXPECT_EQ(true, Number("10").isValueBigger(Number("5")));
+    EXPECT_EQ(true, Number("32455436").isValueBigger(Number("234562")));
+    EXPECT_EQ(true, Number("123456").isValueBigger(Number("123455")));
+    EXPECT_EQ(false, Number("5").isValueBigger(Number("10")));
+    EXPECT_EQ(false, Number("2412344").isValueBigger(Number("123466786192")));
+    EXPECT_EQ(false, Number("653633").isValueBigger(Number("653733")));
 }
 
 // no need for negative number (it's being taken care of in a constructor)

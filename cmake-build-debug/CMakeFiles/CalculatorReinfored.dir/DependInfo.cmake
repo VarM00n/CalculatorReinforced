@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Addition/Addition.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Addition/Addition.cpp.o"
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o"
+  "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o"
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Multiplication/Multiplication.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o"
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/Number.cpp.o"
   "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.cpp" "/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/CMakeFiles/CalculatorReinfored.dir/Number/NumberValidation.cpp.o"
@@ -21,6 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Subtraction"
   "../Multiplication"
   "../Division"
+  "../Interpreter"
   )
 
 # Targets to which this target links.

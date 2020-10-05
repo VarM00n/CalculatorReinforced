@@ -315,6 +315,12 @@ Google_Tests_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorRei
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
+Interpreter_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Interpreter
+
+//Value Computed by CMake
+Interpreter_SOURCE_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter
+
+//Value Computed by CMake
 Multiplication_BINARY_DIR:STATIC=/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/cmake-build-debug/Multiplication
 
 //Value Computed by CMake
@@ -540,7 +546,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

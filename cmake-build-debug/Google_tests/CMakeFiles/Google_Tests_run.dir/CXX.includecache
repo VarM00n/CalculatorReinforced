@@ -326,39 +326,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
-
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h
-iostream
--
-string
--
-
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionOperationTests.cpp
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Interpreter/Interpreter.cpp
 gtest/gtest.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/gtest/gtest.h
-DivisionNumbers.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Division_Tests/DivisionNumbers.h
-../../Number/Number.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
-../../Division/Division.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Division/Division.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Google_Tests/Interpreter/gtest/gtest.h
+../../Interpreter/InterpreterForString.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.h
 
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/Number.h
+/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Interpreter/InterpreterForString.h
 string
 -
-NumberValidation.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
-NumberCore.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
-
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
-string
--
-
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberValidation.h
-string
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/string
-NumberCore.h
-/mnt/d/Projekty/CalculatorReinfored/CalculatorReinforced/Number/NumberCore.h
 

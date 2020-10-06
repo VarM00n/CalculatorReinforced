@@ -23,6 +23,9 @@ string InterpreterForString::stringOperation(){
     }
     else {
         parseString();
+        if(!this->isValidInput()){
+            return "-1";
+        }
         createONP();
         return calculateONP();
     }

@@ -23,8 +23,10 @@ public:
     void careOfSigns();
     int combinationOfOperations(int i);
     void checkFirstChar();
-
+    void checkLastChar();
     void parseString();
+    bool isNumber(string character);
+    bool isNumber(char character);
 };
 
 

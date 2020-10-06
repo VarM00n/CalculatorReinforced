@@ -1,1 +1,1 @@
-g++ main.cpp Number/Number.cpp Number/NumberValidation.cpp Addition/Addition.cpp Subtraction/Subtraction.cpp Multiplication/Multiplication.cpp Division/Division.cpp -o a.out
+g++ main.cpp Number/Number.cpp Number/NumberValidation.cpp Addition/Addition.cpp Subtraction/Subtraction.cpp Multiplication/Multiplication.cpp Division/Division.cpp Interpreter/InterpreterCore.h Interpreter/CleanStringForInterpreter.h Interpreter/InterpreterForString.h -o a.out

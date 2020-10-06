@@ -4,6 +4,39 @@
 
 #include "gtest/gtest.h"
 #include "../../Interpreter/InterpreterForString.h"
+#include "../../Interpreter/RPN.h"
+#include "../../Interpreter/CleanStringForInterpreter.h"
+
+TEST (CleanStringForInterpreter_careOfSpaces, AllCases){
+    InterpreterForString interpreterForString0(" 2 + 2 ");
+    interpreterForString0.careOfSpaces();
+    EXPECT_EQ("2+2", interpreterForString0.getOperation());
+    EXPECT_EQ(true, interpreterForString0.isValidInput());
+
+
+    InterpreterForString interpreterForString1("      ");
+    interpreterForString1.careOfSpaces();
+    EXPECT_EQ("", interpreterForString1.getOperation());
+    EXPECT_EQ(false, interpreterForString1.isValidInput());
+
+    InterpreterForString interpreterForString2("2 k+ 2");
+    interpreterForString2.careOfSpaces();
+    EXPECT_EQ("2k+2", interpreterForString2.getOperation());
+    EXPECT_EQ(true, interpreterForString2.isValidInput());
+
+    InterpreterForString interpreterForString3("2  2");
+    interpreterForString3.careOfSpaces();
+    EXPECT_EQ("22", interpreterForString3.getOperation());
+    EXPECT_EQ(false, interpreterForString3.isValidInput());
+
+    InterpreterForString interpreterForString4("2 + (-5 + 2)");
+    interpreterForString4.careOfSpaces();
+    EXPECT_EQ("2+(-5+2)", interpreterForString4.getOperation());
+    EXPECT_EQ(true, interpreterForString4.isValidInput());
+}
+
+
+
 
 //TEST(careOfSpaces, AllCases)
 //{

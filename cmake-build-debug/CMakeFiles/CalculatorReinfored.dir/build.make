@@ -161,6 +161,32 @@ CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp -o CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.s
 
+CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
+CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o: ../Interpreter/CleanStringForInterpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o -c /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp
+
+CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp > CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.i
+
+CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp -o CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.s
+
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: CMakeFiles/CalculatorReinfored.dir/flags.make
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Interpreter/RPN.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o -c /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.cpp
+
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.cpp > CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.i
+
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.cpp -o CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.s
+
 # Object files for target CalculatorReinfored
 CalculatorReinfored_OBJECTS = \
 "CMakeFiles/CalculatorReinfored.dir/main.cpp.o" \
@@ -170,7 +196,9 @@ CalculatorReinfored_OBJECTS = \
 "CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o" \
 "CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o" \
 "CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o" \
-"CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o"
+"CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o" \
+"CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o" \
+"CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o"
 
 # External object files for target CalculatorReinfored
 CalculatorReinfored_EXTERNAL_OBJECTS =
@@ -183,9 +211,11 @@ CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o
+CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o
+CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/build.make
 CalculatorReinfored: CMakeFiles/CalculatorReinfored.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CalculatorReinfored"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable CalculatorReinfored"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CalculatorReinfored.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

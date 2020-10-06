@@ -4,6 +4,22 @@
 Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterCore.h
 Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterCore.h
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Addition/Addition.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/Division.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.cpp
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/Multiplication.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberCore.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
+ /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.h

@@ -8,27 +8,12 @@
 #include <iostream>
 #include <list>
 #include "string"
+#include "InterpreterCore.h"
+
 
 using namespace std;
 
-class CleanStringForInterpreter {
-protected:
-    string operation;
-    bool validInput = true;
-    char tableOfOperations [9][3] = {
-            {'-', '-', '+'},
-            {'-', '+', '-'},
-            {'+', '-', '-'},
-
-            //error
-            {'*', '/', '*'},
-            {'/', '*', '/'},
-            {'-', '/', '-'},
-            {'+', '/', '+'},
-            {'-', '*', '8'},
-            {'+', '*', '+'},
-    };
-
+class CleanStringForInterpreter: public InterpreterCore {
 public:
     void cleanString();
     void careOfSpaces();
@@ -38,10 +23,8 @@ public:
     void careOfSigns();
     int combinationOfOperations(int i);
     void checkFirstChar();
-    void setOperation(std::string operation);
-    std::string getOperation();
-    bool isValidInput() const;
 
+    void parseString();
 };
 
 

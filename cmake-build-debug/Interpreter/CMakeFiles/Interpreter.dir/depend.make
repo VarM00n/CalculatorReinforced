@@ -3,7 +3,23 @@
 
 Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o: ../Interpreter/CleanStringForInterpreter.cpp
 Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o: ../Interpreter/CleanStringForInterpreter.h
+Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o: ../Interpreter/InterpreterCore.h
 
+Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o: ../Interpreter/CleanStringForInterpreter.h
+Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o: ../Interpreter/InterpreterCore.h
 Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o: ../Interpreter/InterpreterForString.cpp
 Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o: ../Interpreter/InterpreterForString.h
+Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o: ../Interpreter/RPN.h
+
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Addition/Addition.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Division/Division.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Interpreter/CleanStringForInterpreter.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Interpreter/InterpreterCore.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Interpreter/RPN.cpp
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Interpreter/RPN.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Multiplication/Multiplication.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Number/Number.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Number/NumberCore.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Number/NumberValidation.h
+Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o: ../Subtraction/Subtraction.h
 

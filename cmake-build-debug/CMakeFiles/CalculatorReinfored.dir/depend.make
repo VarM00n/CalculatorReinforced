@@ -15,15 +15,27 @@ CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Number/NumberCore
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Number/NumberValidation.h
 CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o: ../Subtraction/Subtraction.h
 
-CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Addition/Addition.h
-CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Division/Division.h
-CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Multiplication/Multiplication.h
-CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Number/Number.h
-CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Number/NumberCore.h
-CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Number/NumberValidation.h
-CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Subtraction/Subtraction.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o: ../Interpreter/CleanStringForInterpreter.cpp
+CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o: ../Interpreter/CleanStringForInterpreter.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o: ../Interpreter/InterpreterCore.h
+
+CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Interpreter/CleanStringForInterpreter.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Interpreter/InterpreterCore.h
 CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Interpreter/InterpreterForString.cpp
 CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Interpreter/InterpreterForString.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o: ../Interpreter/RPN.h
+
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Addition/Addition.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Division/Division.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Interpreter/CleanStringForInterpreter.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Interpreter/InterpreterCore.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Interpreter/RPN.cpp
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Interpreter/RPN.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Multiplication/Multiplication.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Number/Number.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Number/NumberCore.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Number/NumberValidation.h
+CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o: ../Subtraction/Subtraction.h
 
 CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: ../Addition/Addition.h
 CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o: ../Multiplication/Multiplication.cpp
@@ -51,7 +63,10 @@ CMakeFiles/CalculatorReinfored.dir/Subtraction/Subtraction.cpp.o: ../Subtraction
 
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Addition/Addition.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Division/Division.h
+CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Interpreter/CleanStringForInterpreter.h
+CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Interpreter/InterpreterCore.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Interpreter/InterpreterForString.h
+CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Interpreter/RPN.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Multiplication/Multiplication.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/Number.h
 CMakeFiles/CalculatorReinfored.dir/main.cpp.o: ../Number/NumberCore.h

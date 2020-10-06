@@ -225,6 +225,33 @@ InterpreterForString.cpp.s:
 	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.s
 .PHONY : InterpreterForString.cpp.s
 
+RPN.o: RPN.cpp.o
+
+.PHONY : RPN.o
+
+# target to build an object file
+RPN.cpp.o:
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o
+.PHONY : RPN.cpp.o
+
+RPN.i: RPN.cpp.i
+
+.PHONY : RPN.i
+
+# target to preprocess a source file
+RPN.cpp.i:
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.i
+.PHONY : RPN.cpp.i
+
+RPN.s: RPN.cpp.s
+
+.PHONY : RPN.s
+
+# target to generate assembly for a file
+RPN.cpp.s:
+	cd /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug && $(MAKE) -f Interpreter/CMakeFiles/Interpreter.dir/build.make Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.s
+.PHONY : RPN.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -244,6 +271,9 @@ help:
 	@echo "... InterpreterForString.o"
 	@echo "... InterpreterForString.i"
 	@echo "... InterpreterForString.s"
+	@echo "... RPN.o"
+	@echo "... RPN.i"
+	@echo "... RPN.s"
 .PHONY : help
 
 

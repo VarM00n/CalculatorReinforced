@@ -366,6 +366,33 @@ Division/Division.cpp.s:
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.s
 .PHONY : Division/Division.cpp.s
 
+Interpreter/CleanStringForInterpreter.o: Interpreter/CleanStringForInterpreter.cpp.o
+
+.PHONY : Interpreter/CleanStringForInterpreter.o
+
+# target to build an object file
+Interpreter/CleanStringForInterpreter.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.o
+.PHONY : Interpreter/CleanStringForInterpreter.cpp.o
+
+Interpreter/CleanStringForInterpreter.i: Interpreter/CleanStringForInterpreter.cpp.i
+
+.PHONY : Interpreter/CleanStringForInterpreter.i
+
+# target to preprocess a source file
+Interpreter/CleanStringForInterpreter.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.i
+.PHONY : Interpreter/CleanStringForInterpreter.cpp.i
+
+Interpreter/CleanStringForInterpreter.s: Interpreter/CleanStringForInterpreter.cpp.s
+
+.PHONY : Interpreter/CleanStringForInterpreter.s
+
+# target to generate assembly for a file
+Interpreter/CleanStringForInterpreter.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/CleanStringForInterpreter.cpp.s
+.PHONY : Interpreter/CleanStringForInterpreter.cpp.s
+
 Interpreter/InterpreterForString.o: Interpreter/InterpreterForString.cpp.o
 
 .PHONY : Interpreter/InterpreterForString.o
@@ -392,6 +419,33 @@ Interpreter/InterpreterForString.s: Interpreter/InterpreterForString.cpp.s
 Interpreter/InterpreterForString.cpp.s:
 	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.s
 .PHONY : Interpreter/InterpreterForString.cpp.s
+
+Interpreter/RPN.o: Interpreter/RPN.cpp.o
+
+.PHONY : Interpreter/RPN.o
+
+# target to build an object file
+Interpreter/RPN.cpp.o:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.o
+.PHONY : Interpreter/RPN.cpp.o
+
+Interpreter/RPN.i: Interpreter/RPN.cpp.i
+
+.PHONY : Interpreter/RPN.i
+
+# target to preprocess a source file
+Interpreter/RPN.cpp.i:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.i
+.PHONY : Interpreter/RPN.cpp.i
+
+Interpreter/RPN.s: Interpreter/RPN.cpp.s
+
+.PHONY : Interpreter/RPN.s
+
+# target to generate assembly for a file
+Interpreter/RPN.cpp.s:
+	$(MAKE) -f CMakeFiles/CalculatorReinfored.dir/build.make CMakeFiles/CalculatorReinfored.dir/Interpreter/RPN.cpp.s
+.PHONY : Interpreter/RPN.cpp.s
 
 Multiplication/Multiplication.o: Multiplication/Multiplication.cpp.o
 
@@ -558,9 +612,15 @@ help:
 	@echo "... Division/Division.o"
 	@echo "... Division/Division.i"
 	@echo "... Division/Division.s"
+	@echo "... Interpreter/CleanStringForInterpreter.o"
+	@echo "... Interpreter/CleanStringForInterpreter.i"
+	@echo "... Interpreter/CleanStringForInterpreter.s"
 	@echo "... Interpreter/InterpreterForString.o"
 	@echo "... Interpreter/InterpreterForString.i"
 	@echo "... Interpreter/InterpreterForString.s"
+	@echo "... Interpreter/RPN.o"
+	@echo "... Interpreter/RPN.i"
+	@echo "... Interpreter/RPN.s"
 	@echo "... Multiplication/Multiplication.o"
 	@echo "... Multiplication/Multiplication.i"
 	@echo "... Multiplication/Multiplication.s"

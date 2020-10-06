@@ -68,10 +68,19 @@
 		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h">
 			<Option target="Interpreter"/>
 		</Unit>
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterCore.h">
+			<Option target="Interpreter"/>
+		</Unit>
 		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp">
 			<Option target="Interpreter"/>
 		</Unit>
 		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h">
+			<Option target="Interpreter"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.cpp">
+			<Option target="Interpreter"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.h">
 			<Option target="Interpreter"/>
 		</Unit>
 		<Unit filename="/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/CMakeLists.txt">

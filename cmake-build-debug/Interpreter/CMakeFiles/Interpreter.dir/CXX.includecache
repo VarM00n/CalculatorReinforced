@@ -6,19 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp
-InterpreterForString.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
-iostream
--
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp
+CleanStringForInterpreter.h
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
 string
 -
 
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
-string
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
+iostream
 -
 list
 -
+string
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/string
+InterpreterCore.h
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterCore.h
+
+/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterCore.h
 iostream
+-
+string
+-
+stack
+-
+list
 -
 

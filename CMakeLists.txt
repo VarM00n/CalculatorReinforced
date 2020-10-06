@@ -22,4 +22,4 @@ include_directories(Interpreter)
 
 #add_executable(CalculatorReinfored main.cpp)
 
-add_executable(CalculatorReinfored main.cpp Number/Number.cpp Number/Number.h Number/NumberValidation.cpp Number/NumberValidation.h Number/NumberCore.h Addition/Addition.cpp Addition/Addition.h  Subtraction/Subtraction.cpp Subtraction/Subtraction.h Multiplication/Multiplication.cpp Multiplication/Multiplication.h Division/Division.cpp Division/Division.h Interpreter/InterpreterForString.cpp Interpreter/InterpreterForString.h)
+add_executable(CalculatorReinfored main.cpp Number/Number.cpp Number/Number.h Number/NumberValidation.cpp Number/NumberValidation.h Number/NumberCore.h Addition/Addition.cpp Addition/Addition.h  Subtraction/Subtraction.cpp Subtraction/Subtraction.h Multiplication/Multiplication.cpp Multiplication/Multiplication.h Division/Division.cpp Division/Division.h Interpreter/InterpreterForString.cpp Interpreter/InterpreterForString.h Interpreter/InterpreterCore.h Interpreter/CleanStringForInterpreter.h Interpreter/CleanStringForInterpreter.cpp Interpreter/RPN.h Interpreter/RPN.cpp)

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp" "/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o"
   "/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp" "/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o"
+  "/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.cpp" "/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/cmake-build-debug/Interpreter/CMakeFiles/Interpreter.dir/RPN.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

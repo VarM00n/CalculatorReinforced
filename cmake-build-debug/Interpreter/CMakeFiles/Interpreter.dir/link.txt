@@ -1,2 +1,2 @@
-/usr/bin/ar qc libInterpreter.a  CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o
+/usr/bin/ar qc libInterpreter.a  CMakeFiles/Interpreter.dir/InterpreterForString.cpp.o CMakeFiles/Interpreter.dir/CleanStringForInterpreter.cpp.o CMakeFiles/Interpreter.dir/RPN.cpp.o
 /usr/bin/ranlib libInterpreter.a

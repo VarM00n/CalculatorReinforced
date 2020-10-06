@@ -39,11 +39,12 @@ private:
     };
 
     stack <string> stackForONP;
+    stack <string> calculatingONP;
 
 public:
     string ONP;
     list<string> stringAfterParsing;
-    void stringOperation();
+    string stringOperation();
     void cleanString();
     void careOfSpaces();
     void careOfBrackets();
@@ -63,6 +64,7 @@ public:
     bool isClosingBracket(string character);
     bool checkPriority(string firstChar, string secondChar);
     int getPriority(string character);
+    string calculateONP();
     };
 
 

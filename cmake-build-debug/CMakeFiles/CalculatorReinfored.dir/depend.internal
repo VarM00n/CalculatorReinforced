@@ -16,6 +16,13 @@ CMakeFiles/CalculatorReinfored.dir/Division/Division.cpp.o
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/NumberValidation.h
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.h
 CMakeFiles/CalculatorReinfored.dir/Interpreter/InterpreterForString.cpp.o
+ ../Addition/Addition.h
+ ../Division/Division.h
+ ../Multiplication/Multiplication.h
+ ../Number/Number.h
+ ../Number/NumberCore.h
+ ../Number/NumberValidation.h
+ ../Subtraction/Subtraction.h
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp
  /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 CMakeFiles/CalculatorReinfored.dir/Multiplication/Multiplication.cpp.o

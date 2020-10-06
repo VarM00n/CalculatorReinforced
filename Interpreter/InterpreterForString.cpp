@@ -3,8 +3,16 @@
 //
 
 #include "InterpreterForString.h"
+
 #include <iostream>
 #include <string>
+
+#include "Number.h"
+
+#include "Addition.h"
+#include "Subtraction.h"
+#include "Multiplication.h"
+#include "Division.h"
 
 using namespace std;
 
@@ -27,14 +35,15 @@ bool InterpreterForString::isValidInput() const {
 
 
 //Methods
-void InterpreterForString::stringOperation(){
+string InterpreterForString::stringOperation(){
     cleanString();
     if(!this->isValidInput()){
-        cout << "-1";
+        return "-1";
     }
     else {
         parseString();
         createONP();
+        return calculateONP();
     }
 }
 
@@ -217,4 +226,44 @@ int InterpreterForString::getPriority(string character){
         }
     }
     return false;
+}
+
+string InterpreterForString::calculateONP(){
+    string character;
+    string firstString;
+    string secondString;
+    while(!ONP.empty()){
+        character = ONP.substr(0, ONP.find(' '));
+        ONP = ONP.substr(ONP.find(' ') + 1, ONP.size() - 1);
+        if(isNumber(character)){
+            calculatingONP.push(character);
+        }
+        else{
+            firstString = calculatingONP.top();
+            calculatingONP.pop();
+            secondString = calculatingONP.top();
+            calculatingONP.pop();
+            if(character == "+"){
+                Number firstNumber(firstString);
+                Number secondNumber(secondString);
+                calculatingONP.push(Addition (secondNumber, firstNumber).additionFinal().getValue());
+            }
+            if(character == "-"){
+                Number firstNumber(firstString);
+                Number secondNumber(secondString);
+                calculatingONP.push(Subtraction (secondNumber, firstNumber).subtractionFinal().getValue());
+            }
+            if(character == "*"){
+                Number firstNumber(firstString);
+                Number secondNumber(secondString);
+                calculatingONP.push(Multiplication (secondNumber, firstNumber).multiplicationFinal().getValue());
+            }
+            if(character == "/"){
+                Number firstNumber(firstString);
+                Number secondNumber(secondString);
+                calculatingONP.push(Division (secondNumber, firstNumber).divisionFinal().getValue());
+            }
+        }
+    }
+    return calculatingONP.top();
 }

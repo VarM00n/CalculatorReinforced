@@ -18,11 +18,11 @@ void print(list<string> const &list1){
 
 
 int main(int argc, char **argv) {
-    InterpreterForString interpreterForString("((3+4)*(5-3+1))");
+    InterpreterForString interpreterForString("((2 + 4) - 3)*8");
 
-    interpreterForString.stringOperation();
+    cout << interpreterForString.stringOperation();
 //    print(interpreterForString.stringAfterParsing);
-    cout << interpreterForString.ONP;
+//    cout << interpreterForString.ONP;
 
     return 0;
 }

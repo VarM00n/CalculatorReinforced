@@ -122,5 +122,10 @@ string RPN::calculateONP() {
             }
         }
     }
-    return calculatingONP.top();
+    if(calculatingONP.empty()){
+        return "0";
+    }
+    else {
+        return calculatingONP.top();
+    }
 }

@@ -114,7 +114,6 @@ TEST(CleanStringForInterpreter_parseString, AllPossibilities){
     list <string> checkList0 = {"2", "+", "2"};
     EXPECT_EQ(checkList0, interpreterForString0.stringAfterParsing);
 
-
     InterpreterForString interpreterForString1("-2+2");
     interpreterForString1.stringOperation();
     list <string> checkList1 = {"-2", "+", "2"};

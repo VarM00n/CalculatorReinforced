@@ -12,12 +12,6 @@
 
 /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/Division.h
 
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.cpp
-CleanStringForInterpreter.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
-string
--
-
 /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
 iostream
 -
@@ -37,32 +31,6 @@ stack
 -
 list
 -
-
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.cpp
-InterpreterForString.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
-CleanStringForInterpreter.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
-iostream
--
-string
--
-
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
-string
--
-list
--
-stack
--
-iostream
--
-CleanStringForInterpreter.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/CleanStringForInterpreter.h
-InterpreterCore.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterCore.h
-RPN.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.h
 
 /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/RPN.cpp
 RPN.h
@@ -107,22 +75,4 @@ NumberCore.h
 /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.h
 ../Number/Number.h
 /mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
-
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/main.cpp
-iostream
--
-string.h
--
-Number/Number.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Number/Number.h
-Addition/Addition.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Addition/Addition.h
-Subtraction/Subtraction.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Subtraction/Subtraction.h
-Multiplication/Multiplication.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Multiplication/Multiplication.h
-Division/Division.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Division/Division.h
-Interpreter/InterpreterForString.h
-/mnt/d/Projekty/CR_RELEASED/CalculatorReinforced/Interpreter/InterpreterForString.h
 

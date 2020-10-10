@@ -22,11 +22,13 @@ string InterpreterForString::stringOperation(){
         return "-1";
     }
     else {
-        parseString();
+        addSpaces();
         if(!this->isValidInput()){
             return "-1";
         }
+        parseString();
         createONP();
         return calculateONP();
+//        return this->getOperation();
     }
 }

@@ -26,8 +26,10 @@ public:
     void checkLastChar();
     void parseString();
     bool isNumber(string character);
-    bool isNumber(char character);
-};
+    void addSpaces();
+
+
+    };
 
 
 #endif //CALCULATORREINFORED_CLEANSTRINGFORINTERPRETER_H

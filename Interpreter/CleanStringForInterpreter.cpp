@@ -69,7 +69,7 @@ void CleanStringForInterpreter::careOfSigns() {
 }
 
 int CleanStringForInterpreter::combinationOfOperations(int i) {
-    for(int j = 0; j < 8; j++){
+    for(int j = 0; j < 14; j++){
         if(this->getOperation().size() > i && this->getOperation()[i] == tableOfOperations[j][0]
            && this->getOperation()[i+1] == tableOfOperations[j][1] ){
             this->setOperation(this->getOperation().substr(0, (unsigned long) i) + tableOfOperations[j][2] +
@@ -98,7 +98,6 @@ void CleanStringForInterpreter::checkFirstChar() {
 
 void CleanStringForInterpreter::checkLastChar() {
     while(!(((char(this->getOperation()[this->getOperation().size() - 1]) >=48 && char(this->getOperation()[this->getOperation().size() - 1]) <=57)) || char(this->getOperation()[0]) == 45) && !this->getOperation().empty()) {
-        char  result = char(this->getOperation()[this->getOperation().size() - 1]);
         if (char(this->getOperation()[this->getOperation().size() - 1]) != ')') {
             //TODO obsługa błędu inputu
             this->validInput = false;
@@ -110,87 +109,56 @@ void CleanStringForInterpreter::checkLastChar() {
     }
 }
 
-void CleanStringForInterpreter::parseString() {
-    string singleParsedNumber;
-    bool flagForNumber = false;
-    if(this->getOperation()[0] == '-'){
-        this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-        singleParsedNumber = "-";
-    } else{
-        singleParsedNumber = "";
-    }
-    while(!this->getOperation().empty()){
-        if((char(this->getOperation()[0]) >=48 && char(this->getOperation()[0]) <=57) || char(this->getOperation()[0]) == 46){
-            singleParsedNumber += this->getOperation()[0];
-            this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-            if(!((char(this->getOperation()[0]) >=48 && char(this->getOperation()[0] <=57)) || char(this->getOperation()[0]) == 46)){
-                stringAfterParsing.push_back(singleParsedNumber);
-                singleParsedNumber = "";
-                flagForNumber = true;
-            }
-        }else if(this->getOperation()[0] == '('){
-            bool flagForDigitBeforBracket = false;
-            if(flagForNumber) {
-                stringAfterParsing.emplace_back("*");
-                singleParsedNumber = this->getOperation()[0];
-                stringAfterParsing.push_back(singleParsedNumber);
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-                singleParsedNumber = "";
-                flagForNumber = false;
-                flagForDigitBeforBracket = true;
-            }
-            if(this->getOperation()[0] == '-' && this->getOperation().size() > 1 && flagForDigitBeforBracket){
-                singleParsedNumber = "-";
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-            }
-            else if(this->getOperation()[1] == '-' && this->getOperation().size() > 1){
-                stringAfterParsing.emplace_back("(");
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-                singleParsedNumber = "-";
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-            } else if(stringAfterParsing.empty()){
-                singleParsedNumber = this->getOperation()[0];
-                stringAfterParsing.push_back(singleParsedNumber);
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-                singleParsedNumber = "";
-                flagForNumber = false;
-            } else{
-                this->validInput = false;
-            }
-        }
-        else if(this->getOperation()[0] == ')'){
-            if(!flagForNumber){
-                this->validInput = false;
-                singleParsedNumber = this->getOperation()[0];
-                stringAfterParsing.push_back(singleParsedNumber);
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-                singleParsedNumber = "";
-                flagForNumber = false;
-            }
-            else{
-                singleParsedNumber = this->getOperation()[0];
-                stringAfterParsing.push_back(singleParsedNumber);
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-                singleParsedNumber = "";
-                flagForNumber = false;
-            }
-            if(!this->getOperation().empty() && isNumber(this->getOperation()[0])){
-                this->stringAfterParsing.emplace_back("*");
-                singleParsedNumber = this->getOperation()[0];
-                stringAfterParsing.push_back(singleParsedNumber);
-                this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-                singleParsedNumber = "";
-                flagForNumber = false;
-            }
+void CleanStringForInterpreter::addSpaces(){
+    string space = " ";
+    for (int i = 1; i < this->getOperation().size(); i++){
+        if(!(char(this->getOperation()[i]) >=48 && char(this->getOperation()[i] <=57))){
+            this->setOperation(this->operation.insert((unsigned long)i, space));
+            i++;
         }
         else{
-            singleParsedNumber = this->getOperation()[0];
-            stringAfterParsing.push_back(singleParsedNumber);
-            this->setOperation(this->getOperation().substr(1, this->getOperation().size()-1));
-            singleParsedNumber = "";
-            flagForNumber = false;
+            if(i >= 1 && !(char(this->getOperation()[i-1]) >=48 && char(this->getOperation()[i-1] <=57))){
+                this->setOperation(this->operation.insert((unsigned long)i, space));
+                i++;
+            }
         }
     }
+    for (int i = int(this->getOperation().size()); i > 0; i--){
+        if(i >= 4 && char(this->getOperation()[i]) >=48 && char(this->getOperation()[i] <=57) && char(this->getOperation()[i-2] == 45 && !(char(this->getOperation()[i-4]) >=48 && char(this->getOperation()[i-4] <=57)) && !char(this->getOperation()[i-4] == 41)) ){
+            this->operation.erase((unsigned long)i-1, 1);
+        }
+    }
+    for (int i = int(this->getOperation().size()); i > 0; i--){
+        if(i >= 4 && char(this->getOperation()[i]) == 40 && char(this->getOperation()[i-2]) == 45 && (char(this->getOperation()[i-4]) == 43 || char(this->getOperation()[i-4]) == 42 || char(this->getOperation()[i-4]) == 47 || char(this->getOperation()[i-4]) == 40)){
+            this->setOperation(this->operation.insert((unsigned long)i-1, "1 *"));
+        }
+    }
+    if(char(this->getOperation()[0]) == 45 && char(this->getOperation()[2]) == 40 ){
+        this->setOperation(this->operation.insert((unsigned long)2, "1 * "));
+    }
+    if(char(this->getOperation()[0]) == 45){
+        this->operation.erase(1, 1);
+    }
+    for (int i = 0; i < this->getOperation().size(); i++){
+        if( i >= 2 && char(this->getOperation()[i]) == 40 && ((char(this->getOperation()[i-2]) >=48 && char(this->getOperation()[i-2] <=57)) || char(this->getOperation()[i-2]) == 41)){
+            this->setOperation(this->operation.insert((unsigned long)i-1, " *"));
+            i++;
+        }
+    }
+}
+
+void CleanStringForInterpreter::parseString(){
+    string singleParsedNumber;
+    for(auto x : this->getOperation()){
+        if(x == ' '){
+            this->stringAfterParsing.push_back(singleParsedNumber);
+            singleParsedNumber = "";
+        }
+        else{
+            singleParsedNumber += x;
+        }
+    }
+    this->stringAfterParsing.push_back(singleParsedNumber);
 }
 
 bool CleanStringForInterpreter::isNumber(string character) {
@@ -202,15 +170,6 @@ bool CleanStringForInterpreter::isNumber(string character) {
     return false;
 }
 
-bool CleanStringForInterpreter::isNumber(char character) {
-    string characterS;
-    characterS += character;
-    for (char i : characterS) {
-        if(i >= 48 && i <= 57){
-            return true;
-        }
-    }
-    return false;
-}
+
 
 

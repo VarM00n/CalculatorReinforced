@@ -18,8 +18,10 @@ void print(list<string> const &list1){
 
 
 int main(int argc, char **argv) {
-    InterpreterForString interpreterForString2("(5+2)8");
+    InterpreterForString interpreterForString2("()");
     cout << interpreterForString2.stringOperation();
+//    InterpreterForString interpreterForString2("(-2+4-)");
+//    cout << interpreterForString2.stringOperation();
 //    print(interpreterForString2.stringAfterParsing);
 
 
